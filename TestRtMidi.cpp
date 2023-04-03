@@ -8,17 +8,36 @@
 #define __WINDOWS_MM__ // Ne fonctionne Pas. Il faut mettre cette définition dan RtMidi.h
 #include "RtMidi.h"
 
+// Platform-dependent sleep routines.
+#include <windows.h>
+#define SLEEP( milliseconds ) Sleep( (DWORD) milliseconds ) 
+
 
 //#include <conio.h>
 //#include<windows.h>
 
 //#include <MMSystem.h>
 
-int main()
-{
 
-    //RtMidi
-    // midiprobe.cpp
+bool done;
+static void finish(int /*ignore*/) { done = true; }
+
+void usage(void) {
+    // Error function in case of incorrect command-line
+    // argument specifications.
+    std::cout << "\nusage: qmidiin <port>\n";
+    std::cout << "    where port = the device to use (first / default = 0).\n\n";
+    exit(0);
+}
+
+int main( int argc, char* argv[] )
+{   
+    
+    //ignore le premier programme
+    if (false) {
+
+        //RtMidi
+        // midiprobe.cpp
 
         RtMidiIn* midiin = 0;
         RtMidiOut* midiout = 0;
@@ -70,10 +89,77 @@ int main()
     cleanup:
         delete midiin;
         delete midiout;
-        
 
+    }
     //////////////////////////////////////////////
     
+    // 2eme programme
+    RtMidiIn* midiin = 0;
+    std::vector<unsigned char> message;
+    int nBytes, i;
+    double stamp;
+
+    // Minimal command-line check.
+    if (argc > 2) usage();
+
+    // RtMidiIn constructor
+    try {
+        midiin = new RtMidiIn();
+    }
+    catch (RtMidiError& error) {
+        error.printMessage();
+        exit(EXIT_FAILURE);
+    }
+
+    // Check available ports vs. specified.
+    unsigned int port = 0;
+    unsigned int nPorts = midiin->getPortCount();
+    if (argc == 2) port = (unsigned int)atoi(argv[1]);
+    if (port >= nPorts) {
+        delete midiin;
+        std::cout << "Invalid port specifier!\n";
+        usage();
+    }
+
+    try {
+        midiin->openPort(1); // midiin->openPort(port); port 1 pour que ça fonctionne avec le piano
+    }
+    catch (RtMidiError& error) {
+        error.printMessage();
+        delete midiin;
+        return 1;
+        //goto cleanup;
+    }
+
+    // Don't ignore sysex, timing, or active sensing messages.
+    midiin->ignoreTypes(false, false, false);
+
+    // Install an interrupt handler function.
+    done = false;
+    (void)signal(SIGINT, finish);
+
+    // Periodically check input queue.
+    std::cout << "Reading MIDI from port " << midiin->getPortName() << " ... quit with Ctrl-C.\n";
+    while (!done) {
+        stamp = midiin->getMessage(&message);
+        nBytes = message.size();
+        for (i = 0; i < nBytes; i++)
+            std::cout << "Byte " << i << " = " << (int)message[i] << ", "; //Byte 0 = 144 Byte 1 = Note Byte 2 = Velocity suivi de 0 (off)
+        if (nBytes > 0)
+            std::cout << "stamp = " << stamp << std::endl;
+
+        // Sleep for 10 milliseconds.
+        SLEEP(10);
+    }
+
+    
+    delete midiin;
+
+    return 0;
+
+
+    /////////////////////////////////////////////
+
 
 
     std::cout << "Hello World!\n";
