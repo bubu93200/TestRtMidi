@@ -3,18 +3,16 @@
 
 #include <iostream>
 #include <cstdlib>
+#include <signal.h>
 
-#define __WINDOWS_MM__ // to correct non fonctionnality
-//#define _WIN32
+#define __WINDOWS_MM__ // Ne fonctionne Pas. Il faut mettre cette définition dan RtMidi.h
 #include "RtMidi.h"
-//#include "stdafx.h"
+
 
 //#include <conio.h>
 //#include<windows.h>
 
 //#include <MMSystem.h>
-
-//#pragma comment(lib, "winmm.lib")
 
 int main()
 {
