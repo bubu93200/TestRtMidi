@@ -144,7 +144,7 @@ int main( int argc, char* argv[] )
         stamp = midiin->getMessage(&message);
         nBytes = message.size();
         for (i = 0; i < nBytes; i++)
-            std::cout << "Byte " << i << " = " << (int)message[i] << ", "; //Byte 0 = 144 Byte 1 = Note Byte 2 = Velocity suivi de 0 (off)
+            std::cout << "Byte " << i << " = " << (int)message[i] << ", "; //Byte 0 = 144 (note on) / 128 (note off ? pas remarqué un changement); Byte 1 = Note (pitch); Byte 2 = Velocity suivi de 0 (off)
         if (nBytes > 0)
             std::cout << "stamp = " << stamp << std::endl;
 
