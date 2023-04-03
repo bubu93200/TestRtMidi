@@ -21,30 +21,6 @@
     <ClCompile Include="RtMidi.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="tests\apinames.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="tests\cmidiin.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="tests\midiclock.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="tests\midiout.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="tests\midiprobe.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="tests\qmidiin.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="tests\sysextest.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="tests\testcapi.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RtMidi.h">
@@ -53,12 +29,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
-    <None Include="tests\cmidiin.dsp" />
-    <None Include="tests\Makefile.am" />
-    <None Include="tests\midiout.dsp" />
-    <None Include="tests\midiprobe.dsp" />
-    <None Include="tests\qmidiin.dsp" />
-    <None Include="tests\RtMidi.dsw" />
-    <None Include="tests\sysextest.dsp" />
   </ItemGroup>
 </Project>
