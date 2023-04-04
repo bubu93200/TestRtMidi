@@ -99,6 +99,7 @@ int main( int argc, char* argv[] )
     int nBytes, i;
     double stamp;
 
+
     // Minimal command-line check.
     if (argc > 2) usage();
 

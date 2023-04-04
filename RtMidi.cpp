@@ -79,7 +79,7 @@
 // MidiInApi and MidiOutApi subclass prototypes.
 //
 // **************************************************************** //
-   // #define  __WINDOWS_MM__
+ 
 #if !defined(__LINUX_ALSA__) && !defined(__UNIX_JACK__) && !defined(__MACOSX_CORE__) && !defined(__WINDOWS_MM__) && !defined(TARGET_IPHONE_OS) && !defined(__WEB_MIDI_API__)
   #define __RTMIDI_DUMMY__
 #endif
