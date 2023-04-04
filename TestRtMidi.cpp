@@ -20,14 +20,15 @@
 
 
 bool done;
+bool log = true;
 static void finish(int /*ignore*/) { done = true; }
 
 void usage(void) {
-    // Error function in case of incorrect command-line
-    // argument specifications.
+    // Erreur s'il y a plus de 1 argument
+    // usage normal : qmidiin 0 ou qmidiin 1
     std::cout << "\nusage: qmidiin <port>\n";
     std::cout << "    where port = the device to use (first / default = 0).\n\n";
-    exit(0);
+    exit(-1);
 }
 
 int main( int argc, char* argv[] )
@@ -115,7 +116,7 @@ int main( int argc, char* argv[] )
     // Check available ports vs. specified.
     unsigned int port = 0;
     unsigned int nPorts = midiin->getPortCount();
-    if (argc == 2) port = (unsigned int)atoi(argv[1]);
+    if (argc == 2) port = (unsigned int)atoi(argv[1]); // midiin->openPort(port); port 1 pour que ça fonctionne avec le piano
     if (port >= nPorts) {
         delete midiin;
         std::cout << "Invalid port specifier!\n";
@@ -123,12 +124,12 @@ int main( int argc, char* argv[] )
     }
 
     try {
-        midiin->openPort(1); // midiin->openPort(port); port 1 pour que ça fonctionne avec le piano
+        midiin->openPort(port); 
     }
     catch (RtMidiError& error) {
         error.printMessage();
         delete midiin;
-        return 1;
+        return -1;
         //goto cleanup;
     }
 
@@ -146,12 +147,22 @@ int main( int argc, char* argv[] )
         // TODO : stamp a remplacer ?
         // midiin.getMessage(&message);
         // stamp = midiin.getMessageTimeStamp();
+
+        ///////// Faire le choix de la version 1 ou 2
+        // Version 1
         stamp = midiin->getMessage(&message);
-        
-        
+        // Version 2
+        midiin.getMessage(&message);
+        stamp = midiin.getMessageTimeStamp();
+        ///////////
+
         nBytes = message.size();
-        for (i = 0; i < nBytes; i++)
+        for (i = 0; i < nBytes; i++) {
             std::cout << "Byte " << i << " = " << (int)message[i] << ", "; //Byte 0 = 144 (note on) / 144 (note off ? Normalement ça devrait être 128); Byte 1 = Note (pitch); Byte 2 = Velocity suivi de 0 (off); stamp = (en secondes) => note on = durée depuis le denier off. Note off = durée de la note
+            if (log) {
+                // Write to file log
+            }
+        }
         if (nBytes > 0)
             std::cout << "stamp = " << stamp << std::endl;
 
@@ -164,22 +175,4 @@ int main( int argc, char* argv[] )
 
     return 0;
 
-
-    /////////////////////////////////////////////
-
-
-
-    std::cout << "Hello World!\n";
-    return 0;
 }
-
-// Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
-// Déboguer le programme : F5 ou menu Déboguer > Démarrer le débogage
-
-// Astuces pour bien démarrer : 
-//   1. Utilisez la fenêtre Explorateur de solutions pour ajouter des fichiers et les gérer.
-//   2. Utilisez la fenêtre Team Explorer pour vous connecter au contrôle de code source.
-//   3. Utilisez la fenêtre Sortie pour voir la sortie de la génération et d'autres messages.
-//   4. Utilisez la fenêtre Liste d'erreurs pour voir les erreurs.
-//   5. Accédez à Projet > Ajouter un nouvel élément pour créer des fichiers de code, ou à Projet > Ajouter un élément existant pour ajouter des fichiers de code existants au projet.
-//   6. Pour rouvrir ce projet plus tard, accédez à Fichier > Ouvrir > Projet et sélectionnez le fichier .sln.
