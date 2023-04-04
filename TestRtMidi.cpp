@@ -141,7 +141,13 @@ int main( int argc, char* argv[] )
     // Periodically check input queue.
     std::cout << "Reading MIDI from port " << midiin->getPortName() << " ... quit with Ctrl-C.\n";
     while (!done) {
+        
+        //TODO : stamp a remplacer ?
+        //midiin.getMessage(&message);
+        //stamp = midiin.getMessageTimeStamp();
         stamp = midiin->getMessage(&message);
+        
+        
         nBytes = message.size();
         for (i = 0; i < nBytes; i++)
             std::cout << "Byte " << i << " = " << (int)message[i] << ", "; //Byte 0 = 144 (note on) / 144 (note off ? Normalement ça devrait être 128); Byte 1 = Note (pitch); Byte 2 = Velocity suivi de 0 (off); stamp = note on = durée depuis le denier off. Note off = durée de la note
