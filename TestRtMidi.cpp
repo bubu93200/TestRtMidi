@@ -142,9 +142,9 @@ int main( int argc, char* argv[] )
     std::cout << "Reading MIDI from port " << midiin->getPortName() << " ... quit with Ctrl-C.\n";
     while (!done) {
         
-        //TODO : stamp a remplacer ?
-        //midiin.getMessage(&message);
-        //stamp = midiin.getMessageTimeStamp();
+        // TODO : stamp a remplacer ?
+        // midiin.getMessage(&message);
+        // stamp = midiin.getMessageTimeStamp();
         stamp = midiin->getMessage(&message);
         
         
