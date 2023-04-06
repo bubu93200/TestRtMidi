@@ -20,7 +20,7 @@
 
 
 bool done;
-bool log = true;
+bool LOG = true;
 static void finish(int /*ignore*/) { done = true; }
 
 void usage(void) {
@@ -114,7 +114,7 @@ int main( int argc, char* argv[] )
     }
 
     // Check available ports vs. specified.
-    unsigned int port = 0;
+    unsigned int port = 1; // port=1 pour le piano sinon ça ne fonctionne pas 
     unsigned int nPorts = midiin->getPortCount();
     if (argc == 2) port = (unsigned int)atoi(argv[1]); // midiin->openPort(port); port 1 pour que ça fonctionne avec le piano
     if (port >= nPorts) {
@@ -152,14 +152,14 @@ int main( int argc, char* argv[] )
         // Version 1
         stamp = midiin->getMessage(&message);
         // Version 2
-        midiin.getMessage(&message);
-        stamp = midiin.getMessageTimeStamp();
+        //midiin.getMessage(&message);
+        //stamp = midiin.getMessageTimeStamp();
         ///////////
 
         nBytes = message.size();
         for (i = 0; i < nBytes; i++) {
             std::cout << "Byte " << i << " = " << (int)message[i] << ", "; //Byte 0 = 144 (note on) / 144 (note off ? Normalement ça devrait être 128); Byte 1 = Note (pitch); Byte 2 = Velocity suivi de 0 (off); stamp = (en secondes) => note on = durée depuis le denier off. Note off = durée de la note
-            if (log) {
+            if (LOG) {
                 // Write to file log
             }
         }
