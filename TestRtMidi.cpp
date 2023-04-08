@@ -2,7 +2,7 @@
 // Version de test
 // Fonctionnalités utilisables :
 // - affichage sur l'écran de l'entrée midi 1 (piano)
-//
+// - affichage du fichier de journalisation (logging) fonctionne.
 
 #include <fstream>
 #include <iostream>
@@ -16,11 +16,8 @@
 #include "RtMidi.h"
 #define SLEEP( milliseconds ) Sleep( (DWORD) milliseconds ) 
 
+#include "include/spdlog/spdlog.h" // Journalisation. logging
 
-//#include <conio.h>
-//#include<windows.h>
-
-//#include <MMSystem.h>
 
 // Variables définies par le programme appelant
 
@@ -39,7 +36,9 @@ void usage(void) {
 
 int main( int argc, char* argv[] )
 {   
-    
+    spdlog::info("Welcome to spdlog!");
+    spdlog::info("Demarrage du programme TestRtMidi");
+
     //ignore le premier programme
     if (false) {
 
@@ -109,6 +108,7 @@ int main( int argc, char* argv[] )
     // Minimal command-line check.
     if (argc > 2) usage();
 
+
     // RtMidiIn constructor
     try {
         midiin = new RtMidiIn();
@@ -172,6 +172,7 @@ int main( int argc, char* argv[] )
             // left pedal  : Byte 0 = 176 ; Byte 1 = 67; Byte 2 = velocity (127)
             // middle pedal  : Byte 0 = 176 ; Byte 1 = 66; Byte 2 = velocity (127)
             // right pedal  : Byte 0 = 176 ; Byte 1 = 64; Byte 2 = velocity (0 to 127)
+
             if (MIDI) {
                 // TODO : Écrire le message MIDI dans le fichier de sortie
                 // Format complexe. 
@@ -181,9 +182,11 @@ int main( int argc, char* argv[] )
             }
         }
 
-        if (nBytes > 0)
+        if (nBytes > 0) {
             std::cout << "stamp = " << stamp << std::endl;
-
+            spdlog::info("Entree Midi: Piano: 0x{0:x} Pitch: {1:03d} Velocity: {2:03d} Stamp: {3:02.3f}", message[0], message[1], message[2], stamp);
+        }
+            
         // Sleep for 10 milliseconds.
         SLEEP(10);
     }
