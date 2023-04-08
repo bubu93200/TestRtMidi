@@ -2,7 +2,8 @@
 // Version de test
 // Fonctionnalités utilisables :
 // - affichage sur l'écran de l'entrée midi 1 (piano)
-// - affichage du fichier de journalisation (logging) fonctionne.
+// - affichage du fichier de journalisation (logging) fonctionne partiellement.
+// TODO : écrire le log dans un fichier
 
 #include <fstream>
 #include <iostream>
