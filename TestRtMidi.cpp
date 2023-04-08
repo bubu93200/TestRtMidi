@@ -1,12 +1,15 @@
 // TestRtMidi.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
+// Version de test
+// Fonctionnalités utilisables :
+// - affichage sur l'écran de l'entrée midi 1 (piano)
 //
 
+#include <fstream>
 #include <iostream>
 #include <cstdlib>
 #include <signal.h>
 
 #define __WINDOWS_MM__ // Ne fonctionne Pas. Il faut mettre cette définition dan RtMidi.h
-
 
 // Platform-dependent sleep routines.
 #include <windows.h>
@@ -19,7 +22,7 @@
 
 //#include <MMSystem.h>
 
-// Varaibles définies par le programme appelant
+// Variables définies par le programme appelant
 
 bool LOG = true; // enregistrement d'un fichier de log
 bool MIDI = true; // enregistrement d'un fichier midi
@@ -100,9 +103,6 @@ int main( int argc, char* argv[] )
     // 2eme programme
     RtMidiIn* midiin = 0;
     std::vector<unsigned char> message;
-    std::string fileName = "output.mid"; // Nom du fichier de sortie MIDI
-    RtMidiOut midiout;
-    //int nBytes;
     double stamp;
 
 
@@ -118,11 +118,9 @@ int main( int argc, char* argv[] )
         exit(EXIT_FAILURE);
     }
 
-    if (!midiout.getPortCount() && MIDI) { // only if midi file needed
-        std::cout << "No MIDI output ports available." << std::endl;
-        return 1;
+    if (MIDI) { // préparation du fichier au format midi
+          // TODO : Format complexe. A écrire plus tard   
     }
-    midiout.openPort(0); // output 0 
 
     // Check available ports vs. specified.
     unsigned int port = 1; // port=1 pour le piano sinon ça ne fonctionne pas 
@@ -175,14 +173,14 @@ int main( int argc, char* argv[] )
             // middle pedal  : Byte 0 = 176 ; Byte 1 = 66; Byte 2 = velocity (127)
             // right pedal  : Byte 0 = 176 ; Byte 1 = 64; Byte 2 = velocity (0 to 127)
             if (MIDI) {
-                // Write to file midi
-                // Envoyer le message MIDI à la sortie
-                midiout.sendMessage(&message);
+                // TODO : Écrire le message MIDI dans le fichier de sortie
+                // Format complexe. 
             }
             if (LOG) {
                 // Write to file log
             }
         }
+
         if (nBytes > 0)
             std::cout << "stamp = " << stamp << std::endl;
 
@@ -191,9 +189,13 @@ int main( int argc, char* argv[] )
     }
 
     
+
+    // TODO : Ecritude du fichier midi
+  
+
     //delete midiin;
     midiin->closePort();
-    midiout.closePort();
+
 
     return 0;
 
