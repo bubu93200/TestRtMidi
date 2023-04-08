@@ -18,9 +18,11 @@
 
 //#include <MMSystem.h>
 
+// Varaibles définies par le programme appelant
 
+bool LOG = true; // enregistrement d'un fichier de log
+bool MIDI = true; // enregistrement d'un fichier midi
 bool done;
-bool LOG = true;
 static void finish(int /*ignore*/) { done = true; }
 
 void usage(void) {
@@ -97,7 +99,9 @@ int main( int argc, char* argv[] )
     // 2eme programme
     RtMidiIn* midiin = 0;
     std::vector<unsigned char> message;
-    int nBytes, i;
+    std::string fileName = "output.mid"; // Nom du fichier de sortie MIDI
+    RtMidiOut midiout;
+    //int nBytes;
     double stamp;
 
 
@@ -112,6 +116,12 @@ int main( int argc, char* argv[] )
         error.printMessage();
         exit(EXIT_FAILURE);
     }
+
+    if (!midiout.getPortCount() && MIDI) { // only if midi file needed
+        std::cout << "No MIDI output ports available." << std::endl;
+        return 1;
+    }
+    midiout.openPort(0); // output 0 
 
     // Check available ports vs. specified.
     unsigned int port = 1; // port=1 pour le piano sinon ça ne fonctionne pas 
@@ -156,9 +166,18 @@ int main( int argc, char* argv[] )
         //stamp = midiin.getMessageTimeStamp();
         ///////////
 
-        nBytes = message.size();
-        for (i = 0; i < nBytes; i++) {
-            std::cout << "Byte " << i << " = " << (int)message[i] << ", "; //Byte 0 = 144 (note on) / 144 (note off ? Normalement ça devrait être 128); Byte 1 = Note (pitch); Byte 2 = Velocity suivi de 0 (off); stamp = (en secondes) => note on = durée depuis le denier off. Note off = durée de la note
+        int nBytes = (int) message.size();
+        for (int i = 0; i < nBytes; i++) {
+            std::cout << "Byte " << i << " = " << (int)message[i] << ", ";
+            //Byte 0 = 144 (note on) / 144 (note off ? Normalement ça devrait être 128); Byte 1 = Note (pitch); Byte 2 = Velocity suivi de 0 (off); stamp = (en secondes) => note on = durée depuis le denier off. Note off = durée de la note
+            // left pedal  : Byte 0 = 176 ; Byte 1 = 67; Byte 2 = velocity (127)
+            // middle pedal  : Byte 0 = 176 ; Byte 1 = 66; Byte 2 = velocity (127)
+            // right pedal  : Byte 0 = 176 ; Byte 1 = 64; Byte 2 = velocity (0 to 127)
+            if (MIDI) {
+                // Write to file midi
+                // Envoyer le message MIDI à la sortie
+                midiout.sendMessage(&message);
+            }
             if (LOG) {
                 // Write to file log
             }
@@ -171,7 +190,9 @@ int main( int argc, char* argv[] )
     }
 
     
-    delete midiin;
+    //delete midiin;
+    midiin->closePort();
+    midiout.closePort();
 
     return 0;
 
