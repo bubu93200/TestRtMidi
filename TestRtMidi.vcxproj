@@ -130,12 +130,32 @@
   <ItemGroup>
     <ClCompile Include="RtMidi.cpp" />
     <ClCompile Include="TestRtMidi.cpp" />
+    <ClCompile Include="tests\apinames.cpp" />
+    <ClCompile Include="tests\cmidiin.cpp" />
+    <ClCompile Include="tests\midiclock.cpp" />
+    <ClCompile Include="tests\midiout.cpp" />
+    <ClCompile Include="tests\midiprobe.cpp" />
+    <ClCompile Include="tests\qmidiin.cpp" />
+    <ClCompile Include="tests\sysextest.cpp" />
+    <ClCompile Include="tests\testcapi.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RtMidi.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
     <None Include="cpp.hint" />
+    <None Include="output.mid" />
+    <None Include="TestRtMidi.cpp.000" />
+    <None Include="TestRtMidi.cpp.001" />
+    <None Include="tests\cmidiin.dsp" />
+    <None Include="tests\Makefile.am" />
+    <None Include="tests\midiout.dsp" />
+    <None Include="tests\midiprobe.dsp" />
+    <None Include="tests\qmidiin.dsp" />
+    <None Include="tests\RtMidi.dsw" />
+    <None Include="tests\sysextest.dsp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
