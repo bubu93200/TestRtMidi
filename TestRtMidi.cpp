@@ -14,10 +14,15 @@
 
 // Platform-dependent sleep routines.
 #include <windows.h>
+#include <conio.h>
 #include "RtMidi.h"
 #define SLEEP( milliseconds ) Sleep( (DWORD) milliseconds ) 
 
 #include "include/spdlog/spdlog.h" // Journalisation. logging
+#include "include/spdlog/sinks/daily_file_sink.h"
+
+
+
 
 
 // Variables définies par le programme appelant
@@ -30,6 +35,7 @@ static void finish(int /*ignore*/) { done = true; }
 void usage(void) {
     // Erreur s'il y a plus de 1 argument
     // usage normal : qmidiin 0 ou qmidiin 1
+    spdlog::error("Lancement du programme. Nombre d'arguments incorrect");
     std::cout << "\nusage: qmidiin <port>\n";
     std::cout << "    where port = the device to use (first / default = 0).\n\n";
     exit(-1);
@@ -37,8 +43,16 @@ void usage(void) {
 
 int main( int argc, char* argv[] )
 {   
+    ///////////////////////////////////////////////
+    // INIT LOGGING
+    spdlog::flush_every(std::chrono::seconds(3));
+    // Create a daily logger - a new file is created every day on 2:30am
+    auto logger = spdlog::daily_logger_mt("daily_logger", "TestRtMidi.log", 0, 0);
+    // Log beginning messages using spdlog::info
     spdlog::info("Welcome to spdlog!");
     spdlog::info("Demarrage du programme TestRtMidi");
+    ///////////////////////////////////////////////
+    
 
     //ignore le premier programme
     if (false) {
@@ -115,6 +129,7 @@ int main( int argc, char* argv[] )
         midiin = new RtMidiIn();
     }
     catch (RtMidiError& error) {
+        spdlog::error("Impossible de creer un flux midi en entree"); 
         error.printMessage();
         exit(EXIT_FAILURE);
     }
@@ -130,6 +145,7 @@ int main( int argc, char* argv[] )
     if (port >= nPorts) {
         delete midiin;
         std::cout << "Invalid port specifier!\n";
+        spdlog::error("Invalid port specifier. port midi: {}", port);
         usage();
     }
 
@@ -137,6 +153,7 @@ int main( int argc, char* argv[] )
         midiin->openPort(port); 
     }
     catch (RtMidiError& error) {
+        spdlog::error("Impossible d'ouvrir le port midi: {}", port);
         error.printMessage();
         delete midiin;
         return -1;
@@ -152,6 +169,8 @@ int main( int argc, char* argv[] )
 
     // Periodically check input queue.
     std::cout << "Reading MIDI from port " << midiin->getPortName() << " ... quit with Ctrl-C.\n";
+    logger->flush();
+
     while (!done) {
         
         // TODO : stamp a remplacer ?
@@ -186,10 +205,16 @@ int main( int argc, char* argv[] )
         if (nBytes > 0) {
             std::cout << "stamp = " << stamp << std::endl;
             spdlog::info("Entree Midi: Piano: 0x{0:x} Pitch: {1:03d} Velocity: {2:03d} Stamp: {3:02.3f}", message[0], message[1], message[2], stamp);
+            logger->flush();
         }
             
         // Sleep for 10 milliseconds.
         SLEEP(10);
+
+        // Test touche entrée pour sortir
+        if (_kbhit())
+            done = true;
+
     }
 
     
