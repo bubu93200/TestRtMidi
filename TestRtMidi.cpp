@@ -2,8 +2,8 @@
 // Version de test
 // Fonctionnalités utilisables :
 // - affichage sur l'écran de l'entrée midi 1 (piano)
-// - affichage du fichier de journalisation (logging) fonctionne partiellement.
-// TODO : écrire le log dans un fichier
+// - écriture de la journalisation (logging) dans un ficher journalier ou sur la console selon ConsoleLog = true/false.
+
 
 #include <fstream>
 #include <iostream>
@@ -14,12 +14,13 @@
 
 // Platform-dependent sleep routines.
 #include <windows.h>
-#include <conio.h>
+#include <conio.h> // for _kbhit()
 #include "RtMidi.h"
 #define SLEEP( milliseconds ) Sleep( (DWORD) milliseconds ) 
 
 #include "include/spdlog/spdlog.h" // Journalisation. logging
-#include "include/spdlog/sinks/daily_file_sink.h"
+#include "include/spdlog/sinks/daily_file_sink.h" // Journalisation vers un fichier journalier
+#include "include/spdlog/sinks/stdout_color_sinks.h" // Journalisation vers la console
 
 
 
@@ -29,29 +30,40 @@
 
 bool LOG = true; // enregistrement d'un fichier de log
 bool MIDI = true; // enregistrement d'un fichier midi
+bool ConsoleLog = true; // Enregistrement du fichier de log vers la console. Sinon enrtegistrement vers un fichier journalier
 bool done;
+auto dailyfilelog = "TestRtMidi.log";
 static void finish(int /*ignore*/) { done = true; }
 
-void usage(void) {
-    // Erreur s'il y a plus de 1 argument
-    // usage normal : qmidiin 0 ou qmidiin 1
-    spdlog::error("Lancement du programme. Nombre d'arguments incorrect");
-    std::cout << "\nusage: qmidiin <port>\n";
-    std::cout << "    where port = the device to use (first / default = 0).\n\n";
-    exit(-1);
-}
+// Functions  headers :
+void usage(std::shared_ptr<spdlog::logger> logger);
+
+
 
 int main( int argc, char* argv[] )
 {   
-    ///////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////
     // INIT LOGGING
+    // Create a daily logger - a new file is created every day on 0:00am
+
+    auto logger = std::shared_ptr<spdlog::logger>(); // Define logger outside the switch statement
+
+    switch (ConsoleLog ? 1 : 0) {
+    case 0:
+        logger = spdlog::daily_logger_mt("daily_logger", dailyfilelog, 0, 0);
+        break;
+    case 1:
+        logger = spdlog::stdout_color_mt("console_logger");
+        break; 
+    default:
+        break;
+    }
+    
     spdlog::flush_every(std::chrono::seconds(3));
-    // Create a daily logger - a new file is created every day on 2:30am
-    auto logger = spdlog::daily_logger_mt("daily_logger", "TestRtMidi.log", 0, 0);
     // Log beginning messages using spdlog::info
-    spdlog::info("Welcome to spdlog!");
-    spdlog::info("Demarrage du programme TestRtMidi");
-    ///////////////////////////////////////////////
+    logger->info("******************** Welcome to spdlog! ******************");
+    logger->info("************ Demarrage du programme TestRtMidi ***********");
+    /////////////////////////////////////////////////////////////////////////////////
     
 
     //ignore le premier programme
@@ -121,7 +133,7 @@ int main( int argc, char* argv[] )
 
 
     // Minimal command-line check.
-    if (argc > 2) usage();
+    if (argc > 2) usage(logger);
 
 
     // RtMidiIn constructor
@@ -129,7 +141,7 @@ int main( int argc, char* argv[] )
         midiin = new RtMidiIn();
     }
     catch (RtMidiError& error) {
-        spdlog::error("Impossible de creer un flux midi en entree"); 
+        logger->error("Impossible de creer un flux midi en entree"); 
         error.printMessage();
         exit(EXIT_FAILURE);
     }
@@ -145,15 +157,15 @@ int main( int argc, char* argv[] )
     if (port >= nPorts) {
         delete midiin;
         std::cout << "Invalid port specifier!\n";
-        spdlog::error("Invalid port specifier. port midi: {}", port);
-        usage();
+        logger->error("Invalid port specifier. port midi: {}", port);
+        usage(logger);
     }
 
     try {
         midiin->openPort(port); 
     }
     catch (RtMidiError& error) {
-        spdlog::error("Impossible d'ouvrir le port midi: {}", port);
+        logger->error("Impossible d'ouvrir le port midi: {}", port);
         error.printMessage();
         delete midiin;
         return -1;
@@ -204,7 +216,7 @@ int main( int argc, char* argv[] )
 
         if (nBytes > 0) {
             std::cout << "stamp = " << stamp << std::endl;
-            spdlog::info("Entree Midi: Piano: 0x{0:x} Pitch: {1:03d} Velocity: {2:03d} Stamp: {3:02.3f}", message[0], message[1], message[2], stamp);
+            logger->info("Entree Midi: Piano: 0x{0:x} Pitch: {1:03d} Velocity: {2:03d} Stamp: {3:02.3f}", message[0], message[1], message[2], stamp);
             logger->flush();
         }
             
@@ -228,4 +240,15 @@ int main( int argc, char* argv[] )
 
     return 0;
 
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+// functions
+void usage(std::shared_ptr<spdlog::logger> logger) {
+    // Erreur s'il y a plus de 1 argument
+    // usage normal : qmidiin 0 ou qmidiin 1
+    logger->error("Lancement du programme. Nombre d'arguments incorrect");
+    std::cout << "\nusage: qmidiin <port>\n";
+    std::cout << "    where port = the device to use (first / default = 0).\n\n";
+    exit(-1);
 }
