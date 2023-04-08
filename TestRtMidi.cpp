@@ -6,10 +6,11 @@
 #include <signal.h>
 
 #define __WINDOWS_MM__ // Ne fonctionne Pas. Il faut mettre cette définition dan RtMidi.h
-#include "RtMidi.h"
+
 
 // Platform-dependent sleep routines.
 #include <windows.h>
+#include "RtMidi.h"
 #define SLEEP( milliseconds ) Sleep( (DWORD) milliseconds ) 
 
 
