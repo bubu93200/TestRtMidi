@@ -30,7 +30,7 @@
 
 bool LOG = true; // enregistrement d'un fichier de log
 bool MIDI = true; // enregistrement d'un fichier midi
-bool ConsoleLog = true; // Enregistrement du fichier de log vers la console. Sinon enrtegistrement vers un fichier journalier
+bool ConsoleLog = false; // Enregistrement du fichier de log vers la console. Sinon enrtegistrement vers un fichier journalier
 bool done;
 auto dailyfilelog = "TestRtMidi.log";
 static void finish(int /*ignore*/) { done = true; }
@@ -216,7 +216,7 @@ int main( int argc, char* argv[] )
 
         if (nBytes > 0) {
             std::cout << "stamp = " << stamp << std::endl;
-            logger->info("Entree Midi: Piano: 0x{0:x} Pitch: {1:03d} Velocity: {2:03d} Stamp: {3:02.3f}", message[0], message[1], message[2], stamp);
+            logger->info("Entree Midi: {0:1d} Piano: 0x{1:x} Pitch: {2:03d} Velocity: {3:03d} Stamp: {4:02.3f}", port, message[0], message[1], message[2], stamp);
             logger->flush();
         }
             
