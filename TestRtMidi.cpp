@@ -46,7 +46,8 @@ int main( int argc, char* argv[] )
     // Initialisation des variables
     RtMidiIn* midiin = 0;
     std::vector<unsigned char> message;
-    double stamp;
+    double deltaTime = 0.0;
+    double absoluteTime = 0.0;
     ////////////////////////////////////////////////////////////////////////
     
     ////////////////////////////////////////////////////////////////////////
@@ -133,13 +134,16 @@ int main( int argc, char* argv[] )
         ///////// Faire le choix de la version 1 ou 2
         // Version 1 Fonctionne
         //stamp = midiin->getMessage(&message);
-        try {
-            stamp = midiin->getMessage(&message);
+        try { // Rtmidi hasn't absolut datation time
+            deltaTime = midiin->getMessage(&message); // It's the delta time of an event
         }
         catch (RtMidiError& error) {
             logger->error("Impossible de lire le message midi");
             error.printMessage();
         }
+        // Datation absolue depuis le début
+        absoluteTime += deltaTime;
+
         // Version 2
         //midiin->getMessage(&message, &stamp);
         // Version 3
@@ -165,8 +169,8 @@ int main( int argc, char* argv[] )
         }
 
         if (nBytes > 0) {
-            std::cout << "stamp = " << stamp << std::endl;
-            logger->info("Entree Midi: {0:1d} Piano: 0x{1:x} Pitch: {2:03d} Velocity: {3:03d} Stamp: {4:02.3f}", port, message[0], message[1], message[2], stamp);
+            std::cout << "deltaTime = " << deltaTime << " absoluteTime = " << absoluteTime << std::endl;
+            logger->info("Entree Midi: {0:2d} Piano: 0x{1:x} Pitch: {2:03d} Velocity: {3:03d} DeltaTime: {4:09.3f} AbsoluteTime: {5:10.3f}", port, message[0], message[1], message[2], deltaTime, absoluteTime);
             logger->flush();
         }
             
