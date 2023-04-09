@@ -3,6 +3,9 @@
 // Fonctionnalités utilisables :
 // - affichage sur l'écran de l'entrée midi 1 (piano)
 // - écriture de la journalisation (logging) dans un ficher journalier ou sur la console selon ConsoleLog = true/false.
+// TODO : Table de traduction entre instrument et norme midi si l'instrument n'est pas tout à fait conforme
+// TODO : Passage des paramètres Midi vers le programme appelant en utilisant la RAM
+// TODO : Passage des autres paramètres du programme appelant vers ce programme
 
 
 #include <fstream>
