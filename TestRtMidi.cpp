@@ -200,10 +200,10 @@ int main( int argc, char* argv[] )
         int nBytes = (int) message.size();
         for (int i = 0; i < nBytes; i++) {
             std::cout << "Byte " << i << " = " << (int)message[i] << ", ";
-            //Byte 0 = 144 (note on) / 144 (note off ? Normalement ça devrait être 128); Byte 1 = Note (pitch); Byte 2 = Velocity suivi de 0 (off); stamp = (en secondes) => note on = durée depuis le denier off. Note off = durée de la note
-            // left pedal  : Byte 0 = 176 ; Byte 1 = 67; Byte 2 = velocity (127)
-            // middle pedal  : Byte 0 = 176 ; Byte 1 = 66; Byte 2 = velocity (127)
-            // right pedal  : Byte 0 = 176 ; Byte 1 = 64; Byte 2 = velocity (0 to 127)
+            //Byte 0 = 144 (0x90) (note on) / 144 (note off ? Normalement ça devrait être 128); Byte 1 = Note (pitch); Byte 2 = Velocity suivi de 0 (off); stamp = (en secondes) => note on = durée depuis le denier off. Note off = durée de la note
+            // left pedal  : Byte 0 = 176 (0xb0); Byte 1 = 67; Byte 2 = velocity (127)
+            // middle pedal  : Byte 0 = 176 (0xb0); Byte 1 = 66; Byte 2 = velocity (127)
+            // right pedal  : Byte 0 = 176 (0xb0); Byte 1 = 64; Byte 2 = velocity (0 to 127)
 
             if (MIDI) {
                 // TODO : Écrire le message MIDI dans le fichier de sortie
