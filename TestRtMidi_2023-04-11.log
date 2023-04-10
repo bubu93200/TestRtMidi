@@ -1,0 +1,78 @@
+[2023-04-11 00:05:27.027] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-11 00:05:27.027] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-11 00:07:47.232] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-11 00:07:47.232] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-11 00:09:23.331] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-11 00:09:23.332] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-11 00:09:23.332] [daily_logger] [info] Gestion dynamique de la memoire : debut initialisation
+[2023-04-11 00:09:23.332] [daily_logger] [info] Gestion dynamique de la memoire : fin initialisation
+[2023-04-11 00:10:15.944] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-11 00:10:15.944] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-11 00:10:15.944] [daily_logger] [info] Gestion dynamique de la memoire : debut initialisation
+[2023-04-11 00:10:15.944] [daily_logger] [info] Gestion dynamique de la memoire : fin initialisation
+[2023-04-11 00:14:08.969] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-11 00:14:08.969] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-11 00:14:08.969] [daily_logger] [info] Gestion dynamique de la memoire : debut initialisation
+[2023-04-11 00:14:08.969] [daily_logger] [info] Gestion dynamique de la memoire : fin initialisation
+[2023-04-11 00:15:20.223] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-11 00:15:20.223] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-11 00:15:20.223] [daily_logger] [info] Gestion dynamique de la memoire : debut initialisation
+[2023-04-11 00:15:20.223] [daily_logger] [info] Gestion dynamique de la memoire : fin initialisation
+[2023-04-11 00:15:34.125] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 013 DeltaTime: 00000.000 AbsoluteTime:      0.000
+[2023-04-11 00:15:34.387] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 000 DeltaTime: 00000.271 AbsoluteTime:      0.271
+[2023-04-11 00:15:34.885] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 031 Velocity: 002 DeltaTime: 00000.493 AbsoluteTime:      0.764
+[2023-04-11 00:15:34.897] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 033 Velocity: 002 DeltaTime: 00000.002 AbsoluteTime:      0.766
+[2023-04-11 00:15:35.207] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 031 Velocity: 000 DeltaTime: 00000.314 AbsoluteTime:      1.080
+[2023-04-11 00:15:35.220] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 033 Velocity: 000 DeltaTime: 00000.024 AbsoluteTime:      1.104
+[2023-04-11 00:19:25.385] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-11 00:19:25.385] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-11 00:19:25.385] [daily_logger] [info] Gestion dynamique de la memoire : debut initialisation
+[2023-04-11 00:19:25.385] [daily_logger] [info] Gestion dynamique de la memoire : fin initialisation
+[2023-04-11 00:19:32.610] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 024 Velocity: 031 DeltaTime: 00000.000 AbsoluteTime:      0.000
+[2023-04-11 00:19:32.636] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 023 Velocity: 013 DeltaTime: 00000.033 AbsoluteTime:      0.033
+[2023-04-11 00:19:32.726] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 023 Velocity: 000 DeltaTime: 00000.085 AbsoluteTime:      0.118
+[2023-04-11 00:19:32.776] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 024 Velocity: 000 DeltaTime: 00000.050 AbsoluteTime:      0.168
+[2023-04-11 00:19:33.128] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 028 Velocity: 020 DeltaTime: 00000.355 AbsoluteTime:      0.523
+[2023-04-11 00:19:33.142] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 026 Velocity: 018 DeltaTime: 00000.013 AbsoluteTime:      0.536
+[2023-04-11 00:19:33.253] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 026 Velocity: 000 DeltaTime: 00000.110 AbsoluteTime:      0.646
+[2023-04-11 00:19:33.268] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 028 Velocity: 000 DeltaTime: 00000.010 AbsoluteTime:      0.656
+[2023-04-11 00:27:07.929] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-11 00:27:07.929] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-11 00:27:07.929] [daily_logger] [info] Gestion dynamique de la memoire : debut initialisation
+[2023-04-11 00:27:07.929] [daily_logger] [info] Gestion dynamique de la memoire : fin initialisation
+[2023-04-11 00:27:15.374] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 024 Velocity: 002 DeltaTime: 00000.000 AbsoluteTime:      0.000
+[2023-04-11 00:27:15.585] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 024 Velocity: 000 DeltaTime: 00000.217 AbsoluteTime:      0.217
+[2023-04-11 00:28:50.343] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-11 00:28:50.343] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-11 00:28:50.343] [daily_logger] [info] Gestion dynamique de la memoire : debut initialisation
+[2023-04-11 00:28:50.344] [daily_logger] [info] Gestion dynamique de la memoire : fin initialisation
+[2023-04-11 00:28:56.231] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 018 DeltaTime: 00000.000 AbsoluteTime:      0.000
+[2023-04-11 00:28:56.245] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 031 Velocity: 014 DeltaTime: 00000.010 AbsoluteTime:      0.010
+[2023-04-11 00:28:56.458] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 031 Velocity: 000 DeltaTime: 00000.215 AbsoluteTime:      0.225
+[2023-04-11 00:28:56.473] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 000 DeltaTime: 00000.012 AbsoluteTime:      0.237
+[2023-04-11 00:33:16.336] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-11 00:33:16.336] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-11 00:33:16.336] [daily_logger] [info] Gestion dynamique de la memoire : debut initialisation
+[2023-04-11 00:33:16.336] [daily_logger] [info] Gestion dynamique de la memoire : fin initialisation
+[2023-04-11 00:36:32.681] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-11 00:36:32.682] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-11 00:36:32.682] [daily_logger] [info] Gestion dynamique de la memoire : debut initialisation
+[2023-04-11 00:36:32.682] [daily_logger] [info] Gestion dynamique de la memoire : fin initialisation
+[2023-04-11 00:36:35.097] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 027 DeltaTime: 00000.000 AbsoluteTime:      0.000
+[2023-04-11 00:36:35.141] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 031 Velocity: 008 DeltaTime: 00000.041 AbsoluteTime:      0.041
+[2023-04-11 00:36:35.284] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 031 Velocity: 000 DeltaTime: 00000.144 AbsoluteTime:      0.185
+[2023-04-11 00:36:35.307] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 000 DeltaTime: 00000.022 AbsoluteTime:      0.207
+[2023-04-11 00:36:35.634] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 035 Velocity: 016 DeltaTime: 00000.328 AbsoluteTime:      0.535
+[2023-04-11 00:36:35.822] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 035 Velocity: 000 DeltaTime: 00000.191 AbsoluteTime:      0.726
+[2023-04-11 00:36:36.292] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 026 Velocity: 017 DeltaTime: 00000.462 AbsoluteTime:      1.188
+[2023-04-11 00:36:36.307] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 024 Velocity: 017 DeltaTime: 00000.005 AbsoluteTime:      1.193
+[2023-04-11 00:36:36.442] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 024 Velocity: 000 DeltaTime: 00000.143 AbsoluteTime:      1.336
+[2023-04-11 00:36:36.458] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 026 Velocity: 000 DeltaTime: 00000.003 AbsoluteTime:      1.339
+[2023-04-11 01:03:54.830] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-11 01:03:54.830] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-11 01:03:54.830] [daily_logger] [info] Gestion dynamique de la memoire : debut initialisation
+[2023-04-11 01:03:54.830] [daily_logger] [info] Gestion dynamique de la memoire : fin initialisation
+[2023-04-11 01:07:24.915] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-11 01:07:24.916] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-11 01:07:24.916] [daily_logger] [info] Gestion dynamique de la memoire : debut initialisation
+[2023-04-11 01:07:24.916] [daily_logger] [info] Gestion dynamique de la memoire : fin initialisation
