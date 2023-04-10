@@ -8,15 +8,30 @@
 // TODO : Passage des autres paramètres du programme appelant vers ce programme
 
 
+// Compilation mutliplateformes :
+//    Windows : Les macros spécifiques à Windows incluent "_WIN32" pour les applications 32 bits et 64 bits, 
+//              "_WIN64" pour les applications 64 bits uniquement, 
+//              et "_WINDOWS" pour toutes les versions de Windows.
+//    Linux: Les macros spécifiques à Linux incluent "linux" et "gnu_linux".
+//           Ces macros sont généralement utilisées pour la compilation de code sur des systèmes Linux et GNU.
+//    Android : Les macros spécifiques à Android incluent "ANDROID" et "ANDROID_API".
+//              "ANDROID" est défini lorsque le code est compilé pour une plate - forme Android,
+//              et "ANDROID_API" est défini avec la version de l'API Android cible.
+
+
 #include <fstream>
 #include <iostream>
 #include <cstdlib>
 #include <signal.h>
 
-#define __WINDOWS_MM__ // Ne fonctionne Pas. Il faut mettre cette définition dan RtMidi.h
+#define __WINDOWS_MM__ // Ne fonctionne Pas. Il faut mettre cette définition dans RtMidi.h
 
 // Platform-dependent sleep routines.
-#include <windows.h>
+#ifdef _WINDOWS
+    #include <windows.h>
+#endif // _WINDOWS
+
+
 #include <conio.h> // for _kbhit()
 #include "RtMidi.h"
 #define SLEEP( milliseconds ) Sleep( (DWORD) milliseconds ) 

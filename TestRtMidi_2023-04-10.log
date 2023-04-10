@@ -362,3 +362,5 @@
 [2023-04-10 16:50:13.780] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 028 Velocity: 000 DeltaTime: 00000.248 AbsoluteTime:   5331.038
 [2023-04-10 16:50:14.371] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 012 DeltaTime: 00000.594 AbsoluteTime:   5331.632
 [2023-04-10 16:50:14.598] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 000 DeltaTime: 00000.222 AbsoluteTime:   5331.854
+[2023-04-10 23:43:05.170] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-10 23:43:05.170] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
