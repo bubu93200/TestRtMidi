@@ -255,6 +255,8 @@ int main( int argc, char* argv[] )
     }
 
     // Close the shared memory handle
+    logger->flush();
+    logger->info("Gestion dynamique de la memoire : liberation de la memoire");
     CloseHandle(shm_handle);
 
 
