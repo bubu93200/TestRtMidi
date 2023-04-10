@@ -1,0 +1,1120 @@
+[2023-04-09 13:59:31.181] [daily_logger] [info] Welcome to spdlog!
+[2023-04-09 14:23:30.573] [daily_logger] [info] Welcome to spdlog!
+[2023-04-09 14:23:30.573] [daily_logger] [info] Demarrage du programme TestRtMidi
+[2023-04-09 14:36:40.721] [daily_logger] [info] Welcome to spdlog!
+[2023-04-09 14:36:40.721] [daily_logger] [info] Demarrage du programme TestRtMidi
+[2023-04-09 14:55:25.855] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 14:55:25.856] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 14:55:26.782] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 029 Velocity: 013 Stamp: 0.000
+[2023-04-09 14:55:26.992] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 029 Velocity: 000 Stamp: 0.208
+[2023-04-09 14:55:27.378] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 035 Velocity: 016 Stamp: 0.382
+[2023-04-09 14:55:27.502] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 035 Velocity: 000 Stamp: 0.128
+[2023-04-09 14:55:27.799] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 040 Velocity: 018 Stamp: 0.290
+[2023-04-09 14:55:27.909] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 0.113
+[2023-04-09 14:55:28.333] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 030 Velocity: 006 Stamp: 0.426
+[2023-04-09 14:55:28.347] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 031 Velocity: 020 Stamp: 0.003
+[2023-04-09 14:55:28.479] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 031 Velocity: 000 Stamp: 0.143
+[2023-04-09 14:55:28.491] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 030 Velocity: 000 Stamp: 0.008
+[2023-04-09 14:55:28.814] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 026 Velocity: 023 Stamp: 0.327
+[2023-04-09 14:55:28.826] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 028 Velocity: 021 Stamp: 0.002
+[2023-04-09 14:55:28.967] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 026 Velocity: 000 Stamp: 0.150
+[2023-04-09 14:55:28.980] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 028 Velocity: 000 Stamp: 0.003
+[2023-04-09 14:55:29.489] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 041 Velocity: 028 Stamp: 0.517
+[2023-04-09 14:55:29.524] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 043 Velocity: 022 Stamp: 0.038
+[2023-04-09 14:55:29.537] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 040 Velocity: 021 Stamp: 0.002
+[2023-04-09 14:55:29.593] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 0.062
+[2023-04-09 14:55:29.606] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 043 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:55:29.652] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 041 Velocity: 000 Stamp: 0.061
+[2023-04-09 14:55:30.335] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 033 Velocity: 038 Stamp: 0.681
+[2023-04-09 14:55:30.465] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 033 Velocity: 000 Stamp: 0.131
+[2023-04-09 14:55:30.725] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 035 Velocity: 031 Stamp: 0.258
+[2023-04-09 14:55:30.864] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 035 Velocity: 000 Stamp: 0.138
+[2023-04-09 14:55:31.153] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 036 Velocity: 027 Stamp: 0.290
+[2023-04-09 14:55:31.198] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 038 Velocity: 020 Stamp: 0.042
+[2023-04-09 14:55:31.255] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 038 Velocity: 000 Stamp: 0.059
+[2023-04-09 14:55:31.889] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 0.633
+[2023-04-09 14:55:32.609] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 023 Velocity: 029 Stamp: 0.722
+[2023-04-09 14:55:32.644] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 024 Velocity: 027 Stamp: 0.033
+[2023-04-09 14:55:32.711] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 024 Velocity: 000 Stamp: 0.067
+[2023-04-09 14:55:33.003] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 023 Velocity: 000 Stamp: 0.299
+[2023-04-09 14:55:33.519] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 024 Velocity: 005 Stamp: 0.508
+[2023-04-09 14:55:34.058] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 024 Velocity: 000 Stamp: 0.547
+[2023-04-09 14:55:34.670] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 026 Velocity: 012 Stamp: 0.603
+[2023-04-09 14:55:34.942] [daily_logger] [info] Entree Midi: Piano: 0x90 Pitch: 026 Velocity: 000 Stamp: 0.281
+[2023-04-09 14:57:49.620] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 14:57:49.620] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 14:57:52.488] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 036 Stamp: 0.000
+[2023-04-09 14:57:52.501] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 029 Stamp: 0.005
+[2023-04-09 14:57:52.622] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 000 Stamp: 0.136
+[2023-04-09 14:57:52.667] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 Stamp: 0.038
+[2023-04-09 14:57:53.016] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 033 Stamp: 0.351
+[2023-04-09 14:57:53.029] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 027 Stamp: 0.001
+[2023-04-09 14:57:53.140] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 000 Stamp: 0.123
+[2023-04-09 14:57:53.153] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 Stamp: 0.003
+[2023-04-09 14:57:53.427] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 028 Stamp: 0.287
+[2023-04-09 14:57:53.441] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 028 Stamp: 0.009
+[2023-04-09 14:57:53.583] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 0.145
+[2023-04-09 14:57:53.608] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 000 Stamp: 0.026
+[2023-04-09 14:57:53.922] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 032 Stamp: 0.318
+[2023-04-09 14:57:53.934] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 032 Stamp: 0.007
+[2023-04-09 14:57:54.066] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 0.130
+[2023-04-09 14:57:54.079] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 000 Stamp: 0.015
+[2023-04-09 14:57:54.608] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 027 Stamp: 0.522
+[2023-04-09 14:57:54.621] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 022 Stamp: 0.013
+[2023-04-09 14:57:54.634] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 018 Stamp: 0.026
+[2023-04-09 14:57:54.690] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 Stamp: 0.055
+[2023-04-09 14:57:54.726] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 000 Stamp: 0.035
+[2023-04-09 14:57:54.740] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 000 Stamp: 0.002
+[2023-04-09 14:57:55.081] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 024 Velocity: 031 Stamp: 0.353
+[2023-04-09 14:57:55.105] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 023 Velocity: 023 Stamp: 0.017
+[2023-04-09 14:57:55.118] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 018 Stamp: 0.021
+[2023-04-09 14:57:55.175] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 000 Stamp: 0.057
+[2023-04-09 14:57:55.200] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 023 Velocity: 000 Stamp: 0.018
+[2023-04-09 14:57:55.218] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 024 Velocity: 000 Stamp: 0.017
+[2023-04-09 14:57:55.806] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 037 Velocity: 033 Stamp: 0.594
+[2023-04-09 14:57:55.991] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 037 Velocity: 000 Stamp: 0.186
+[2023-04-09 14:57:56.386] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 032 Stamp: 0.387
+[2023-04-09 14:57:56.399] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 029 Stamp: 0.006
+[2023-04-09 14:57:56.575] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 000 Stamp: 0.186
+[2023-04-09 14:57:56.587] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 0.003
+[2023-04-09 14:57:56.904] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 045 Velocity: 027 Stamp: 0.333
+[2023-04-09 14:57:56.938] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 047 Velocity: 027 Stamp: 0.027
+[2023-04-09 14:57:57.068] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 047 Velocity: 000 Stamp: 0.130
+[2023-04-09 14:57:57.084] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 045 Velocity: 000 Stamp: 0.016
+[2023-04-09 14:57:57.518] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 039 Velocity: 028 Stamp: 0.435
+[2023-04-09 14:57:57.674] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 039 Velocity: 000 Stamp: 0.155
+[2023-04-09 14:57:58.106] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 024 Stamp: 0.431
+[2023-04-09 14:57:58.119] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 024 Stamp: 0.015
+[2023-04-09 14:57:58.201] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 000 Stamp: 0.084
+[2023-04-09 14:57:58.236] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 000 Stamp: 0.035
+[2023-04-09 14:57:59.869] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 033 Stamp: 1.635
+[2023-04-09 14:57:59.898] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 056 Stamp: 0.023
+[2023-04-09 14:58:00.007] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 0.109
+[2023-04-09 14:58:00.020] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:00.122] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 019 Stamp: 0.108
+[2023-04-09 14:58:00.179] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 0.066
+[2023-04-09 14:58:00.563] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 055 Stamp: 0.374
+[2023-04-09 14:58:00.595] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 001 Stamp: 0.041
+[2023-04-09 14:58:00.767] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 025 Stamp: 0.169
+[2023-04-09 14:58:00.780] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 027 Stamp: 0.008
+[2023-04-09 14:58:00.798] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 037 Stamp: 0.010
+[2023-04-09 14:58:00.906] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 000 Stamp: 0.126
+[2023-04-09 14:58:02.269] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 001 Stamp: 1.363
+[2023-04-09 14:58:02.550] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 000 Stamp: 0.278
+[2023-04-09 14:58:02.627] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 Stamp: 0.075
+[2023-04-09 14:58:02.925] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 0.299
+[2023-04-09 14:58:02.971] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 000 Stamp: 0.040
+[2023-04-09 14:58:02.984] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 0.008
+[2023-04-09 14:58:05.281] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 048 Velocity: 020 Stamp: 2.307
+[2023-04-09 14:58:05.294] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 050 Velocity: 002 Stamp: 0.018
+[2023-04-09 14:58:05.623] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 048 Velocity: 000 Stamp: 0.330
+[2023-04-09 14:58:05.886] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 050 Velocity: 000 Stamp: 0.254
+[2023-04-09 14:58:06.428] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 127 Stamp: 0.550
+[2023-04-09 14:58:06.907] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 000 Stamp: 0.473
+[2023-04-09 14:58:07.155] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 127 Stamp: 0.253
+[2023-04-09 14:58:07.458] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 000 Stamp: 0.298
+[2023-04-09 14:58:08.441] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 127 Stamp: 0.985
+[2023-04-09 14:58:08.723] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 000 Stamp: 0.284
+[2023-04-09 14:58:08.886] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 127 Stamp: 0.160
+[2023-04-09 14:58:09.222] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 000 Stamp: 0.334
+[2023-04-09 14:58:10.300] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 1.080
+[2023-04-09 14:58:10.640] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.333
+[2023-04-09 14:58:10.845] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.219
+[2023-04-09 14:58:11.231] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.379
+[2023-04-09 14:58:12.364] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 007 Stamp: 1.136
+[2023-04-09 14:58:12.378] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.005
+[2023-04-09 14:58:12.391] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.007
+[2023-04-09 14:58:12.404] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.005
+[2023-04-09 14:58:12.418] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.007
+[2023-04-09 14:58:12.431] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 047 Stamp: 0.009
+[2023-04-09 14:58:12.445] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.009
+[2023-04-09 14:58:12.457] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.010
+[2023-04-09 14:58:12.471] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.011
+[2023-04-09 14:58:12.486] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.012
+[2023-04-09 14:58:12.499] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 089 Stamp: 0.014
+[2023-04-09 14:58:12.512] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.015
+[2023-04-09 14:58:12.525] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 105 Stamp: 0.014
+[2023-04-09 14:58:12.538] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.014
+[2023-04-09 14:58:12.552] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.016
+[2023-04-09 14:58:13.172] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.655
+[2023-04-09 14:58:13.186] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 105 Stamp: 0.006
+[2023-04-09 14:58:13.200] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.004
+[2023-04-09 14:58:13.213] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 089 Stamp: 0.004
+[2023-04-09 14:58:13.226] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.003
+[2023-04-09 14:58:13.240] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.004
+[2023-04-09 14:58:13.253] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.003
+[2023-04-09 14:58:13.267] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.003
+[2023-04-09 14:58:13.281] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 047 Stamp: 0.004
+[2023-04-09 14:58:13.295] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.001
+[2023-04-09 14:58:13.309] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.002
+[2023-04-09 14:58:13.325] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.004
+[2023-04-09 14:58:13.339] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.002
+[2023-04-09 14:58:13.353] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 005 Stamp: 0.003
+[2023-04-09 14:58:13.366] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:13.380] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 005 Stamp: 0.130
+[2023-04-09 14:58:13.392] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.002
+[2023-04-09 14:58:13.406] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 025 Stamp: 0.003
+[2023-04-09 14:58:13.419] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.002
+[2023-04-09 14:58:13.432] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 047 Stamp: 0.002
+[2023-04-09 14:58:13.445] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.003
+[2023-04-09 14:58:13.459] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.002
+[2023-04-09 14:58:13.473] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.002
+[2023-04-09 14:58:13.486] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 089 Stamp: 0.003
+[2023-04-09 14:58:13.500] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 100 Stamp: 0.002
+[2023-04-09 14:58:13.513] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 111 Stamp: 0.002
+[2023-04-09 14:58:13.527] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.002
+[2023-04-09 14:58:13.541] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.004
+[2023-04-09 14:58:13.621] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 116 Stamp: 0.242
+[2023-04-09 14:58:13.635] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 100 Stamp: 0.001
+[2023-04-09 14:58:13.648] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 084 Stamp: 0.001
+[2023-04-09 14:58:13.662] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 063 Stamp: 0.002
+[2023-04-09 14:58:13.675] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.001
+[2023-04-09 14:58:13.688] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.001
+[2023-04-09 14:58:13.702] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.002
+[2023-04-09 14:58:13.715] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 005 Stamp: 0.001
+[2023-04-09 14:58:13.732] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:13.776] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 007 Stamp: 0.142
+[2023-04-09 14:58:13.789] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.001
+[2023-04-09 14:58:13.801] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.001
+[2023-04-09 14:58:13.814] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.001
+[2023-04-09 14:58:13.826] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 041 Stamp: 0.002
+[2023-04-09 14:58:13.838] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 047 Stamp: 0.001
+[2023-04-09 14:58:13.850] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.002
+[2023-04-09 14:58:13.862] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.002
+[2023-04-09 14:58:13.875] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.001
+[2023-04-09 14:58:13.888] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 089 Stamp: 0.002
+[2023-04-09 14:58:13.900] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 100 Stamp: 0.002
+[2023-04-09 14:58:13.912] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 116 Stamp: 0.002
+[2023-04-09 14:58:13.925] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.004
+[2023-04-09 14:58:14.003] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.210
+[2023-04-09 14:58:14.015] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 105 Stamp: 0.001
+[2023-04-09 14:58:14.028] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.001
+[2023-04-09 14:58:14.041] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 084 Stamp: 0.002
+[2023-04-09 14:58:14.053] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 063 Stamp: 0.001
+[2023-04-09 14:58:14.065] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.001
+[2023-04-09 14:58:14.078] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 041 Stamp: 0.001
+[2023-04-09 14:58:14.090] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 025 Stamp: 0.002
+[2023-04-09 14:58:14.103] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.001
+[2023-04-09 14:58:14.116] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:14.171] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 010 Stamp: 0.150
+[2023-04-09 14:58:14.183] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.002
+[2023-04-09 14:58:14.195] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.001
+[2023-04-09 14:58:14.208] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 041 Stamp: 0.001
+[2023-04-09 14:58:14.220] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 047 Stamp: 0.001
+[2023-04-09 14:58:14.232] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.001
+[2023-04-09 14:58:14.244] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 063 Stamp: 0.002
+[2023-04-09 14:58:14.256] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 073 Stamp: 0.001
+[2023-04-09 14:58:14.268] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 084 Stamp: 0.002
+[2023-04-09 14:58:14.281] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.002
+[2023-04-09 14:58:14.293] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 105 Stamp: 0.001
+[2023-04-09 14:58:14.305] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.003
+[2023-04-09 14:58:14.317] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.004
+[2023-04-09 14:58:14.471] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.284
+[2023-04-09 14:58:14.484] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 100 Stamp: 0.001
+[2023-04-09 14:58:14.498] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.002
+[2023-04-09 14:58:14.513] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.001
+[2023-04-09 14:58:14.525] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 041 Stamp: 0.001
+[2023-04-09 14:58:14.541] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 025 Stamp: 0.001
+[2023-04-09 14:58:14.554] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.005
+[2023-04-09 14:58:15.437] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.952
+[2023-04-09 14:58:15.461] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 007 Stamp: 0.021
+[2023-04-09 14:58:15.474] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.003
+[2023-04-09 14:58:15.487] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.004
+[2023-04-09 14:58:15.501] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.003
+[2023-04-09 14:58:15.513] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.004
+[2023-04-09 14:58:15.527] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 047 Stamp: 0.006
+[2023-04-09 14:58:15.541] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.004
+[2023-04-09 14:58:15.557] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.005
+[2023-04-09 14:58:15.570] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.006
+[2023-04-09 14:58:15.584] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.006
+[2023-04-09 14:58:15.597] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 089 Stamp: 0.006
+[2023-04-09 14:58:15.610] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.007
+[2023-04-09 14:58:15.624] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 105 Stamp: 0.008
+[2023-04-09 14:58:15.638] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.006
+[2023-04-09 14:58:15.651] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.011
+[2023-04-09 14:58:15.959] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.418
+[2023-04-09 14:58:15.974] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 105 Stamp: 0.002
+[2023-04-09 14:58:15.987] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.002
+[2023-04-09 14:58:16.000] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.001
+[2023-04-09 14:58:16.012] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.001
+[2023-04-09 14:58:16.024] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.001
+[2023-04-09 14:58:16.036] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.000
+[2023-04-09 14:58:16.049] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.001
+[2023-04-09 14:58:16.061] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.002
+[2023-04-09 14:58:16.073] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 041 Stamp: 0.001
+[2023-04-09 14:58:16.085] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.001
+[2023-04-09 14:58:16.098] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.002
+[2023-04-09 14:58:16.110] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 010 Stamp: 0.001
+[2023-04-09 14:58:16.122] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:16.266] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 013 Stamp: 0.291
+[2023-04-09 14:58:16.418] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 000 Stamp: 0.149
+[2023-04-09 14:58:16.516] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 045 Stamp: 0.103
+[2023-04-09 14:58:16.530] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 042 Stamp: 0.006
+[2023-04-09 14:58:16.662] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 000 Stamp: 0.137
+[2023-04-09 14:58:16.680] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:16.842] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 127 Stamp: 0.179
+[2023-04-09 14:58:17.731] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 000 Stamp: 0.889
+[2023-04-09 14:58:18.164] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.435
+[2023-04-09 14:58:18.665] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.504
+[2023-04-09 14:58:18.988] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 007 Stamp: 0.319
+[2023-04-09 14:58:19.000] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.002
+[2023-04-09 14:58:19.013] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.003
+[2023-04-09 14:58:19.025] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.002
+[2023-04-09 14:58:19.038] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.003
+[2023-04-09 14:58:19.051] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 047 Stamp: 0.002
+[2023-04-09 14:58:19.064] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.004
+[2023-04-09 14:58:19.078] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.002
+[2023-04-09 14:58:19.090] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.003
+[2023-04-09 14:58:19.102] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.003
+[2023-04-09 14:58:19.114] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 089 Stamp: 0.003
+[2023-04-09 14:58:19.126] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.002
+[2023-04-09 14:58:19.139] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 105 Stamp: 0.003
+[2023-04-09 14:58:19.152] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.004
+[2023-04-09 14:58:19.164] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.004
+[2023-04-09 14:58:19.177] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.011
+[2023-04-09 14:58:19.222] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.183
+[2023-04-09 14:58:19.235] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 007 Stamp: 0.001
+[2023-04-09 14:58:19.247] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:19.550] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.326
+[2023-04-09 14:58:19.575] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 127 Stamp: 0.024
+[2023-04-09 14:58:19.946] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 037 Stamp: 0.372
+[2023-04-09 14:58:19.959] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 027 Stamp: 0.004
+[2023-04-09 14:58:19.971] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 046 Stamp: 0.003
+[2023-04-09 14:58:19.984] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 046 Stamp: 0.012
+[2023-04-09 14:58:19.997] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 050 Velocity: 044 Stamp: 0.018
+[2023-04-09 14:58:20.076] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 001 Stamp: 0.089
+[2023-04-09 14:58:20.155] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 000 Stamp: 0.082
+[2023-04-09 14:58:20.190] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.035
+[2023-04-09 14:58:20.203] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.008
+[2023-04-09 14:58:20.260] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.060
+[2023-04-09 14:58:20.273] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 000 Stamp: 0.013
+[2023-04-09 14:58:20.286] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 050 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:20.300] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 000 Stamp: 0.009
+[2023-04-09 14:58:20.313] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 000 Stamp: 0.006
+[2023-04-09 14:58:20.543] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 010 Stamp: 0.253
+[2023-04-09 14:58:20.557] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.003
+[2023-04-09 14:58:20.573] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 025 Stamp: 0.005
+[2023-04-09 14:58:20.587] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.004
+[2023-04-09 14:58:20.604] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 041 Stamp: 0.002
+[2023-04-09 14:58:20.619] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.003
+[2023-04-09 14:58:20.635] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.002
+[2023-04-09 14:58:20.647] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.005
+[2023-04-09 14:58:20.659] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.003
+[2023-04-09 14:58:20.672] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 089 Stamp: 0.003
+[2023-04-09 14:58:20.683] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.003
+[2023-04-09 14:58:20.695] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 105 Stamp: 0.003
+[2023-04-09 14:58:20.708] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.004
+[2023-04-09 14:58:20.720] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.006
+[2023-04-09 14:58:20.731] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.042
+[2023-04-09 14:58:20.787] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 036 Stamp: 0.157
+[2023-04-09 14:58:20.799] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 032 Stamp: 0.003
+[2023-04-09 14:58:20.842] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 001 Stamp: 0.054
+[2023-04-09 14:58:20.855] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.009
+[2023-04-09 14:58:20.866] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.009
+[2023-04-09 14:58:20.922] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 000 Stamp: 0.055
+[2023-04-09 14:58:20.946] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.026
+[2023-04-09 14:58:20.957] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.001
+[2023-04-09 14:58:20.969] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 111 Stamp: 0.011
+[2023-04-09 14:58:20.982] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 084 Stamp: 0.002
+[2023-04-09 14:58:20.994] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.001
+[2023-04-09 14:58:21.006] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 041 Stamp: 0.002
+[2023-04-09 14:58:21.018] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.001
+[2023-04-09 14:58:21.031] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.005
+[2023-04-09 14:58:21.118] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 065 Velocity: 040 Stamp: 0.155
+[2023-04-09 14:58:21.141] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 047 Stamp: 0.019
+[2023-04-09 14:58:21.164] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 041 Stamp: 0.024
+[2023-04-09 14:58:21.177] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 056 Stamp: 0.011
+[2023-04-09 14:58:21.188] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 028 Stamp: 0.014
+[2023-04-09 14:58:21.222] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.030
+[2023-04-09 14:58:21.256] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 000 Stamp: 0.039
+[2023-04-09 14:58:21.290] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 065 Velocity: 000 Stamp: 0.024
+[2023-04-09 14:58:21.325] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 000 Stamp: 0.041
+[2023-04-09 14:58:21.381] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.050
+[2023-04-09 14:58:21.535] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 049 Stamp: 0.156
+[2023-04-09 14:58:21.560] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 072 Stamp: 0.025
+[2023-04-09 14:58:21.574] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 065 Stamp: 0.004
+[2023-04-09 14:58:21.587] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 062 Velocity: 047 Stamp: 0.002
+[2023-04-09 14:58:21.610] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 021 Stamp: 0.046
+[2023-04-09 14:58:21.624] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 062 Velocity: 000 Stamp: 0.002
+[2023-04-09 14:58:21.681] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 000 Stamp: 0.065
+[2023-04-09 14:58:21.728] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 000 Stamp: 0.053
+[2023-04-09 14:58:21.741] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:21.765] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.030
+[2023-04-09 14:58:21.781] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.002
+[2023-04-09 14:58:21.794] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.001
+[2023-04-09 14:58:21.808] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 041 Stamp: 0.002
+[2023-04-09 14:58:21.820] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.003
+[2023-04-09 14:58:21.834] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.001
+[2023-04-09 14:58:21.852] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 073 Stamp: 0.003
+[2023-04-09 14:58:21.866] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.001
+[2023-04-09 14:58:21.879] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 084 Stamp: 0.001
+[2023-04-09 14:58:21.890] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.002
+[2023-04-09 14:58:21.903] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 105 Stamp: 0.003
+[2023-04-09 14:58:21.915] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.001
+[2023-04-09 14:58:21.927] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.006
+[2023-04-09 14:58:21.940] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 040 Stamp: 0.113
+[2023-04-09 14:58:21.952] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 029 Stamp: 0.044
+[2023-04-09 14:58:22.016] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 000 Stamp: 0.068
+[2023-04-09 14:58:22.040] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 002 Stamp: 0.025
+[2023-04-09 14:58:22.083] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.043
+[2023-04-09 14:58:22.106] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.028
+[2023-04-09 14:58:22.118] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.001
+[2023-04-09 14:58:22.161] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 000 Stamp: 0.053
+[2023-04-09 14:58:22.377] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 029 Stamp: 0.214
+[2023-04-09 14:58:22.390] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 040 Stamp: 0.008
+[2023-04-09 14:58:22.403] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 028 Stamp: 0.020
+[2023-04-09 14:58:22.567] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 062 Velocity: 015 Stamp: 0.157
+[2023-04-09 14:58:22.580] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 025 Stamp: 0.010
+[2023-04-09 14:58:22.681] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 018 Stamp: 0.105
+[2023-04-09 14:58:22.706] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 062 Velocity: 000 Stamp: 0.028
+[2023-04-09 14:58:22.732] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.025
+[2023-04-09 14:58:22.746] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 007 Stamp: 0.014
+[2023-04-09 14:58:22.760] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.001
+[2023-04-09 14:58:22.774] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.003
+[2023-04-09 14:58:22.787] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.001
+[2023-04-09 14:58:22.801] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.001
+[2023-04-09 14:58:22.814] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 047 Stamp: 0.001
+[2023-04-09 14:58:22.827] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 063 Stamp: 0.003
+[2023-04-09 14:58:22.840] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.002
+[2023-04-09 14:58:22.854] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 089 Stamp: 0.003
+[2023-04-09 14:58:22.867] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 100 Stamp: 0.001
+[2023-04-09 14:58:22.883] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 116 Stamp: 0.002
+[2023-04-09 14:58:22.896] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.005
+[2023-04-09 14:58:22.909] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 000 Stamp: 0.084
+[2023-04-09 14:58:22.924] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 000 Stamp: 0.036
+[2023-04-09 14:58:22.937] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.023
+[2023-04-09 14:58:22.950] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 000 Stamp: 0.011
+[2023-04-09 14:58:22.964] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.003
+[2023-04-09 14:58:22.977] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.053
+[2023-04-09 14:58:22.990] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 100 Stamp: 0.001
+[2023-04-09 14:58:23.003] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.002
+[2023-04-09 14:58:23.017] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 063 Stamp: 0.002
+[2023-04-09 14:58:23.031] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.001
+[2023-04-09 14:58:23.044] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 041 Stamp: 0.001
+[2023-04-09 14:58:23.058] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 025 Stamp: 0.002
+[2023-04-09 14:58:23.071] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 010 Stamp: 0.001
+[2023-04-09 14:58:23.084] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.006
+[2023-04-09 14:58:23.097] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:23.110] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 064 Stamp: 0.057
+[2023-04-09 14:58:23.124] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 057 Stamp: 0.007
+[2023-04-09 14:58:23.139] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 011 Stamp: 0.060
+[2023-04-09 14:58:23.152] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 035 Stamp: 0.020
+[2023-04-09 14:58:23.174] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 000 Stamp: 0.038
+[2023-04-09 14:58:23.209] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 007 Stamp: 0.031
+[2023-04-09 14:58:23.222] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.002
+[2023-04-09 14:58:23.234] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 025 Stamp: 0.001
+[2023-04-09 14:58:23.247] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.002
+[2023-04-09 14:58:23.260] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.004
+[2023-04-09 14:58:23.272] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.001
+[2023-04-09 14:58:23.284] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.002
+[2023-04-09 14:58:23.296] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.003
+[2023-04-09 14:58:23.308] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 089 Stamp: 0.001
+[2023-04-09 14:58:23.320] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 111 Stamp: 0.004
+[2023-04-09 14:58:23.334] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.001
+[2023-04-09 14:58:23.346] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.001
+[2023-04-09 14:58:23.358] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.003
+[2023-04-09 14:58:23.382] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 000 Stamp: 0.143
+[2023-04-09 14:58:23.395] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:23.408] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 000 Stamp: 0.007
+[2023-04-09 14:58:23.443] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.051
+[2023-04-09 14:58:23.455] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.001
+[2023-04-09 14:58:23.467] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.002
+[2023-04-09 14:58:23.479] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.003
+[2023-04-09 14:58:23.492] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 058 Stamp: 0.045
+[2023-04-09 14:58:23.537] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 026 Stamp: 0.041
+[2023-04-09 14:58:23.637] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 022 Stamp: 0.100
+[2023-04-09 14:58:23.660] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 065 Velocity: 017 Stamp: 0.025
+[2023-04-09 14:58:23.684] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 000 Stamp: 0.022
+[2023-04-09 14:58:23.716] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 065 Velocity: 000 Stamp: 0.042
+[2023-04-09 14:58:23.729] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 005 Stamp: 0.010
+[2023-04-09 14:58:23.743] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 010 Stamp: 0.001
+[2023-04-09 14:58:23.755] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.001
+[2023-04-09 14:58:23.768] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.003
+[2023-04-09 14:58:23.780] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.001
+[2023-04-09 14:58:23.792] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.004
+[2023-04-09 14:58:23.805] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 063 Stamp: 0.002
+[2023-04-09 14:58:23.818] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 073 Stamp: 0.003
+[2023-04-09 14:58:23.830] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.001
+[2023-04-09 14:58:23.842] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.004
+[2023-04-09 14:58:23.855] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 100 Stamp: 0.002
+[2023-04-09 14:58:23.868] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 116 Stamp: 0.003
+[2023-04-09 14:58:23.881] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.005
+[2023-04-09 14:58:23.893] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 000 Stamp: 0.030
+[2023-04-09 14:58:23.905] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 000 Stamp: 0.026
+[2023-04-09 14:58:23.917] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 116 Stamp: 0.029
+[2023-04-09 14:58:23.929] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 100 Stamp: 0.001
+[2023-04-09 14:58:23.942] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 089 Stamp: 0.002
+[2023-04-09 14:58:23.954] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.002
+[2023-04-09 14:58:23.967] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 063 Stamp: 0.002
+[2023-04-09 14:58:23.980] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 041 Stamp: 0.004
+[2023-04-09 14:58:23.992] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 025 Stamp: 0.001
+[2023-04-09 14:58:24.005] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.001
+[2023-04-09 14:58:24.017] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.005
+[2023-04-09 14:58:24.029] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 054 Stamp: 0.064
+[2023-04-09 14:58:24.042] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 060 Stamp: 0.001
+[2023-04-09 14:58:24.054] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 028 Stamp: 0.029
+[2023-04-09 14:58:24.172] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 000 Stamp: 0.211
+[2023-04-09 14:58:24.184] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.003
+[2023-04-09 14:58:24.206] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.030
+[2023-04-09 14:58:24.303] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 026 Stamp: 0.103
+[2023-04-09 14:58:24.315] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 017 Stamp: 0.000
+[2023-04-09 14:58:24.327] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 062 Velocity: 041 Stamp: 0.008
+[2023-04-09 14:58:24.339] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 032 Stamp: 0.004
+[2023-04-09 14:58:24.351] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 005 Stamp: 0.038
+[2023-04-09 14:58:24.365] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.002
+[2023-04-09 14:58:24.378] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.001
+[2023-04-09 14:58:24.391] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.001
+[2023-04-09 14:58:24.403] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 047 Stamp: 0.002
+[2023-04-09 14:58:24.415] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.001
+[2023-04-09 14:58:24.427] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 062 Velocity: 000 Stamp: 0.003
+[2023-04-09 14:58:24.440] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.001
+[2023-04-09 14:58:24.452] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.003
+[2023-04-09 14:58:24.465] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 111 Stamp: 0.002
+[2023-04-09 14:58:24.477] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.003
+[2023-04-09 14:58:24.489] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.004
+[2023-04-09 14:58:24.502] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.012
+[2023-04-09 14:58:24.514] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.052
+[2023-04-09 14:58:24.527] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 000 Stamp: 0.026
+[2023-04-09 14:58:24.539] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 000 Stamp: 0.015
+[2023-04-09 14:58:24.605] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 051 Stamp: 0.122
+[2023-04-09 14:58:24.628] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 069 Stamp: 0.018
+[2023-04-09 14:58:24.641] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 042 Stamp: 0.015
+[2023-04-09 14:58:24.653] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 062 Velocity: 008 Stamp: 0.004
+[2023-04-09 14:58:24.665] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.023
+[2023-04-09 14:58:24.678] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.000
+[2023-04-09 14:58:24.690] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.002
+[2023-04-09 14:58:24.702] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.008
+[2023-04-09 14:58:24.715] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 041 Stamp: 0.009
+[2023-04-09 14:58:24.727] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.005
+[2023-04-09 14:58:24.740] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 025 Stamp: 0.005
+[2023-04-09 14:58:24.753] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.008
+[2023-04-09 14:58:24.766] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 010 Stamp: 0.003
+[2023-04-09 14:58:24.778] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.009
+[2023-04-09 14:58:24.790] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 062 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:24.803] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.048
+[2023-04-09 14:58:24.816] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.025
+[2023-04-09 14:58:24.849] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 000 Stamp: 0.060
+[2023-04-09 14:58:24.927] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 058 Stamp: 0.070
+[2023-04-09 14:58:24.940] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.008
+[2023-04-09 14:58:24.954] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 019 Stamp: 0.002
+[2023-04-09 14:58:24.974] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 041 Stamp: 0.001
+[2023-04-09 14:58:24.988] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.002
+[2023-04-09 14:58:25.001] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.001
+[2023-04-09 14:58:25.013] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.002
+[2023-04-09 14:58:25.025] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 079 Stamp: 0.001
+[2023-04-09 14:58:25.037] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 100 Stamp: 0.004
+[2023-04-09 14:58:25.049] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 116 Stamp: 0.002
+[2023-04-09 14:58:25.061] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.004
+[2023-04-09 14:58:25.073] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.012
+[2023-04-09 14:58:25.085] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 025 Stamp: 0.003
+[2023-04-09 14:58:25.097] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 025 Stamp: 0.024
+[2023-04-09 14:58:25.151] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.166
+[2023-04-09 14:58:25.162] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.002
+[2023-04-09 14:58:25.175] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 007 Stamp: 0.001
+[2023-04-09 14:58:25.186] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:25.210] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 000 Stamp: 0.052
+[2023-04-09 14:58:25.286] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.068
+[2023-04-09 14:58:25.307] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 014 Stamp: 0.031
+[2023-04-09 14:58:25.351] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.040
+[2023-04-09 14:58:25.472] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 007 Stamp: 0.122
+[2023-04-09 14:58:25.528] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 050 Velocity: 002 Stamp: 0.052
+[2023-04-09 14:58:25.541] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 000 Stamp: 0.007
+[2023-04-09 14:58:25.566] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.028
+[2023-04-09 14:58:25.583] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.002
+[2023-04-09 14:58:25.597] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 041 Stamp: 0.001
+[2023-04-09 14:58:25.610] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.001
+[2023-04-09 14:58:25.624] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.002
+[2023-04-09 14:58:25.638] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.001
+[2023-04-09 14:58:25.651] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 089 Stamp: 0.003
+[2023-04-09 14:58:25.664] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.001
+[2023-04-09 14:58:25.678] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.001
+[2023-04-09 14:58:25.692] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 111 Stamp: 0.001
+[2023-04-09 14:58:25.704] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.004
+[2023-04-09 14:58:25.730] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 000 Stamp: 0.147
+[2023-04-09 14:58:25.818] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 000 Stamp: 0.097
+[2023-04-09 14:58:25.854] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.030
+[2023-04-09 14:58:25.867] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 063 Stamp: 0.000
+[2023-04-09 14:58:25.884] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 047 Stamp: 0.001
+[2023-04-09 14:58:25.898] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 025 Stamp: 0.002
+[2023-04-09 14:58:25.911] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 010 Stamp: 0.001
+[2023-04-09 14:58:25.925] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:25.938] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 010 Stamp: 0.066
+[2023-04-09 14:58:25.951] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 020 Stamp: 0.002
+[2023-04-09 14:58:25.964] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.002
+[2023-04-09 14:58:25.979] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.001
+[2023-04-09 14:58:25.993] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 047 Stamp: 0.001
+[2023-04-09 14:58:26.007] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.002
+[2023-04-09 14:58:26.020] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 063 Stamp: 0.001
+[2023-04-09 14:58:26.033] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 073 Stamp: 0.003
+[2023-04-09 14:58:26.046] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 084 Stamp: 0.002
+[2023-04-09 14:58:26.060] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.002
+[2023-04-09 14:58:26.074] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 105 Stamp: 0.003
+[2023-04-09 14:58:26.088] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.003
+[2023-04-09 14:58:26.102] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.002
+[2023-04-09 14:58:26.115] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 048 Velocity: 002 Stamp: 0.002
+[2023-04-09 14:58:26.129] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.002
+[2023-04-09 14:58:26.142] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 008 Stamp: 0.026
+[2023-04-09 14:58:26.155] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.041
+[2023-04-09 14:58:26.169] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 105 Stamp: 0.001
+[2023-04-09 14:58:26.182] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 089 Stamp: 0.001
+[2023-04-09 14:58:26.198] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.003
+[2023-04-09 14:58:26.213] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.001
+[2023-04-09 14:58:26.225] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 047 Stamp: 0.002
+[2023-04-09 14:58:26.236] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.001
+[2023-04-09 14:58:26.249] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.002
+[2023-04-09 14:58:26.262] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.004
+[2023-04-09 14:58:26.275] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 048 Velocity: 000 Stamp: 0.131
+[2023-04-09 14:58:26.286] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 000 Stamp: 0.002
+[2023-04-09 14:58:26.298] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 050 Velocity: 000 Stamp: 0.008
+[2023-04-09 14:58:26.311] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 048 Velocity: 067 Stamp: 0.096
+[2023-04-09 14:58:26.323] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 050 Velocity: 047 Stamp: 0.007
+[2023-04-09 14:58:26.334] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 015 Stamp: 0.030
+[2023-04-09 14:58:26.346] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 025 Stamp: 0.002
+[2023-04-09 14:58:26.359] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 036 Stamp: 0.003
+[2023-04-09 14:58:26.371] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.004
+[2023-04-09 14:58:26.383] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.002
+[2023-04-09 14:58:26.395] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 047 Velocity: 024 Stamp: 0.002
+[2023-04-09 14:58:26.408] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 020 Stamp: 0.001
+[2023-04-09 14:58:26.419] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 073 Stamp: 0.001
+[2023-04-09 14:58:26.432] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.001
+[2023-04-09 14:58:26.444] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 084 Stamp: 0.002
+[2023-04-09 14:58:26.456] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.003
+[2023-04-09 14:58:26.467] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 105 Stamp: 0.002
+[2023-04-09 14:58:26.479] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 121 Stamp: 0.004
+[2023-04-09 14:58:26.491] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.005
+[2023-04-09 14:58:26.503] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 127 Stamp: 0.002
+[2023-04-09 14:58:26.514] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 047 Velocity: 000 Stamp: 0.035
+[2023-04-09 14:58:26.527] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 000 Stamp: 0.059
+[2023-04-09 14:58:26.538] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 050 Velocity: 000 Stamp: 0.070
+[2023-04-09 14:58:26.550] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 048 Velocity: 000 Stamp: 0.017
+[2023-04-09 14:58:26.603] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 050 Stamp: 0.075
+[2023-04-09 14:58:26.616] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 062 Velocity: 054 Stamp: 0.002
+[2023-04-09 14:58:26.627] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 055 Stamp: 0.010
+[2023-04-09 14:58:26.639] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 000 Stamp: 0.005
+[2023-04-09 14:58:26.651] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 065 Velocity: 056 Stamp: 0.014
+[2023-04-09 14:58:26.664] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 023 Stamp: 0.019
+[2023-04-09 14:58:26.675] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 056 Stamp: 0.019
+[2023-04-09 14:58:26.688] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 050 Velocity: 057 Stamp: 0.005
+[2023-04-09 14:58:26.699] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 058 Stamp: 0.011
+[2023-04-09 14:58:26.712] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.012
+[2023-04-09 14:58:26.724] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 127 Stamp: 0.009
+[2023-04-09 14:58:26.735] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 000 Stamp: 0.018
+[2023-04-09 14:58:26.780] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 065 Velocity: 000 Stamp: 0.058
+[2023-04-09 14:58:26.792] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 000 Stamp: 0.010
+[2023-04-09 14:58:26.815] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 050 Velocity: 000 Stamp: 0.021
+[2023-04-09 14:58:26.827] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 000 Stamp: 0.011
+[2023-04-09 14:58:26.839] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.002
+[2023-04-09 14:58:26.851] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 062 Velocity: 000 Stamp: 0.002
+[2023-04-09 14:58:26.864] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 000 Stamp: 0.001
+[2023-04-09 14:58:26.877] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 000 Stamp: 0.015
+[2023-04-09 14:58:26.911] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 042 Stamp: 0.066
+[2023-04-09 14:58:26.923] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 071 Stamp: 0.012
+[2023-04-09 14:58:26.934] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 045 Stamp: 0.005
+[2023-04-09 14:58:26.968] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 044 Stamp: 0.042
+[2023-04-09 14:58:26.980] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 048 Stamp: 0.010
+[2023-04-09 14:58:26.991] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 015 Stamp: 0.014
+[2023-04-09 14:58:27.015] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.020
+[2023-04-09 14:58:27.059] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 000 Stamp: 0.044
+[2023-04-09 14:58:27.081] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.022
+[2023-04-09 14:58:27.094] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 052 Velocity: 000 Stamp: 0.002
+[2023-04-09 14:58:27.106] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.012
+[2023-04-09 14:58:27.117] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 000 Stamp: 0.016
+[2023-04-09 14:58:27.129] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 000 Stamp: 0.009
+[2023-04-09 14:58:27.207] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 043 Stamp: 0.092
+[2023-04-09 14:58:27.219] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 055 Stamp: 0.006
+[2023-04-09 14:58:27.231] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 055 Stamp: 0.006
+[2023-04-09 14:58:27.243] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.007
+[2023-04-09 14:58:27.255] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.000
+[2023-04-09 14:58:27.287] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.060
+[2023-04-09 14:58:27.300] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 031 Stamp: 0.012
+[2023-04-09 14:58:27.312] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 047 Stamp: 0.002
+[2023-04-09 14:58:27.324] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.002
+[2023-04-09 14:58:27.335] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 068 Stamp: 0.002
+[2023-04-09 14:58:27.348] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 084 Stamp: 0.002
+[2023-04-09 14:58:27.359] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 100 Stamp: 0.002
+[2023-04-09 14:58:27.372] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.008
+[2023-04-09 14:58:27.384] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 002 Stamp: 0.015
+[2023-04-09 14:58:27.396] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 062 Velocity: 033 Stamp: 0.015
+[2023-04-09 14:58:27.451] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 000 Stamp: 0.100
+[2023-04-09 14:58:27.464] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.014
+[2023-04-09 14:58:27.477] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 062 Velocity: 000 Stamp: 0.002
+[2023-04-09 14:58:27.512] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 000 Stamp: 0.044
+[2023-04-09 14:58:27.525] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.005
+[2023-04-09 14:58:27.618] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 044 Stamp: 0.105
+[2023-04-09 14:58:27.631] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 037 Stamp: 0.011
+[2023-04-09 14:58:27.645] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 054 Stamp: 0.005
+[2023-04-09 14:58:27.658] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 038 Stamp: 0.022
+[2023-04-09 14:58:27.714] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 060 Velocity: 000 Stamp: 0.054
+[2023-04-09 14:58:27.738] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.029
+[2023-04-09 14:58:27.773] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 000 Stamp: 0.036
+[2023-04-09 14:58:27.786] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.010
+[2023-04-09 14:58:27.865] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 127 Stamp: 0.083
+[2023-04-09 14:58:27.877] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 028 Stamp: 0.008
+[2023-04-09 14:58:27.891] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 042 Stamp: 0.007
+[2023-04-09 14:58:27.904] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 048 Stamp: 0.021
+[2023-04-09 14:58:27.928] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 024 Stamp: 0.018
+[2023-04-09 14:58:27.985] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 000 Stamp: 0.061
+[2023-04-09 14:58:28.040] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 059 Velocity: 000 Stamp: 0.052
+[2023-04-09 14:58:28.065] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 065 Velocity: 002 Stamp: 0.032
+[2023-04-09 14:58:28.079] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 111 Stamp: 0.003
+[2023-04-09 14:58:28.093] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.003
+[2023-04-09 14:58:28.107] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 063 Stamp: 0.001
+[2023-04-09 14:58:28.119] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.001
+[2023-04-09 14:58:28.132] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 063 Stamp: 0.001
+[2023-04-09 14:58:28.146] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.005
+[2023-04-09 14:58:28.159] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 000 Stamp: 0.013
+[2023-04-09 14:58:28.172] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 000 Stamp: 0.011
+[2023-04-09 14:58:28.262] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 065 Velocity: 000 Stamp: 0.158
+[2023-04-09 14:58:28.275] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 042 Stamp: 0.007
+[2023-04-09 14:58:28.311] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 020 Stamp: 0.041
+[2023-04-09 14:58:28.379] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 055 Velocity: 000 Stamp: 0.064
+[2023-04-09 14:58:28.393] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 010 Stamp: 0.002
+[2023-04-09 14:58:28.406] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 025 Stamp: 0.004
+[2023-04-09 14:58:28.420] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 052 Stamp: 0.004
+[2023-04-09 14:58:28.434] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 057 Stamp: 0.002
+[2023-04-09 14:58:28.449] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 073 Stamp: 0.002
+[2023-04-09 14:58:28.462] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 084 Stamp: 0.002
+[2023-04-09 14:58:28.475] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 095 Stamp: 0.003
+[2023-04-09 14:58:28.489] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 116 Stamp: 0.002
+[2023-04-09 14:58:28.502] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 127 Stamp: 0.007
+[2023-04-09 14:58:28.515] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 127 Stamp: 0.007
+[2023-04-09 14:58:28.527] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 057 Velocity: 000 Stamp: 0.010
+[2023-04-09 14:58:28.540] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 065 Velocity: 002 Stamp: 0.018
+[2023-04-09 14:58:28.554] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 067 Velocity: 002 Stamp: 0.029
+[2023-04-09 14:58:28.719] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 067 Velocity: 000 Stamp: 0.254
+[2023-04-09 14:58:28.743] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 065 Velocity: 000 Stamp: 0.024
+[2023-04-09 14:58:29.253] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 066 Velocity: 000 Stamp: 0.506
+[2023-04-09 14:58:29.268] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 064 Velocity: 000 Stamp: 0.001
+[2023-04-09 14:59:51.559] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 14:59:51.559] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 15:00:09.154] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 020 Stamp: 0.000
+[2023-04-09 15:00:09.288] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 000 Stamp: 0.137
+[2023-04-09 15:00:09.664] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 011 Stamp: 0.377
+[2023-04-09 15:00:09.902] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 000 Stamp: 0.237
+[2023-04-09 15:00:10.122] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 025 Stamp: 0.222
+[2023-04-09 15:00:10.157] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 026 Stamp: 0.032
+[2023-04-09 15:00:10.215] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 000 Stamp: 0.064
+[2023-04-09 15:00:10.282] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 000 Stamp: 0.059
+[2023-04-09 15:00:12.561] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 127 Stamp: 2.280
+[2023-04-09 15:00:13.021] [daily_logger] [info] Entree Midi: 1 Piano: 0xb0 Pitch: 067 Velocity: 000 Stamp: 0.467
+[2023-04-09 15:15:00.545] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 15:15:00.545] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 15:15:08.219] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 012 Stamp: 0.000
+[2023-04-09 15:15:08.389] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 000 Stamp: 0.174
+[2023-04-09 15:15:08.670] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 017 Stamp: 0.276
+[2023-04-09 15:15:08.814] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 Stamp: 0.148
+[2023-04-09 15:15:09.105] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 022 Stamp: 0.286
+[2023-04-09 15:15:09.118] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 014 Stamp: 0.011
+[2023-04-09 15:15:09.240] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 000 Stamp: 0.126
+[2023-04-09 15:15:09.251] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 000 Stamp: 0.003
+[2023-04-09 15:15:09.467] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 035 Stamp: 0.221
+[2023-04-09 15:15:09.609] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 Stamp: 0.151
+[2023-04-09 15:17:16.689] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 15:17:16.689] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 15:17:22.691] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 027 Stamp: 0.000
+[2023-04-09 15:17:22.844] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 000 Stamp: 0.150
+[2023-04-09 15:17:23.229] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 018 Stamp: 0.380
+[2023-04-09 15:17:23.402] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 Stamp: 0.176
+[2023-04-09 15:17:23.693] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 016 Stamp: 0.291
+[2023-04-09 15:17:23.824] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 000 Stamp: 0.130
+[2023-04-09 15:19:02.933] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 15:19:02.933] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 15:19:13.182] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 021 Velocity: 039 Stamp: 0.000
+[2023-04-09 15:19:23.038] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 021 Velocity: 000 Stamp: 9.859
+[2023-04-09 15:19:26.974] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 021 Velocity: 029 Stamp: 3.936
+[2023-04-09 15:19:52.285] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 021 Velocity: 000 Stamp: 25.310
+[2023-04-09 15:20:03.361] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 021 Velocity: 029 Stamp: 11.078
+[2023-04-09 15:20:20.561] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 021 Velocity: 000 Stamp: 17.194
+[2023-04-09 15:28:16.517] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 15:28:16.517] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 15:28:23.890] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 021 Velocity: 037 Stamp: 0.000 Time: 00.000
+[2023-04-09 15:28:28.654] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 021 Velocity: 000 Stamp: 4.757 Time: 04.757
+[2023-04-09 15:28:30.815] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 021 Velocity: 039 Stamp: 2.167 Time: 06.924
+[2023-04-09 15:28:34.633] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 021 Velocity: 000 Stamp: 3.814 Time: 10.738
+[2023-04-09 15:28:36.470] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 041 Stamp: 1.841 Time: 12.579
+[2023-04-09 15:28:40.180] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 000 Stamp: 3.710 Time: 16.289
+[2023-04-09 15:28:42.144] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 024 Velocity: 047 Stamp: 1.956 Time: 18.245
+[2023-04-09 15:28:45.316] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 024 Velocity: 000 Stamp: 3.172 Time: 21.417
+[2023-04-09 15:28:46.366] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 042 Stamp: 1.049 Time: 22.466
+[2023-04-09 15:28:53.094] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 Stamp: 6.734 Time: 29.200
+[2023-04-09 15:28:53.760] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 038 Stamp: 0.660 Time: 29.860
+[2023-04-09 15:29:00.013] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 000 Stamp: 6.260 Time: 36.120
+[2023-04-09 15:30:17.938] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 15:30:17.938] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 15:30:23.695] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 041 Stamp: 0.000 Time: 00.000
+[2023-04-09 15:30:23.708] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 034 Stamp: 0.007 Time: 00.007
+[2023-04-09 15:30:24.058] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 000 Stamp: 0.356 Time: 00.363
+[2023-04-09 15:30:24.076] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 000 Stamp: 0.009 Time: 00.372
+[2023-04-09 15:30:24.353] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 052 Stamp: 0.294 Time: 00.666
+[2023-04-09 15:30:24.365] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 049 Stamp: 0.001 Time: 00.667
+[2023-04-09 15:30:24.533] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 0.171 Time: 00.838
+[2023-04-09 15:30:24.545] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 000 Stamp: 0.002 Time: 00.840
+[2023-04-09 15:30:24.769] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 050 Stamp: 0.239 Time: 01.079
+[2023-04-09 15:30:25.082] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 Stamp: 0.311 Time: 01.390
+[2023-04-09 15:30:25.405] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 034 Velocity: 045 Stamp: 0.327 Time: 01.717
+[2023-04-09 15:30:26.131] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 034 Velocity: 000 Stamp: 0.723 Time: 02.440
+[2023-04-09 15:30:26.406] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 051 Stamp: 0.276 Time: 02.716
+[2023-04-09 15:30:27.015] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 000 Stamp: 0.605 Time: 03.321
+[2023-04-09 15:30:27.168] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 049 Stamp: 0.158 Time: 03.479
+[2023-04-09 15:30:27.479] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 Stamp: 0.309 Time: 03.788
+[2023-04-09 15:30:27.538] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 049 Stamp: 0.055 Time: 03.843
+[2023-04-09 15:30:27.765] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 000 Stamp: 0.229 Time: 04.072
+[2023-04-09 15:30:27.801] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 022 Stamp: 0.032 Time: 04.104
+[2023-04-09 15:30:27.941] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 046 Stamp: 0.151 Time: 04.255
+[2023-04-09 15:30:27.985] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 Stamp: 0.041 Time: 04.296
+[2023-04-09 15:30:28.167] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 Stamp: 0.177 Time: 04.473
+[2023-04-09 15:30:28.320] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 047 Stamp: 0.157 Time: 04.630
+[2023-04-09 15:30:28.515] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 Stamp: 0.190 Time: 04.820
+[2023-04-09 15:30:28.593] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 041 Stamp: 0.079 Time: 04.899
+[2023-04-09 15:30:28.799] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 029 Stamp: 0.210 Time: 05.109
+[2023-04-09 15:30:28.813] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 Stamp: 0.001 Time: 05.110
+[2023-04-09 15:30:28.891] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 Stamp: 0.093 Time: 05.203
+[2023-04-09 15:30:28.947] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 008 Stamp: 0.047 Time: 05.250
+[2023-04-09 15:30:29.057] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 Stamp: 0.118 Time: 05.368
+[2023-04-09 15:30:29.133] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 002 Stamp: 0.074 Time: 05.442
+[2023-04-09 15:30:29.183] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 029 Stamp: 0.044 Time: 05.486
+[2023-04-09 15:30:29.261] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 Stamp: 0.081 Time: 05.567
+[2023-04-09 15:30:29.350] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 Stamp: 0.096 Time: 05.663
+[2023-04-09 15:30:29.919] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 039 Stamp: 0.559 Time: 06.222
+[2023-04-09 15:30:29.932] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 046 Stamp: 0.008 Time: 06.230
+[2023-04-09 15:30:30.480] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 0.565 Time: 06.795
+[2023-04-09 15:30:30.493] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 000 Stamp: 0.009 Time: 06.804
+[2023-04-09 15:30:31.137] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 041 Stamp: 0.640 Time: 07.444
+[2023-04-09 15:30:31.151] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 060 Stamp: 0.005 Time: 07.449
+[2023-04-09 15:30:31.495] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 000 Stamp: 0.354 Time: 07.803
+[2023-04-09 15:30:31.509] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 Stamp: 0.018 Time: 07.821
+[2023-04-09 15:30:31.865] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 037 Velocity: 058 Stamp: 0.356 Time: 08.177
+[2023-04-09 15:30:31.878] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 039 Velocity: 067 Stamp: 0.001 Time: 08.178
+[2023-04-09 15:30:32.479] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 037 Velocity: 000 Stamp: 0.612 Time: 08.790
+[2023-04-09 15:30:32.493] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 039 Velocity: 000 Stamp: 0.015 Time: 08.805
+[2023-04-09 15:30:33.899] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 063 Stamp: 1.399 Time: 10.204
+[2023-04-09 15:30:33.911] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 040 Stamp: 0.014 Time: 10.218
+[2023-04-09 15:30:33.923] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 041 Stamp: 0.015 Time: 10.233
+[2023-04-09 15:30:34.846] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 0.916 Time: 11.149
+[2023-04-09 15:30:34.860] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 0.016 Time: 11.165
+[2023-04-09 15:30:34.884] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 000 Stamp: 0.025 Time: 11.190
+[2023-04-09 15:30:35.154] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 051 Stamp: 0.277 Time: 11.467
+[2023-04-09 15:30:35.182] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 040 Stamp: 0.014 Time: 11.481
+[2023-04-09 15:30:35.196] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 042 Stamp: 0.015 Time: 11.496
+[2023-04-09 15:30:36.190] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 0.998 Time: 12.494
+[2023-04-09 15:30:36.201] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 0.010 Time: 12.504
+[2023-04-09 15:30:36.213] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 000 Stamp: 0.012 Time: 12.516
+[2023-04-09 15:30:36.512] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 051 Stamp: 0.306 Time: 12.822
+[2023-04-09 15:30:36.527] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 047 Stamp: 0.002 Time: 12.824
+[2023-04-09 15:30:36.542] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 045 Stamp: 0.015 Time: 12.839
+[2023-04-09 15:30:37.469] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 0.943 Time: 13.782
+[2023-04-09 15:30:37.483] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 0.002 Time: 13.784
+[2023-04-09 15:30:37.497] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 000 Stamp: 0.013 Time: 13.797
+[2023-04-09 15:30:37.895] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 018 Stamp: 0.408 Time: 14.205
+[2023-04-09 15:30:37.910] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 060 Stamp: 0.016 Time: 14.221
+[2023-04-09 15:30:37.945] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 020 Stamp: 0.032 Time: 14.253
+[2023-04-09 15:30:42.443] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 4.497 Time: 18.750
+[2023-04-09 15:30:42.478] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 000 Stamp: 0.038 Time: 18.788
+[2023-04-09 15:30:42.492] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 0.003 Time: 18.791
+[2023-04-09 15:30:43.091] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 044 Stamp: 0.603 Time: 19.394
+[2023-04-09 15:30:43.105] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 030 Stamp: 0.005 Time: 19.399
+[2023-04-09 15:30:43.121] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 046 Stamp: 0.031 Time: 19.430
+[2023-04-09 15:30:44.407] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 1.280 Time: 20.710
+[2023-04-09 15:30:44.456] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 0.047 Time: 20.757
+[2023-04-09 15:30:44.471] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 000 Stamp: 0.010 Time: 20.767
+[2023-04-09 15:30:45.152] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 039 Stamp: 0.693 Time: 21.460
+[2023-04-09 15:30:45.165] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 045 Stamp: 0.002 Time: 21.462
+[2023-04-09 15:30:45.179] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 061 Stamp: 0.008 Time: 21.470
+[2023-04-09 15:30:46.238] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 1.075 Time: 22.545
+[2023-04-09 15:30:46.252] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 0.002 Time: 22.547
+[2023-04-09 15:30:46.267] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 000 Stamp: 0.028 Time: 22.575
+[2023-04-09 15:30:46.963] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 047 Stamp: 0.697 Time: 23.272
+[2023-04-09 15:30:46.977] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 032 Stamp: 0.003 Time: 23.275
+[2023-04-09 15:30:46.991] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 040 Stamp: 0.015 Time: 23.290
+[2023-04-09 15:30:48.358] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 1.377 Time: 24.667
+[2023-04-09 15:30:48.371] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 0.002 Time: 24.669
+[2023-04-09 15:30:48.388] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 000 Stamp: 0.025 Time: 24.694
+[2023-04-09 15:30:48.825] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 031 Stamp: 0.446 Time: 25.140
+[2023-04-09 15:30:48.838] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 049 Stamp: 0.002 Time: 25.142
+[2023-04-09 15:30:48.850] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 029 Stamp: 0.006 Time: 25.148
+[2023-04-09 15:30:52.512] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 3.674 Time: 28.822
+[2023-04-09 15:30:52.559] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 0.041 Time: 28.863
+[2023-04-09 15:30:52.572] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 000 Stamp: 0.014 Time: 28.877
+[2023-04-09 15:30:53.004] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 049 Stamp: 0.432 Time: 29.309
+[2023-04-09 15:30:53.018] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 036 Stamp: 0.002 Time: 29.311
+[2023-04-09 15:30:53.033] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 040 Stamp: 0.012 Time: 29.323
+[2023-04-09 15:30:55.408] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 Stamp: 2.392 Time: 31.715
+[2023-04-09 15:30:55.434] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 Stamp: 0.030 Time: 31.745
+[2023-04-09 15:30:55.447] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 000 Stamp: 0.003 Time: 31.748
+[2023-04-09 15:40:08.620] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 15:40:08.620] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 15:49:23.764] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 15:49:23.764] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 15:49:34.698] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 044 Velocity: 025 DeltaStamp: 0.000 Time: 00.000
+[2023-04-09 15:49:34.775] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 044 Velocity: 000 DeltaStamp: 0.072 Time: 00.072
+[2023-04-09 15:49:35.048] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 047 Velocity: 050 DeltaStamp: 0.278 Time: 00.350
+[2023-04-09 15:49:35.158] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 047 Velocity: 000 DeltaStamp: 0.111 Time: 00.461
+[2023-04-09 15:49:35.437] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 046 Velocity: 045 DeltaStamp: 0.280 Time: 00.741
+[2023-04-09 15:49:35.931] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 046 Velocity: 000 DeltaStamp: 0.486 Time: 01.227
+[2023-04-09 15:49:36.427] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 057 DeltaStamp: 0.498 Time: 01.725
+[2023-04-09 15:49:36.440] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 045 Velocity: 058 DeltaStamp: 0.017 Time: 01.742
+[2023-04-09 15:49:36.957] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 045 Velocity: 000 DeltaStamp: 0.509 Time: 02.251
+[2023-04-09 15:49:36.970] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 000 DeltaStamp: 0.004 Time: 02.255
+[2023-04-09 15:49:37.458] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 022 DeltaStamp: 0.507 Time: 02.762
+[2023-04-09 15:49:37.504] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 023 DeltaStamp: 0.041 Time: 02.803
+[2023-04-09 15:49:38.062] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 DeltaStamp: 0.563 Time: 03.366
+[2023-04-09 15:49:38.074] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 000 DeltaStamp: 0.006 Time: 03.372
+[2023-04-09 15:49:38.590] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 039 Velocity: 032 DeltaStamp: 0.516 Time: 03.888
+[2023-04-09 15:49:38.624] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 063 DeltaStamp: 0.031 Time: 03.919
+[2023-04-09 15:49:39.012] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 039 Velocity: 000 DeltaStamp: 0.394 Time: 04.313
+[2023-04-09 15:49:39.026] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 000 DeltaStamp: 0.014 Time: 04.327
+[2023-04-09 15:49:40.423] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 048 DeltaStamp: 1.396 Time: 05.723
+[2023-04-09 15:49:40.436] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 048 DeltaStamp: 0.017 Time: 05.740
+[2023-04-09 15:49:40.450] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 040 DeltaStamp: 0.014 Time: 05.754
+[2023-04-09 15:49:41.124] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 DeltaStamp: 0.670 Time: 06.424
+[2023-04-09 15:49:41.138] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 000 DeltaStamp: 0.018 Time: 06.442
+[2023-04-09 15:49:41.162] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 DeltaStamp: 0.018 Time: 06.460
+[2023-04-09 15:49:41.443] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 042 DeltaStamp: 0.279 Time: 06.739
+[2023-04-09 15:49:41.456] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 027 DeltaStamp: 0.011 Time: 06.750
+[2023-04-09 15:49:41.470] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 036 DeltaStamp: 0.003 Time: 06.753
+[2023-04-09 15:49:42.105] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 DeltaStamp: 0.656 Time: 07.409
+[2023-04-09 15:49:42.129] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 000 DeltaStamp: 0.019 Time: 07.428
+[2023-04-09 15:49:42.144] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 040 Velocity: 000 DeltaStamp: 0.011 Time: 07.439
+[2023-04-09 15:49:42.620] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 047 DeltaStamp: 0.482 Time: 07.921
+[2023-04-09 15:49:42.635] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 045 Velocity: 038 DeltaStamp: 0.019 Time: 07.940
+[2023-04-09 15:49:42.649] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 034 DeltaStamp: 0.008 Time: 07.948
+[2023-04-09 15:49:43.286] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 000 DeltaStamp: 0.635 Time: 08.583
+[2023-04-09 15:49:43.341] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 045 Velocity: 000 DeltaStamp: 0.058 Time: 08.641
+[2023-04-09 15:49:43.355] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 000 DeltaStamp: 0.007 Time: 08.648
+[2023-04-09 15:49:43.601] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 050 DeltaStamp: 0.258 Time: 08.906
+[2023-04-09 15:49:43.615] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 045 Velocity: 030 DeltaStamp: 0.001 Time: 08.907
+[2023-04-09 15:49:43.629] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 033 DeltaStamp: 0.025 Time: 08.932
+[2023-04-09 15:49:43.867] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 000 DeltaStamp: 0.233 Time: 09.165
+[2023-04-09 15:49:43.967] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 045 Velocity: 000 DeltaStamp: 0.104 Time: 09.269
+[2023-04-09 15:49:43.980] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 041 Velocity: 000 DeltaStamp: 0.010 Time: 09.279
+[2023-04-09 15:49:44.410] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 042 Velocity: 061 DeltaStamp: 0.429 Time: 09.708
+[2023-04-09 15:49:44.429] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 044 Velocity: 065 DeltaStamp: 0.007 Time: 09.715
+[2023-04-09 15:49:44.917] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 042 Velocity: 000 DeltaStamp: 0.505 Time: 10.220
+[2023-04-09 15:49:44.930] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 044 Velocity: 000 DeltaStamp: 0.005 Time: 10.225
+[2023-04-09 15:49:45.316] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 042 Velocity: 053 DeltaStamp: 0.387 Time: 10.612
+[2023-04-09 15:49:45.330] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 046 Velocity: 053 DeltaStamp: 0.003 Time: 10.615
+[2023-04-09 15:49:45.800] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 042 Velocity: 000 DeltaStamp: 0.486 Time: 11.101
+[2023-04-09 15:49:45.813] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 046 Velocity: 000 DeltaStamp: 0.011 Time: 11.112
+[2023-04-09 15:49:46.213] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 040 DeltaStamp: 0.404 Time: 11.516
+[2023-04-09 15:49:46.229] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 045 Velocity: 037 DeltaStamp: 0.009 Time: 11.525
+[2023-04-09 15:49:46.617] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 045 Velocity: 000 DeltaStamp: 0.389 Time: 11.914
+[2023-04-09 15:49:46.643] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 043 Velocity: 000 DeltaStamp: 0.033 Time: 11.947
+[2023-04-09 15:49:47.018] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 061 DeltaStamp: 0.366 Time: 12.313
+[2023-04-09 15:49:47.387] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 038 Velocity: 000 DeltaStamp: 0.369 Time: 12.682
+[2023-04-09 15:49:47.615] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 054 DeltaStamp: 0.231 Time: 12.913
+[2023-04-09 15:49:47.769] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 DeltaStamp: 0.153 Time: 13.066
+[2023-04-09 15:49:48.191] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 058 DeltaStamp: 0.424 Time: 13.490
+[2023-04-09 15:49:48.204] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 065 DeltaStamp: 0.000 Time: 13.490
+[2023-04-09 15:49:48.536] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 DeltaStamp: 0.348 Time: 13.838
+[2023-04-09 15:49:48.549] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 DeltaStamp: 0.017 Time: 13.855
+[2023-04-09 15:49:49.862] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 025 DeltaStamp: 1.309 Time: 15.164
+[2023-04-09 15:49:49.875] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 024 DeltaStamp: 0.004 Time: 15.168
+[2023-04-09 15:49:50.135] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 DeltaStamp: 0.269 Time: 15.437
+[2023-04-09 15:49:50.149] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 DeltaStamp: 0.005 Time: 15.442
+[2023-04-09 15:49:50.525] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 045 DeltaStamp: 0.389 Time: 15.831
+[2023-04-09 15:49:50.733] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 000 DeltaStamp: 0.201 Time: 16.032
+[2023-04-09 15:49:50.972] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 049 DeltaStamp: 0.242 Time: 16.274
+[2023-04-09 15:49:51.138] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 000 DeltaStamp: 0.158 Time: 16.432
+[2023-04-09 15:51:50.266] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 15:51:50.266] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 15:51:50.516] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 036 DeltaTime: 0.000 AbsoluteTime: 00.000
+[2023-04-09 15:51:50.528] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 032 DeltaTime: 0.007 AbsoluteTime: 00.007
+[2023-04-09 15:51:50.551] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 036 DeltaTime: 0.025 AbsoluteTime: 00.032
+[2023-04-09 15:51:50.607] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 000 DeltaTime: 0.057 AbsoluteTime: 00.089
+[2023-04-09 15:51:50.758] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 000 DeltaTime: 0.155 AbsoluteTime: 00.244
+[2023-04-09 15:51:50.772] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 DeltaTime: 0.000 AbsoluteTime: 00.244
+[2023-04-09 15:51:50.993] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 032 DeltaTime: 0.230 AbsoluteTime: 00.474
+[2023-04-09 15:51:51.029] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 037 DeltaTime: 0.007 AbsoluteTime: 00.481
+[2023-04-09 15:51:51.166] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 000 DeltaTime: 0.174 AbsoluteTime: 00.655
+[2023-04-09 15:51:51.193] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 000 DeltaTime: 0.024 AbsoluteTime: 00.679
+[2023-04-09 15:51:51.427] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 045 DeltaTime: 0.231 AbsoluteTime: 00.910
+[2023-04-09 15:51:51.439] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 045 DeltaTime: 0.004 AbsoluteTime: 00.914
+[2023-04-09 15:51:51.615] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 DeltaTime: 0.187 AbsoluteTime: 01.101
+[2023-04-09 15:51:51.627] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 DeltaTime: 0.008 AbsoluteTime: 01.109
+[2023-04-09 15:51:51.946] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 041 DeltaTime: 0.319 AbsoluteTime: 01.428
+[2023-04-09 15:51:51.958] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 045 DeltaTime: 0.011 AbsoluteTime: 01.439
+[2023-04-09 15:51:51.970] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 040 DeltaTime: 0.008 AbsoluteTime: 01.447
+[2023-04-09 15:51:52.099] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 DeltaTime: 0.133 AbsoluteTime: 01.580
+[2023-04-09 15:51:52.133] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 000 DeltaTime: 0.039 AbsoluteTime: 01.619
+[2023-04-09 15:51:52.145] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 000 DeltaTime: 0.003 AbsoluteTime: 01.622
+[2023-04-09 15:51:52.384] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 024 Velocity: 047 DeltaTime: 0.245 AbsoluteTime: 01.867
+[2023-04-09 15:51:52.396] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 023 Velocity: 046 DeltaTime: 0.002 AbsoluteTime: 01.869
+[2023-04-09 15:51:52.555] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 024 Velocity: 000 DeltaTime: 0.171 AbsoluteTime: 02.040
+[2023-04-09 15:51:52.568] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 023 Velocity: 000 DeltaTime: 0.003 AbsoluteTime: 02.043
+[2023-04-09 15:51:52.797] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 025 Velocity: 047 DeltaTime: 0.234 AbsoluteTime: 02.277
+[2023-04-09 15:51:52.991] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 025 Velocity: 000 DeltaTime: 0.201 AbsoluteTime: 02.478
+[2023-04-09 15:51:53.180] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 025 Velocity: 043 DeltaTime: 0.188 AbsoluteTime: 02.666
+[2023-04-09 15:51:53.192] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 027 Velocity: 053 DeltaTime: 0.008 AbsoluteTime: 02.674
+[2023-04-09 15:51:53.409] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 027 Velocity: 000 DeltaTime: 0.221 AbsoluteTime: 02.895
+[2023-04-09 15:51:53.423] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 025 Velocity: 000 DeltaTime: 0.003 AbsoluteTime: 02.898
+[2023-04-09 15:51:53.705] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 031 DeltaTime: 0.296 AbsoluteTime: 03.194
+[2023-04-09 15:51:53.719] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 024 Velocity: 040 DeltaTime: 0.006 AbsoluteTime: 03.200
+[2023-04-09 15:51:53.733] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 032 DeltaTime: 0.002 AbsoluteTime: 03.202
+[2023-04-09 15:51:53.928] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 000 DeltaTime: 0.206 AbsoluteTime: 03.408
+[2023-04-09 15:51:53.943] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 000 DeltaTime: 0.003 AbsoluteTime: 03.411
+[2023-04-09 15:51:53.957] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 024 Velocity: 000 DeltaTime: 0.007 AbsoluteTime: 03.418
+[2023-04-09 15:51:54.162] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 035 DeltaTime: 0.233 AbsoluteTime: 03.651
+[2023-04-09 15:51:54.179] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 040 DeltaTime: 0.004 AbsoluteTime: 03.655
+[2023-04-09 15:51:54.208] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 033 DeltaTime: 0.032 AbsoluteTime: 03.687
+[2023-04-09 15:51:54.222] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 040 DeltaTime: 0.011 AbsoluteTime: 03.698
+[2023-04-09 15:51:54.355] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 000 DeltaTime: 0.144 AbsoluteTime: 03.842
+[2023-04-09 15:51:54.369] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 000 DeltaTime: 0.012 AbsoluteTime: 03.854
+[2023-04-09 15:51:54.383] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 DeltaTime: 0.003 AbsoluteTime: 03.857
+[2023-04-09 15:51:54.398] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 000 DeltaTime: 0.003 AbsoluteTime: 03.860
+[2023-04-09 15:53:15.872] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 15:53:15.872] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 15:53:25.028] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 024 Velocity: 018 DeltaTime: 0.000 AbsoluteTime: 0000.000
+[2023-04-09 15:53:25.053] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 006 DeltaTime: 0.026 AbsoluteTime: 0000.026
+[2023-04-09 15:53:25.215] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 026 Velocity: 000 DeltaTime: 0.162 AbsoluteTime: 0000.188
+[2023-04-09 15:53:25.240] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 024 Velocity: 000 DeltaTime: 0.024 AbsoluteTime: 0000.212
+[2023-04-09 15:53:25.648] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 007 DeltaTime: 0.407 AbsoluteTime: 0000.619
+[2023-04-09 15:53:25.889] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 000 DeltaTime: 0.243 AbsoluteTime: 0000.862
+[2023-04-09 15:53:26.018] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 005 DeltaTime: 0.124 AbsoluteTime: 0000.986
+[2023-04-09 15:53:26.119] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 028 Velocity: 000 DeltaTime: 0.106 AbsoluteTime: 0001.092
+[2023-04-09 15:53:26.358] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 018 DeltaTime: 0.233 AbsoluteTime: 0001.325
+[2023-04-09 15:53:26.545] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 000 DeltaTime: 0.188 AbsoluteTime: 0001.513
+[2023-04-09 15:53:27.233] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 030 Velocity: 027 DeltaTime: 0.685 AbsoluteTime: 0002.198
+[2023-04-09 15:53:27.463] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 030 Velocity: 000 DeltaTime: 0.236 AbsoluteTime: 0002.434
+[2023-04-09 15:53:27.606] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 034 Velocity: 040 DeltaTime: 0.141 AbsoluteTime: 0002.575
+[2023-04-09 15:53:27.771] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 034 Velocity: 000 DeltaTime: 0.164 AbsoluteTime: 0002.739
+[2023-04-09 15:53:28.110] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 027 Velocity: 036 DeltaTime: 0.346 AbsoluteTime: 0003.085
+[2023-04-09 15:53:28.281] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 027 Velocity: 000 DeltaTime: 0.168 AbsoluteTime: 0003.253
+[2023-04-09 15:53:28.559] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 025 Velocity: 049 DeltaTime: 0.273 AbsoluteTime: 0003.526
+[2023-04-09 15:53:28.725] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 025 Velocity: 000 DeltaTime: 0.167 AbsoluteTime: 0003.693
+[2023-04-09 15:53:29.143] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 022 DeltaTime: 0.419 AbsoluteTime: 0004.112
+[2023-04-09 15:53:29.166] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 021 DeltaTime: 0.030 AbsoluteTime: 0004.142
+[2023-04-09 15:53:29.233] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 DeltaTime: 0.063 AbsoluteTime: 0004.205
+[2023-04-09 15:53:29.888] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 DeltaTime: 0.651 AbsoluteTime: 0004.856
+[2023-04-09 15:53:30.368] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 036 DeltaTime: 0.485 AbsoluteTime: 0005.341
+[2023-04-09 15:53:30.382] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 049 DeltaTime: 0.004 AbsoluteTime: 0005.345
+[2023-04-09 15:53:30.397] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 047 DeltaTime: 0.002 AbsoluteTime: 0005.347
+[2023-04-09 15:53:30.411] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 036 DeltaTime: 0.027 AbsoluteTime: 0005.374
+[2023-04-09 15:53:30.425] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 025 DeltaTime: 0.022 AbsoluteTime: 0005.396
+[2023-04-09 15:53:30.460] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 DeltaTime: 0.038 AbsoluteTime: 0005.434
+[2023-04-09 15:53:30.485] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 036 Velocity: 000 DeltaTime: 0.025 AbsoluteTime: 0005.459
+[2023-04-09 15:53:31.017] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 000 DeltaTime: 0.531 AbsoluteTime: 0005.990
+[2023-04-09 15:53:31.029] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 035 Velocity: 000 DeltaTime: 0.011 AbsoluteTime: 0006.001
+[2023-04-09 15:53:31.040] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 033 Velocity: 000 DeltaTime: 0.003 AbsoluteTime: 0006.004
+[2023-04-09 15:53:51.649] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 100 Velocity: 020 DeltaTime: 20.612 AbsoluteTime: 0026.616
+[2023-04-09 15:53:51.676] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 101 Velocity: 012 DeltaTime: 0.024 AbsoluteTime: 0026.640
+[2023-04-09 15:53:51.853] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 101 Velocity: 000 DeltaTime: 0.182 AbsoluteTime: 0026.822
+[2023-04-09 15:53:51.866] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 100 Velocity: 000 DeltaTime: 0.019 AbsoluteTime: 0026.841
+[2023-04-09 15:54:56.128] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 091 Velocity: 017 DeltaTime: 64.257 AbsoluteTime: 0091.098
+[2023-04-09 15:54:56.333] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 091 Velocity: 000 DeltaTime: 0.210 AbsoluteTime: 0091.308
+[2023-04-09 15:54:56.898] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 077 Velocity: 020 DeltaTime: 0.563 AbsoluteTime: 0091.871
+[2023-04-09 15:54:56.934] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 079 Velocity: 006 DeltaTime: 0.038 AbsoluteTime: 0091.909
+[2023-04-09 15:54:57.066] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 079 Velocity: 000 DeltaTime: 0.123 AbsoluteTime: 0092.032
+[2023-04-09 15:54:57.090] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 077 Velocity: 000 DeltaTime: 0.030 AbsoluteTime: 0092.062
+[2023-04-09 15:54:57.416] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 076 Velocity: 022 DeltaTime: 0.324 AbsoluteTime: 0092.386
+[2023-04-09 15:54:57.432] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 077 Velocity: 014 DeltaTime: 0.016 AbsoluteTime: 0092.402
+[2023-04-09 15:54:57.598] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 077 Velocity: 000 DeltaTime: 0.168 AbsoluteTime: 0092.570
+[2023-04-09 15:54:57.623] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 076 Velocity: 000 DeltaTime: 0.022 AbsoluteTime: 0092.592
+[2023-04-09 15:54:57.800] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 076 Velocity: 027 DeltaTime: 0.181 AbsoluteTime: 0092.773
+[2023-04-09 15:54:57.826] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 074 Velocity: 030 DeltaTime: 0.021 AbsoluteTime: 0092.794
+[2023-04-09 15:54:57.893] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 074 Velocity: 000 DeltaTime: 0.070 AbsoluteTime: 0092.864
+[2023-04-09 15:54:57.926] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 076 Velocity: 000 DeltaTime: 0.037 AbsoluteTime: 0092.901
+[2023-04-09 15:54:58.039] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 074 Velocity: 054 DeltaTime: 0.106 AbsoluteTime: 0093.007
+[2023-04-09 15:54:58.064] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 076 Velocity: 042 DeltaTime: 0.029 AbsoluteTime: 0093.036
+[2023-04-09 15:54:58.109] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 076 Velocity: 000 DeltaTime: 0.049 AbsoluteTime: 0093.085
+[2023-04-09 15:54:58.155] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 074 Velocity: 000 DeltaTime: 0.042 AbsoluteTime: 0093.127
+[2023-04-09 15:56:32.210] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 103 Velocity: 016 DeltaTime: 94.052 AbsoluteTime: 0187.179
+[2023-04-09 15:56:32.236] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 101 Velocity: 018 DeltaTime: 0.027 AbsoluteTime: 0187.206
+[2023-04-09 15:56:32.442] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 101 Velocity: 000 DeltaTime: 0.207 AbsoluteTime: 0187.413
+[2023-04-09 15:56:32.455] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 103 Velocity: 000 DeltaTime: 0.007 AbsoluteTime: 0187.420
+[2023-04-09 15:56:32.796] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 098 Velocity: 026 DeltaTime: 0.348 AbsoluteTime: 0187.768
+[2023-04-09 15:56:32.821] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 096 Velocity: 013 DeltaTime: 0.020 AbsoluteTime: 0187.788
+[2023-04-09 15:56:33.000] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 096 Velocity: 000 DeltaTime: 0.185 AbsoluteTime: 0187.973
+[2023-04-09 15:56:33.015] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 098 Velocity: 000 DeltaTime: 0.008 AbsoluteTime: 0187.981
+[2023-04-09 15:56:33.382] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 091 Velocity: 017 DeltaTime: 0.367 AbsoluteTime: 0188.348
+[2023-04-09 15:56:33.396] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 093 Velocity: 011 DeltaTime: 0.013 AbsoluteTime: 0188.361
+[2023-04-09 15:56:33.580] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 093 Velocity: 000 DeltaTime: 0.195 AbsoluteTime: 0188.556
+[2023-04-09 15:56:33.594] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 091 Velocity: 000 DeltaTime: 0.008 AbsoluteTime: 0188.564
+[2023-04-09 15:56:33.799] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 091 Velocity: 023 DeltaTime: 0.195 AbsoluteTime: 0188.759
+[2023-04-09 15:56:33.955] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 091 Velocity: 000 DeltaTime: 0.167 AbsoluteTime: 0188.926
+[2023-04-09 15:56:34.044] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 091 Velocity: 054 DeltaTime: 0.085 AbsoluteTime: 0189.011
+[2023-04-09 15:56:34.067] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 089 Velocity: 045 DeltaTime: 0.025 AbsoluteTime: 0189.036
+[2023-04-09 15:56:34.112] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 089 Velocity: 000 DeltaTime: 0.047 AbsoluteTime: 0189.083
+[2023-04-09 15:56:34.597] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 091 Velocity: 000 DeltaTime: 0.490 AbsoluteTime: 0189.573
+[2023-04-09 15:56:34.796] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 089 Velocity: 039 DeltaTime: 0.194 AbsoluteTime: 0189.767
+[2023-04-09 15:56:34.810] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 091 Velocity: 048 DeltaTime: 0.017 AbsoluteTime: 0189.784
+[2023-04-09 15:56:35.108] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 091 Velocity: 000 DeltaTime: 0.293 AbsoluteTime: 0190.077
+[2023-04-09 15:56:35.142] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 089 Velocity: 000 DeltaTime: 0.038 AbsoluteTime: 0190.115
+[2023-04-09 15:58:47.733] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 098 Velocity: 011 DeltaTime: 132.590 AbsoluteTime: 0322.705
+[2023-04-09 15:58:47.986] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 098 Velocity: 000 DeltaTime: 0.255 AbsoluteTime: 0322.960
+[2023-04-09 15:58:48.771] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 086 Velocity: 008 DeltaTime: 0.784 AbsoluteTime: 0323.744
+[2023-04-09 15:58:48.794] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 088 Velocity: 002 DeltaTime: 0.019 AbsoluteTime: 0323.763
+[2023-04-09 15:58:49.002] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 088 Velocity: 000 DeltaTime: 0.209 AbsoluteTime: 0323.972
+[2023-04-09 15:58:49.018] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 086 Velocity: 000 DeltaTime: 0.011 AbsoluteTime: 0323.983
+[2023-04-09 15:58:49.599] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 071 Velocity: 017 DeltaTime: 0.591 AbsoluteTime: 0324.574
+[2023-04-09 15:58:49.633] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 072 Velocity: 003 DeltaTime: 0.030 AbsoluteTime: 0324.604
+[2023-04-09 15:58:49.781] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 072 Velocity: 000 DeltaTime: 0.155 AbsoluteTime: 0324.759
+[2023-04-09 15:58:49.818] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 071 Velocity: 000 DeltaTime: 0.029 AbsoluteTime: 0324.788
+[2023-04-09 16:00:22.268] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 096 Velocity: 009 DeltaTime: 92.450 AbsoluteTime: 0417.238
+[2023-04-09 16:00:22.282] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 098 Velocity: 002 DeltaTime: 0.014 AbsoluteTime: 0417.252
+[2023-04-09 16:00:22.457] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 098 Velocity: 000 DeltaTime: 0.176 AbsoluteTime: 0417.428
+[2023-04-09 16:00:22.481] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 096 Velocity: 000 DeltaTime: 0.021 AbsoluteTime: 0417.449
+[2023-04-09 16:00:23.156] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 020 DeltaTime: 0.675 AbsoluteTime: 0418.124
+[2023-04-09 16:00:23.170] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 065 Velocity: 022 DeltaTime: 0.002 AbsoluteTime: 0418.126
+[2023-04-09 16:00:23.389] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 065 Velocity: 000 DeltaTime: 0.231 AbsoluteTime: 0418.357
+[2023-04-09 16:00:23.402] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 064 Velocity: 000 DeltaTime: 0.009 AbsoluteTime: 0418.366
+[2023-04-09 16:00:24.003] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 016 DeltaTime: 0.609 AbsoluteTime: 0418.975
+[2023-04-09 16:00:24.236] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 053 Velocity: 000 DeltaTime: 0.225 AbsoluteTime: 0419.200
+[2023-04-09 16:00:24.809] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 017 DeltaTime: 0.583 AbsoluteTime: 0419.783
+[2023-04-09 16:00:24.823] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 014 DeltaTime: 0.002 AbsoluteTime: 0419.785
+[2023-04-09 16:00:24.965] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 029 Velocity: 000 DeltaTime: 0.152 AbsoluteTime: 0419.937
+[2023-04-09 16:00:24.979] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 031 Velocity: 000 DeltaTime: 0.002 AbsoluteTime: 0419.939
+[2023-04-09 16:00:25.426] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 030 Velocity: 002 DeltaTime: 0.460 AbsoluteTime: 0420.399
+[2023-04-09 16:00:25.473] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 032 Velocity: 002 DeltaTime: 0.039 AbsoluteTime: 0420.438
+[2023-04-09 16:00:25.735] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 032 Velocity: 000 DeltaTime: 0.269 AbsoluteTime: 0420.707
+[2023-04-09 16:00:25.769] [daily_logger] [info] Entree Midi: 1 Piano: 0x90 Pitch: 030 Velocity: 000 DeltaTime: 0.034 AbsoluteTime: 0420.741
+[2023-04-09 16:03:16.891] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 16:03:16.892] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 16:03:16.970] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 031 Velocity: 008 DeltaTime: 0000.000 AbsoluteTime: 0000.000
+[2023-04-09 16:03:17.105] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 031 Velocity: 000 DeltaTime: 0000.141 AbsoluteTime: 0000.141
+[2023-04-09 16:03:17.117] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 000 DeltaTime: 0000.008 AbsoluteTime: 0000.149
+[2023-04-09 16:03:17.597] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 031 Velocity: 012 DeltaTime: 0000.481 AbsoluteTime: 0000.630
+[2023-04-09 16:03:17.610] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 033 Velocity: 008 DeltaTime: 0000.018 AbsoluteTime: 0000.648
+[2023-04-09 16:03:17.763] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 033 Velocity: 000 DeltaTime: 0000.149 AbsoluteTime: 0000.797
+[2023-04-09 16:03:17.778] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 031 Velocity: 000 DeltaTime: 0000.002 AbsoluteTime: 0000.799
+[2023-04-09 16:03:18.198] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 026 Velocity: 019 DeltaTime: 0000.431 AbsoluteTime: 0001.230
+[2023-04-09 16:03:18.210] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 028 Velocity: 015 DeltaTime: 0000.012 AbsoluteTime: 0001.242
+[2023-04-09 16:03:18.377] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 028 Velocity: 000 DeltaTime: 0000.174 AbsoluteTime: 0001.416
+[2023-04-09 16:03:18.389] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 026 Velocity: 000 DeltaTime: 0000.003 AbsoluteTime: 0001.419
+[2023-04-09 16:04:40.191] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-04-09 16:04:40.191] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-04-09 16:04:45.061] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 024 Velocity: 002 DeltaTime: 0000.000 AbsoluteTime: 0000.000
+[2023-04-09 16:04:45.502] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 024 Velocity: 000 DeltaTime: 0000.446 AbsoluteTime: 0000.446
+[2023-04-09 16:04:45.964] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 026 Velocity: 017 DeltaTime: 0000.466 AbsoluteTime: 0000.912
+[2023-04-09 16:04:46.221] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 026 Velocity: 000 DeltaTime: 0000.250 AbsoluteTime: 0001.162
+[2023-04-09 16:04:46.593] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 028 Velocity: 018 DeltaTime: 0000.375 AbsoluteTime: 0001.537
+[2023-04-09 16:04:46.616] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 015 DeltaTime: 0000.023 AbsoluteTime: 0001.560
+[2023-04-09 16:04:46.802] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 000 DeltaTime: 0000.187 AbsoluteTime: 0001.747
+[2023-04-09 16:04:46.816] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 028 Velocity: 000 DeltaTime: 0000.016 AbsoluteTime: 0001.763
+[2023-04-09 16:04:47.156] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 031 Velocity: 018 DeltaTime: 0000.331 AbsoluteTime: 0002.094
+[2023-04-09 16:04:47.169] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 011 DeltaTime: 0000.017 AbsoluteTime: 0002.111
+[2023-04-09 16:04:47.310] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 000 DeltaTime: 0000.139 AbsoluteTime: 0002.250
+[2023-04-09 16:04:47.323] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 031 Velocity: 000 DeltaTime: 0000.010 AbsoluteTime: 0002.260
+[2023-04-09 16:06:55.983] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 086 Velocity: 029 DeltaTime: 0128.665 AbsoluteTime: 0130.925
+[2023-04-09 16:06:55.995] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 088 Velocity: 028 DeltaTime: 0000.002 AbsoluteTime: 0130.927
+[2023-04-09 16:06:56.007] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 084 Velocity: 029 DeltaTime: 0000.002 AbsoluteTime: 0130.929
+[2023-04-09 16:06:56.019] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 089 Velocity: 027 DeltaTime: 0000.020 AbsoluteTime: 0130.949
+[2023-04-09 16:06:56.510] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 089 Velocity: 000 DeltaTime: 0000.499 AbsoluteTime: 0131.448
+[2023-04-09 16:06:56.547] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 086 Velocity: 000 DeltaTime: 0000.037 AbsoluteTime: 0131.485
+[2023-04-09 16:06:56.560] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 084 Velocity: 000 DeltaTime: 0000.003 AbsoluteTime: 0131.488
+[2023-04-09 16:06:56.575] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 088 Velocity: 000 DeltaTime: 0000.002 AbsoluteTime: 0131.490
+[2023-04-09 16:06:57.153] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 074 Velocity: 035 DeltaTime: 0000.601 AbsoluteTime: 0132.091
+[2023-04-09 16:06:57.168] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 076 Velocity: 033 DeltaTime: 0000.005 AbsoluteTime: 0132.096
+[2023-04-09 16:06:57.182] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 077 Velocity: 030 DeltaTime: 0000.005 AbsoluteTime: 0132.101
+[2023-04-09 16:06:57.196] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 072 Velocity: 025 DeltaTime: 0000.022 AbsoluteTime: 0132.123
+[2023-04-09 16:06:57.556] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 072 Velocity: 000 DeltaTime: 0000.370 AbsoluteTime: 0132.493
+[2023-04-09 16:06:57.580] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 077 Velocity: 000 DeltaTime: 0000.025 AbsoluteTime: 0132.518
+[2023-04-09 16:06:57.594] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 076 Velocity: 000 DeltaTime: 0000.006 AbsoluteTime: 0132.524
+[2023-04-09 16:06:57.608] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 074 Velocity: 000 DeltaTime: 0000.004 AbsoluteTime: 0132.528
+[2023-04-09 16:09:11.842] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 024 DeltaTime: 0134.256 AbsoluteTime: 0266.784
+[2023-04-09 16:09:11.856] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 028 Velocity: 018 DeltaTime: 0000.004 AbsoluteTime: 0266.788
+[2023-04-09 16:09:12.149] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 028 Velocity: 000 DeltaTime: 0000.303 AbsoluteTime: 0267.091
+[2023-04-09 16:09:12.162] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 029 Velocity: 000 DeltaTime: 0000.008 AbsoluteTime: 0267.099
+[2023-04-09 16:09:12.730] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 040 Velocity: 022 DeltaTime: 0000.579 AbsoluteTime: 0267.678
+[2023-04-09 16:09:12.743] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 038 Velocity: 023 DeltaTime: 0000.003 AbsoluteTime: 0267.681
+[2023-04-09 16:09:12.971] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 038 Velocity: 000 DeltaTime: 0000.230 AbsoluteTime: 0267.911
+[2023-04-09 16:09:12.984] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 040 Velocity: 000 DeltaTime: 0000.010 AbsoluteTime: 0267.921
