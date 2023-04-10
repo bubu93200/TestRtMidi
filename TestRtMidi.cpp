@@ -12,6 +12,7 @@
 //    Windows : Les macros spécifiques à Windows incluent "_WIN32" pour les applications 32 bits et 64 bits, 
 //              "_WIN64" pour les applications 64 bits uniquement, 
 //              et "_WINDOWS" pour toutes les versions de Windows.
+// *_WINDOWS ne fonctionne pas
 //    Linux: Les macros spécifiques à Linux incluent "linux" et "gnu_linux".
 //           Ces macros sont généralement utilisées pour la compilation de code sur des systèmes Linux et GNU.
 //    Android : Les macros spécifiques à Android incluent "ANDROID" et "ANDROID_API".
@@ -27,8 +28,9 @@
 #define __WINDOWS_MM__ // Ne fonctionne Pas. Il faut mettre cette définition dans RtMidi.h
 
 // Platform-dependent sleep routines.
-#ifdef _WINDOWS
-    #include <windows.h>
+#ifdef _WIN32 // OS Windows
+#include <cstdlib> // Gestion dynamique de la mémoire
+#include <windows.h>
 #endif // _WINDOWS
 
 
@@ -63,7 +65,6 @@ int main( int argc, char* argv[] )
     ////////////////////////////////////////////////////////////////////////
     // Initialisation des variables
     RtMidiIn* midiin = 0;
-    std::vector<unsigned char> message;
     double deltaTime = 0.0;
     double absoluteTime = 0.0;
     ////////////////////////////////////////////////////////////////////////
@@ -95,6 +96,33 @@ int main( int argc, char* argv[] )
     // Minimal command-line check.
     if (argc > 2) usage(logger);
 
+#ifdef _WIN32 // OS Windows
+    //////////////////////////////////////////////
+    //  Gestion dynamique de la mémoire         //
+    // Define the shared memory segment name and size
+    logger->info("Gestion dynamique de la memoire : debut initialisation");
+    const char* memname = "mididata";
+    const int SIZE = 1024;
+
+    // Open the shared memory segment
+    HANDLE shm_handle = CreateFileMappingA(INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE, 0, SIZE, memname);
+    if (shm_handle == NULL) {
+        std::cerr << "Error opening shared memory segment" << std::endl;
+        logger->error("Error opening shared memory segment");
+        return -1;
+    }
+
+    // Map the shared memory segment to the process's address space
+    char* data = (char*)MapViewOfFile(shm_handle, FILE_MAP_ALL_ACCESS, 0, 0, SIZE);
+    if (data == NULL) {
+        std::cerr << "Error mapping shared memory segment" << std::endl;
+        logger->error("Error mapping shared memory segment");
+        CloseHandle(shm_handle);
+        return -1;
+    }
+    logger->info("Gestion dynamique de la memoire : fin initialisation");
+    //////////////////////////////////////////////
+#endif // _WINDOWS
 
     // RtMidiIn constructor
     try {
@@ -145,6 +173,11 @@ int main( int argc, char* argv[] )
 
     while (!done) {
         
+        // Reservation d'espace
+        std::vector<unsigned char> message;
+        message.reserve(3); // MIDI messages have at most 3 bytes
+        //TODO : Assertion a vérifier. 1 byte commande, 1 byte velocity, 4 bytes pour la datation ?
+
         // TODO : stamp a remplacer ?
         // midiin.getMessage(&message);
         // stamp = midiin.getMessageTimeStamp();
@@ -168,6 +201,19 @@ int main( int argc, char* argv[] )
         //midiin.getMessage(&message);
         //stamp = midiin.getMessageTimeStamp();
         ///////////
+
+        if (message.size() > 0) {
+            // Write the MIDI message to the shared memory segment
+            std::memcpy(data, message.data(), message.size());
+            // Add a null terminator to the end of the message to ensure it can be read as a string
+            data[message.size()] = '\0';
+            // Print the MIDI message to the console
+            
+            
+            std::cout << std::hex << (char*)message.data() << std::endl; // Problème d'affichage
+            //TODO : ajouter une info log
+            
+        }
 
         int nBytes = (int) message.size();
         for (int i = 0; i < nBytes; i++) {
@@ -198,10 +244,19 @@ int main( int argc, char* argv[] )
         // Test touche entrée pour sortir
         if (_kbhit())
             done = true;
-
     }
 
-    
+    // Unmap the shared memory segment
+    if (UnmapViewOfFile(data) == 0) {
+        logger->error("Error unmapping shared memory segment");
+        std::cerr << "Error unmapping shared memory segment" << std::endl;
+        CloseHandle(shm_handle);
+        return -1;
+    }
+
+    // Close the shared memory handle
+    CloseHandle(shm_handle);
+
 
     // TODO : Ecritude du fichier midi
   
