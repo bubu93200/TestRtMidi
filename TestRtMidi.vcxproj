@@ -151,6 +151,7 @@
   <ItemGroup>
     <Text Include="TestRtMidi_2023-04-09.log" />
     <Text Include="TestRtMidi_2023-04-10.log" />
+    <Text Include="TestRtMidi_2023-04-11.log" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
