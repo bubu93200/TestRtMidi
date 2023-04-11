@@ -225,21 +225,26 @@ int main( int argc, char* argv[] )
         ///////////
 
         if (message.size() > 0) {
-            // Write the MIDI message to the shared memory segment
-            std::memcpy(data, message.data(), message.size());
             // Add a null terminator to the end of the message to ensure it can be read as a string
             data[message.size()] = '\0';
+            // Write the MIDI message to the shared memory segment
+            std::memcpy(data, message.data(), message.size());
+           
             // Print the MIDI message to the console
-            
-            
-            std::cout << std::hex << (char*)message.data() << std::endl; // Problème d'affichage
+            //std::cout << std::hex << (char*)message.data() << std::endl; // Problème d'affichage
+
+            // Afficher chaque caractère du vecteur en hexadécimal
+            for (const char& c : message ) {
+                std::cout << std::hex << static_cast<int>(c) << " ";
+            }
+            std::cout << std::endl;
             //TODO : ajouter une info log
             
         }
 
         int nBytes = (int) message.size();
         for (int i = 0; i < nBytes; i++) {
-            std::cout << "Byte " << i << " = " << (int)message[i] << ", ";
+            std::cout << std::dec << "Byte " << i << " = " << (int)message[i] << ", ";
             //Byte 0 = 144 (0x90) (note on) / 144 (note off ? Normalement ça devrait être 128); Byte 1 = Note (pitch); Byte 2 = Velocity suivi de 0 (off); stamp = (en secondes) => note on = durée depuis le denier off. Note off = durée de la note
             // left pedal  : Byte 0 = 176 (0xb0); Byte 1 = 67; Byte 2 = velocity (127)
             // middle pedal  : Byte 0 = 176 (0xb0); Byte 1 = 66; Byte 2 = velocity (127)
