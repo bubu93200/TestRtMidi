@@ -225,9 +225,16 @@ int main( int argc, char* argv[] )
         //stamp = midiin.getMessageTimeStamp();
         ///////////
 
+
+        
         if (message.size() > 0) {
-            // Add a null terminator to the end of the message to ensure it can be read as a string
-            data[message.size()] = '\0';
+
+            // Formatage du message
+            // D'abord l'horodatage : temps depuis le début de l'écoute (double)
+            // Message Midi (qui peut contenir 00)
+            // Caractere de fin de message 0xFF
+            message.insert(message.begin(), (double)absoluteTime);  // horodatage : temps depuis le début de l'écoute (double)
+            message.push_back(0xFF);  // Caractere de fin de message 0xFF
             
             // Write the MIDI message to the shared memory segment
             std::memcpy(data, message.data(), message.size());
