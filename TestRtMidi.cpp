@@ -1,3 +1,18 @@
+//=============================================================================
+//  Midi Instrument Training plugin for MuseScore
+//  Copyright (C) 2014 Jean-Baptiste Delisle
+//  Based on colornotes plugin :
+//  Copyright (C) 2012 Werner Schweer
+//  Copyright (C) 2013 Nicolas Froment, Joachim Schmitz
+//
+//  This program is free software; you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License version 2
+//  as published by the Free Software Foundation and appearing in
+//  the file LICENCE.GPL
+//=============================================================================
+// Mise à jour pour MuseScore 3
+// Copyright (C) 2022 Bruno Donati
+//=============================================================================
 // TestRtMidi.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
 // Version de test
 // Fonctionnalités utilisables :
@@ -6,7 +21,7 @@
 // TODO : Table de traduction entre instrument et norme midi si l'instrument n'est pas tout à fait conforme
 // TODO : Passage des paramètres Midi vers le programme appelant en utilisant la RAM
 // TODO : Passage des autres paramètres du programme appelant vers ce programme
-
+//=============================================================================
 
 // Compilation mutliplateformes :
 //    Windows : Les macros spécifiques à Windows incluent "_WIN32" pour les applications 32 bits et 64 bits, 
