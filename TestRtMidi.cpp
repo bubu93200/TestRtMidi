@@ -124,6 +124,10 @@ int main( int argc, char* argv[] )
     logger->info("Gestion dynamique de la memoire : debut initialisation");
     const char* memname = "mididata";
     const int SIZE = 1024;
+    // Reservation d'espace
+    std::vector<unsigned char> message;
+    message.reserve(SIZE); // Reservation de la totalité de la mémoire allouée
+    
 
     // Open the shared memory segment
     HANDLE shm_handle = CreateFileMappingA(INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE, 0, SIZE, memname);
@@ -186,7 +190,7 @@ int main( int argc, char* argv[] )
 
     // Install an interrupt handler function.
     done = false;
-    (void)signal(SIGINT, finish);
+    (void)signal(SIGINT, finish); // Terminer le programme si CTRL-C. Ne fonctionne pas
 
     // Periodically check input queue.
     std::cout << "Reading MIDI from port " << midiin->getPortName() << " ... quit with Ctrl-C.\n";
@@ -194,10 +198,7 @@ int main( int argc, char* argv[] )
 
     while (!done) {
         
-        // Reservation d'espace
-        std::vector<unsigned char> message;
-        message.reserve(3); // MIDI messages have at most 3 bytes
-        //TODO : Assertion a vérifier. 1 byte commande, 1 byte velocity, 4 bytes pour la datation ?
+        
 
         // TODO : stamp a remplacer ?
         // midiin.getMessage(&message);
