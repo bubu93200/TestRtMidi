@@ -38,6 +38,7 @@
 
 #include <fstream>
 #include <iostream>
+#include <sstream>
 #include <cstdlib>
 #include <signal.h>
 
@@ -227,6 +228,7 @@ int main( int argc, char* argv[] )
         if (message.size() > 0) {
             // Add a null terminator to the end of the message to ensure it can be read as a string
             data[message.size()] = '\0';
+            
             // Write the MIDI message to the shared memory segment
             std::memcpy(data, message.data(), message.size());
            
