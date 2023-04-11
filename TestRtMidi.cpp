@@ -64,9 +64,9 @@
 
 // Variables définies par le programme appelant
 
-bool LOG = true; // enregistrement d'un fichier de log
+bool LOG_CONSOLE = true; // visualisation du fichier de log sur la console
+bool LOG_FILE = false; // enregistrement d'un fichier de log
 bool MIDI = true; // enregistrement d'un fichier midi
-bool ConsoleLog = false; // Enregistrement du fichier de log vers la console. Sinon enrtegistrement vers un fichier journalier
 bool done;
 auto dailyfilelog = "TestRtMidi.log";
 static void finish(int /*ignore*/) { done = true; }
@@ -91,12 +91,16 @@ int main( int argc, char* argv[] )
 
     auto logger = std::shared_ptr<spdlog::logger>(); // Define logger outside the switch statement
 
-    switch (ConsoleLog ? 1 : 0) {
-    case 0:
-        logger = spdlog::daily_logger_mt("daily_logger", dailyfilelog, 0, 0);
-        break;
+    switch (LOG_FILE ? 1 : 0) {
     case 1:
+        logger = spdlog::daily_logger_mt("daily_logger", dailyfilelog, 0, 0);
+        LOG_CONSOLE = false;
+        break;
+    case 0:
         logger = spdlog::stdout_color_mt("console_logger");
+        if (!LOG_CONSOLE)
+            // Désactiver complètement les logs en définissant le niveau de journalisation à "off"
+            logger->set_level(spdlog::level::off);
         break; 
     default:
         break;
@@ -104,6 +108,7 @@ int main( int argc, char* argv[] )
     
     spdlog::flush_every(std::chrono::seconds(3));
     // Log beginning messages using spdlog::info
+    logger->info("**********************************************************");
     logger->info("******************** Welcome to spdlog! ******************");
     logger->info("************ Demarrage du programme TestRtMidi ***********");
     /////////////////////////////////////////////////////////////////////////////////
@@ -243,8 +248,11 @@ int main( int argc, char* argv[] )
                 // TODO : Écrire le message MIDI dans le fichier de sortie
                 // Format complexe. 
             }
-            if (LOG) {
-                // Write to file log
+            if (LOG_CONSOLE) {
+                // Write to console log
+            }
+            if (LOG_FILE) {
+                // Write to console log
             }
         }
 
