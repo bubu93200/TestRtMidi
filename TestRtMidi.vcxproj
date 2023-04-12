@@ -71,7 +71,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <ExternalIncludePath>C:\Users\bubu\source\repos\TestRtMidi\include;$(ExternalIncludePath)</ExternalIncludePath>
+    <ExternalIncludePath>C:\Users\bubu\source\repos\TestRtMidi\include;C:\Users\bubu\source\repos\AffichageMidi\include;$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
