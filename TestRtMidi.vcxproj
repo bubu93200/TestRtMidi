@@ -132,7 +132,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="RtMidi.cpp" />
-    <ClCompile Include="TestRtMidi.cpp" />
+    <ClCompile Include="EcouteRtMidi.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\spdlog\common.h" />
@@ -143,6 +143,7 @@
     <None Include=".gitattributes" />
     <None Include=".gitignore" />
     <None Include="cpp.hint" />
+    <None Include="EcouteRtMidi.cpp.000" />
     <None Include="output.mid" />
     <None Include="TestRtMidi.cpp.000" />
     <None Include="TestRtMidi.cpp.001" />
