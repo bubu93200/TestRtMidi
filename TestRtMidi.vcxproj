@@ -133,6 +133,7 @@
   <ItemGroup>
     <ClCompile Include="RtMidi.cpp" />
     <ClCompile Include="EcouteRtMidi.cpp" />
+    <ClCompile Include="TestRtMidi.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\spdlog\common.h" />
