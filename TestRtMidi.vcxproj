@@ -132,7 +132,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="RtMidi.cpp" />
-    <ClCompile Include="EcouteRtMidi.cpp" />
     <ClCompile Include="TestRtMidi.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -144,7 +143,6 @@
     <None Include=".gitattributes" />
     <None Include=".gitignore" />
     <None Include="cpp.hint" />
-    <None Include="EcouteRtMidi.cpp.000" />
     <None Include="output.mid" />
     <None Include="TestRtMidi.cpp.000" />
     <None Include="TestRtMidi.cpp.001" />

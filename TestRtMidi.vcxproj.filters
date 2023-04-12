@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EcouteRtMidi.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="RtMidi.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
@@ -44,7 +41,6 @@
     <None Include="TestRtMidi.cpp.000" />
     <None Include="TestRtMidi.cpp.001" />
     <None Include="TestRtMidi.cpp.002" />
-    <None Include="EcouteRtMidi.cpp.000" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="TestRtMidi_2023-04-09.log" />
