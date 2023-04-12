@@ -44,7 +44,7 @@
 
 #define __WINDOWS_MM__ // Ne fonctionne Pas. Il faut mettre cette définition dans RtMidi.h
 
-// Platform-dependent sleep routines.
+// Platform-dependent sleep  routines.
 #ifdef _WIN32 // OS Windows
 #include <cstdlib> // Gestion dynamique de la mémoire
 #include <windows.h>
