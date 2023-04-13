@@ -64,7 +64,7 @@
 
 
 // Variables définies par le programme appelant
-
+constexpr double messageEOF = -1;
 bool LOG_CONSOLE = true; // visualisation du fichier de log sur la console
 bool LOG_FILE = false; // enregistrement d'un fichier de log
 bool MIDI = true; // enregistrement d'un fichier midi
@@ -123,27 +123,27 @@ int main( int argc, char* argv[] )
     //  Gestion dynamique de la mémoire         //
     // Define the shared memory segment name and size
     logger->info("Gestion dynamique de la memoire : debut initialisation");
-    const char* memname = "mididata";
-    const int SIZE = 1024;
+    const char* midisharedmemory = "MidiSharedMemory";
+    const int SIZE_BUFFER = 1024;
     // Reservation d'espace
     std::vector<unsigned char> message;
-    message.reserve(SIZE); // Reservation de la totalité de la mémoire allouée
+    message.reserve(SIZE_BUFFER); // Reservation de la totalité de la mémoire allouée
     
 
     // Open the shared memory segment
-    HANDLE shm_handle = CreateFileMappingA(INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE, 0, SIZE, memname);
-    if (shm_handle == NULL) {
+    HANDLE shared_memory_handle = CreateFileMappingA(INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE, 0, SIZE_BUFFER , midisharedmemory);
+    if (shared_memory_handle == NULL) {
         std::cerr << "Error opening shared memory segment" << std::endl;
         logger->error("Error opening shared memory segment");
         return -1;
     }
-
+    
     // Map the shared memory segment to the process's address space
-    char* data = (char*)MapViewOfFile(shm_handle, FILE_MAP_ALL_ACCESS, 0, 0, SIZE);
-    if (data == NULL) {
+    void* shared_memory_ptr = (void*)MapViewOfFile(shared_memory_handle, FILE_MAP_ALL_ACCESS, 0, 0, SIZE_BUFFER);
+    if (shared_memory_ptr == NULL) {
         std::cerr << "Error mapping shared memory segment" << std::endl;
         logger->error("Error mapping shared memory segment");
-        CloseHandle(shm_handle);
+        CloseHandle(shared_memory_handle);
         return -1;
     }
     logger->info("Gestion dynamique de la memoire : fin initialisation");
@@ -227,17 +227,33 @@ int main( int argc, char* argv[] )
 
 
         
-        if (message.size() > 0) {
-
-            // Formatage du message
+        if (message.size() > 0) { // le message existe
+            /////////////////////////////////////////////////////////////////////
+            // Formatage du message MIDI
             // D'abord l'horodatage : temps depuis le début de l'écoute (double)
-            // Message Midi (qui peut contenir 00)
-            // Caractere de fin de message 0xFF
-            message.insert(message.begin(), (double)absoluteTime);  // horodatage : temps depuis le début de l'écoute (double)
-            message.push_back(0xFF);  // Caractere de fin de message 0xFF
+            // Puis les Message Midi (qui peuvent contenir 00)
+            // Si on rencontre -1 sur l'horodatage (double), on est arrivé au dernier message
+            auto data1 = message.size() > 0 ? message[0] : -1;
+            auto data2 = message.size() > 1 ? message[1] : -1;
+            auto data3 = message.size() > 2 ? message[2] : -1;
+            // Stockage du message MIDI dans la zone de mémoire partagée
+            auto* time_ptr = static_cast<decltype(absoluteTime)*>(shared_memory_ptr);
+            auto* data1_ptr = static_cast<decltype(data1)*>(shared_memory_ptr) + sizeof(absoluteTime);
+            auto* data2_ptr = static_cast<decltype(data2)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1);
+            auto* data3_ptr = static_cast<decltype(data3)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1) + sizeof(data2);
+            auto* EOF_ptr = static_cast<decltype(absoluteTime)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1) + sizeof(data2) + sizeof(data3);
+            // Stockage du message MIDI daté dans la zone de mémoire partagée
+            *time_ptr = absoluteTime;
+            *data1_ptr = data1;
+            *data2_ptr = data2;
+            *data3_ptr = data3;
+            *EOF_ptr = messageEOF;// -1 (double : taille de la datation)
+            
+            //message.insert(message.begin(), (double)absoluteTime);  // horodatage : temps depuis le début de l'écoute (double)
+            //message.push_back(0xFF);  // Caractere de fin de message 0xFF
             
             // Write the MIDI message to the shared memory segment
-            std::memcpy(data, message.data(), message.size());
+            std::memcpy(shared_memory_ptr, message.data(), message.size());
            
             // Print the MIDI message to the console
             //std::cout << std::hex << (char*)message.data() << std::endl; // Problème d'affichage
@@ -246,6 +262,7 @@ int main( int argc, char* argv[] )
             for (const char& c : message ) {
                 std::cout << std::hex << static_cast<int>(c) << " ";
             }
+            std::cout << " taille: " << sizeof(absoluteTime) << " " << sizeof(message[0]) << " " << sizeof(message[1]) << " " << sizeof(message[1]);
             std::cout << std::endl;
             //TODO : ajouter une info log
             
@@ -286,17 +303,17 @@ int main( int argc, char* argv[] )
     }
 
     // Unmap the shared memory segment
-    if (UnmapViewOfFile(data) == 0) {
+    if (UnmapViewOfFile(shared_memory_ptr) == 0) {
         logger->error("Error unmapping shared memory segment");
         std::cerr << "Error unmapping shared memory segment" << std::endl;
-        CloseHandle(shm_handle);
+        CloseHandle(shared_memory_handle);
         return -1;
     }
 
     // Close the shared memory handle
     logger->flush();
     logger->info("Gestion dynamique de la memoire : liberation de la memoire");
-    CloseHandle(shm_handle);
+    CloseHandle(shared_memory_handle);
 
 
     // TODO : Ecritude du fichier midi
