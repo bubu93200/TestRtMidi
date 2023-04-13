@@ -147,6 +147,7 @@
     <None Include="TestRtMidi.cpp.000" />
     <None Include="TestRtMidi.cpp.001" />
     <None Include="TestRtMidi.cpp.002" />
+    <None Include="TestRtMidi.cpp.003" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="TestRtMidi_2023-04-09.log" />
