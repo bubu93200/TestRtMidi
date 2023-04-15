@@ -77,263 +77,288 @@ void usage(std::shared_ptr<spdlog::logger> logger);
 
 
 
-int main( int argc, char* argv[] )
-{   
-    ////////////////////////////////////////////////////////////////////////
-    // Initialisation des variables
-    RtMidiIn* midiin = 0;
-    double deltaTime = 0.0;
-    double absoluteTime = 0.0;
-    ////////////////////////////////////////////////////////////////////////
-    
-    ////////////////////////////////////////////////////////////////////////
-    // INIT LOGGING
-    // Create a daily logger - a new file is created every day on 0:00am
+int main(int argc, char* argv[])
+{
+	////////////////////////////////////////////////////////////////////////
+	// Initialisation des variables
+	RtMidiIn* midiin = 0;
+	double deltaTime = 0.0;
+	double absoluteTime = 0.0;
+	////////////////////////////////////////////////////////////////////////
 
-    auto logger = std::shared_ptr<spdlog::logger>(); // Define logger outside the switch statement
+	////////////////////////////////////////////////////////////////////////
+	// INIT LOGGING
+	// Create a daily logger - a new file is created every day on 0:00am
 
-    switch (LOG_FILE ? 1 : 0) {
-    case 1:
-        logger = spdlog::daily_logger_mt("daily_logger", dailyfilelog, 0, 0);
-        LOG_CONSOLE = false;
-        break;
-    case 0:
-        logger = spdlog::stdout_color_mt("console_logger");
-        if (!LOG_CONSOLE)
-            // Désactiver complètement les logs en définissant le niveau de journalisation à "off"
-            logger->set_level(spdlog::level::off);
-        break; 
-    default:
-        break;
-    }
-    
-    spdlog::flush_every(std::chrono::seconds(3));
-    // Log beginning messages using spdlog::info
-    logger->info("**********************************************************");
-    logger->info("******************** Welcome to spdlog! ******************");
-    logger->info("************ Demarrage du programme TestRtMidi ***********");
-    /////////////////////////////////////////////////////////////////////////////////
-    
+	auto logger = std::shared_ptr<spdlog::logger>(); // Define logger outside the switch statement
 
-    // Minimal command-line check.
-    if (argc > 2) usage(logger);
+	switch (LOG_FILE ? 1 : 0) {
+	case 1:
+		logger = spdlog::daily_logger_mt("daily_logger", dailyfilelog, 0, 0);
+		LOG_CONSOLE = false;
+		break;
+	case 0:
+		logger = spdlog::stdout_color_mt("console_logger");
+		if (!LOG_CONSOLE)
+			// Désactiver complètement les logs en définissant le niveau de journalisation à "off"
+			logger->set_level(spdlog::level::off);
+		break;
+	default:
+		break;
+	}
+
+	spdlog::flush_every(std::chrono::seconds(3));
+	// Log beginning messages using spdlog::info
+	logger->info("**********************************************************");
+	logger->info("******************** Welcome to spdlog! ******************");
+	logger->info("************ Demarrage du programme TestRtMidi ***********");
+	/////////////////////////////////////////////////////////////////////////////////
+
+
+	// Minimal command-line check.
+	if (argc > 2) usage(logger);
 
 #ifdef _WIN32 // OS Windows
-    //////////////////////////////////////////////
-    //  Gestion dynamique de la mémoire         //
-    // Define the shared memory segment name and size
-    logger->info("Gestion dynamique de la memoire : debut initialisation");
-    const char* midisharedmemory = "MidiSharedMemory";
-    const int SIZE_BUFFER = 1024;
-    // Reservation d'espace
-    std::vector<unsigned char> message;
-    message.reserve(SIZE_BUFFER); // Reservation de la totalité de la mémoire allouée
-    
+	//////////////////////////////////////////////
+	//  Gestion dynamique de la mémoire         //
+	// Define the shared memory segment name and size
+	logger->info("Gestion dynamique de la memoire : debut initialisation");
+	const char* midisharedmemory = "MidiSharedMemory";
+	const int SIZE_BUFFER = 1024;
+	// Reservation d'espace
+	std::vector<unsigned char> message;
+	message.reserve(SIZE_BUFFER); // Reservation de la totalité de la mémoire allouée
 
-    // Open the shared memory segment
-    HANDLE shared_memory_handle = CreateFileMappingA(INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE, 0, SIZE_BUFFER , midisharedmemory);
-    if (shared_memory_handle == NULL) {
-        std::cerr << "Error opening shared memory segment" << std::endl;
-        logger->error("Error opening shared memory segment");
-        return -1;
-    }
-    
-    // Map the shared memory segment to the process's address space
-    void* shared_memory_ptr = (void*)MapViewOfFile(shared_memory_handle, FILE_MAP_ALL_ACCESS, 0, 0, SIZE_BUFFER);
-    if (shared_memory_ptr == NULL) {
-        std::cerr << "Error mapping shared memory segment" << std::endl;
-        logger->error("Error mapping shared memory segment");
-        CloseHandle(shared_memory_handle);
-        return -1;
-    }
-    logger->info("Gestion dynamique de la memoire : fin initialisation");
-    //////////////////////////////////////////////
+
+	// Open the shared memory segment
+	HANDLE shared_memory_handle = CreateFileMappingA(INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE, 0, SIZE_BUFFER, midisharedmemory);
+	if (shared_memory_handle == NULL) {
+		std::cerr << "Error opening shared memory segment" << std::endl;
+		logger->error("Error opening shared memory segment");
+		return -1;
+	}
+
+	// Map the shared memory segment to the process's address space
+	void* shared_memory_ptr_begin = (void*)MapViewOfFile(shared_memory_handle, FILE_MAP_ALL_ACCESS, 0, 0, SIZE_BUFFER);
+	void* shared_memory_ptr = shared_memory_ptr_begin; // Pointeur variable
+	if (shared_memory_ptr_begin == NULL) {
+		std::cerr << "Error mapping shared memory segment" << std::endl;
+		logger->error("Error mapping shared memory segment");
+		CloseHandle(shared_memory_handle);
+		return -1;
+	}
+	logger->info("Gestion dynamique de la memoire : fin initialisation");
+	//////////////////////////////////////////////
 #endif // _WINDOWS
 
-    // RtMidiIn constructor
-    try {
-        midiin = new RtMidiIn();
-    }
-    catch (RtMidiError& error) {
-        logger->error("Impossible de creer un flux midi en entree"); 
-        error.printMessage();
-        exit(EXIT_FAILURE);
-    }
+	// RtMidiIn constructor
+	try {
+		midiin = new RtMidiIn();
+	}
+	catch (RtMidiError& error) {
+		logger->error("Impossible de creer un flux midi en entree");
+		error.printMessage();
+		exit(EXIT_FAILURE);
+	}
 
-    if (MIDI) { // préparation du fichier au format midi
-          // TODO : Format complexe. A écrire plus tard   
-    }
+	if (MIDI) { // préparation du fichier au format midi
+		// TODO : Format complexe. A écrire plus tard   
+	}
 
-    // Check available ports vs. specified.
-    unsigned int port = 1; // port=1 pour le piano sinon ça ne fonctionne pas 
-    unsigned int nPorts = midiin->getPortCount();
-    if (argc == 2) port = (unsigned int)atoi(argv[1]); // midiin->openPort(port); port 1 pour que ça fonctionne avec le piano
-    if (port >= nPorts) {
-        delete midiin;
-        std::cout << "Invalid port specifier!\n";
-        logger->error("Invalid port specifier. port midi: {}", port);
-        usage(logger);
-    }
+	// Check available ports vs. specified.
+	unsigned int port = 1; // port=1 pour le piano sinon ça ne fonctionne pas 
+	unsigned int nPorts = midiin->getPortCount();
+	if (argc == 2) port = (unsigned int)atoi(argv[1]); // midiin->openPort(port); port 1 pour que ça fonctionne avec le piano
+	if (port >= nPorts) {
+		delete midiin;
+		std::cout << "Invalid port specifier!\n";
+		logger->error("Invalid port specifier. port midi: {}", port);
+		usage(logger);
+	}
 
-    try {
-        midiin->openPort(port); 
-    }
-    catch (RtMidiError& error) {
-        logger->error("Impossible d'ouvrir le port midi: {}", port);
-        error.printMessage();
-        delete midiin;
-        return -1;
-        //goto cleanup;
-    }
+	try {
+		midiin->openPort(port);
+	}
+	catch (RtMidiError& error) {
+		logger->error("Impossible d'ouvrir le port midi: {}", port);
+		error.printMessage();
+		delete midiin;
+		return -1;
+		//goto cleanup;
+	}
 
-    // Don't ignore sysex, timing, or active sensing messages.
-    midiin->ignoreTypes(false, false, false);
+	// Don't ignore sysex, timing, or active sensing messages.
+	midiin->ignoreTypes(false, false, false);
 
-    // Install an interrupt handler function.
-    done = false;
-    (void)signal(SIGINT, finish); // Terminer le programme si CTRL-C. Ne fonctionne pas
+	// Install an interrupt handler function.
+	done = false;
+	(void)signal(SIGINT, finish); // Terminer le programme si CTRL-C. Ne fonctionne pas
 
-    // Periodically check input queue.
-    std::cout << "Reading MIDI from port " << midiin->getPortName() << " ... quit with Ctrl-C.\n";
-    logger->flush();
+	// Periodically check input queue.
+	std::cout << "Reading MIDI from port " << midiin->getPortName() << " ... quit with Ctrl-C.\n";
+	logger->flush();
 
-    while (!done) {
-        
-        
-
-        // TODO : stamp a remplacer ?
-        // midiin.getMessage(&message);
-        // stamp = midiin.getMessageTimeStamp();
-
-        ///////// Faire le choix de la version 1 ou 2
-        // Version 1 Fonctionne
-        //stamp = midiin->getMessage(&message);
-        try { // Rtmidi hasn't absolut datation time
-            deltaTime = midiin->getMessage(&message); // It's the delta time of an event
-        }
-        catch (RtMidiError& error) {
-            logger->error("Impossible de lire le message midi");
-            error.printMessage();
-        }
-        // Datation absolue depuis le début
-        absoluteTime += deltaTime;
-
-        // Version 2
-        //midiin->getMessage(&message, &stamp);
-        // Version 3
-        //midiin.getMessage(&message);
-        //stamp = midiin.getMessageTimeStamp();
-        ///////////
+	while (!done) {
 
 
-        
-        if (message.size() > 0) { // le message existe
-            /////////////////////////////////////////////////////////////////////
-            // Formatage du message MIDI
-            // D'abord l'horodatage : temps depuis le début de l'écoute (double)
-            // Puis les Message Midi (qui peuvent contenir 00)
-            // Si on rencontre -1 sur l'horodatage (double), on est arrivé au dernier message
-            auto data1 = message.size() > 0 ? message[0] : -1;
-            auto data2 = message.size() > 1 ? message[1] : -1;
-            auto data3 = message.size() > 2 ? message[2] : -1;
-            // Stockage du message MIDI dans la zone de mémoire partagée
-            auto* time_ptr = static_cast<decltype(absoluteTime)*>(shared_memory_ptr);
-            auto* data1_ptr = static_cast<decltype(data1)*>(shared_memory_ptr) + sizeof(absoluteTime);
-            auto* data2_ptr = static_cast<decltype(data2)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1);
-            auto* data3_ptr = static_cast<decltype(data3)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1) + sizeof(data2);
-            auto* EOF_ptr = static_cast<decltype(absoluteTime)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1) + sizeof(data2) + sizeof(data3);
-            // Stockage du message MIDI daté dans la zone de mémoire partagée
-            *time_ptr = absoluteTime;
-            *data1_ptr = data1;
-            *data2_ptr = data2;
-            *data3_ptr = data3;
-            *EOF_ptr = messageEOF;// -1 (double : taille de la datation)
-            
-            //message.insert(message.begin(), (double)absoluteTime);  // horodatage : temps depuis le début de l'écoute (double)
-            //message.push_back(0xFF);  // Caractere de fin de message 0xFF
-            
-            // Write the MIDI message to the shared memory segment
-            std::memcpy(shared_memory_ptr, message.data(), message.size());
-           
-            // Print the MIDI message to the console
-            //std::cout << std::hex << (char*)message.data() << std::endl; // Problème d'affichage
 
-            // Afficher chaque caractère du vecteur en hexadécimal
-            for (const char& c : message ) {
-                std::cout << std::hex << static_cast<int>(c) << " ";
-            }
-            std::cout << " taille: " << sizeof(absoluteTime) << " " << sizeof(message[0]) << " " << sizeof(message[1]) << " " << sizeof(message[1]);
-            std::cout << std::endl;
-            //TODO : ajouter une info log
-            
-        }
+		// TODO : stamp a remplacer ?
+		// midiin.getMessage(&message);
+		// stamp = midiin.getMessageTimeStamp();
 
-        int nBytes = (int) message.size();
-        for (int i = 0; i < nBytes; i++) {
-            std::cout << std::dec << "Byte " << i << " = " << (int)message[i] << ", ";
-            //Byte 0 = 144 (0x90) (note on) / 144 (note off ? Normalement ça devrait être 128); Byte 1 = Note (pitch); Byte 2 = Velocity suivi de 0 (off); stamp = (en secondes) => note on = durée depuis le denier off. Note off = durée de la note
-            // left pedal  : Byte 0 = 176 (0xb0); Byte 1 = 67; Byte 2 = velocity (127)
-            // middle pedal  : Byte 0 = 176 (0xb0); Byte 1 = 66; Byte 2 = velocity (127)
-            // right pedal  : Byte 0 = 176 (0xb0); Byte 1 = 64; Byte 2 = velocity (0 to 127)
+		///////// Faire le choix de la version 1 ou 2
+		// Version 1 Fonctionne
+		//stamp = midiin->getMessage(&message);
+		try { // Rtmidi hasn't absolut datation time
+			deltaTime = midiin->getMessage(&message); // It's the delta time of an event
+		}
+		catch (RtMidiError& error) {
+			logger->error("Impossible de lire le message midi");
+			error.printMessage();
+		}
+		// Datation absolue depuis le début
+		absoluteTime += deltaTime;
 
-            if (MIDI) {
-                // TODO : Écrire le message MIDI dans le fichier de sortie
-                // Format complexe. 
-            }
-            if (LOG_CONSOLE) {
-                // Write to console log
-            }
-            if (LOG_FILE) {
-                // Write to console log
-            }
-        }
-
-        if (nBytes > 0) {
-            std::cout << "deltaTime = " << deltaTime << " absoluteTime = " << absoluteTime << std::endl;
-            logger->info("Entree Midi: {0:2d} Piano: 0x{1:x} Pitch: {2:03d} Velocity: {3:03d} DeltaTime: {4:09.3f} AbsoluteTime: {5:10.3f}", port, message[0], message[1], message[2], deltaTime, absoluteTime);
-            logger->flush();
-        }
-            
-        // Sleep for 10 milliseconds.
-        SLEEP(10);
-
-        // Test touche entrée pour sortir
-        if (_kbhit())
-            done = true;
-    }
-
-    // Unmap the shared memory segment
-    if (UnmapViewOfFile(shared_memory_ptr) == 0) {
-        logger->error("Error unmapping shared memory segment");
-        std::cerr << "Error unmapping shared memory segment" << std::endl;
-        CloseHandle(shared_memory_handle);
-        return -1;
-    }
-
-    // Close the shared memory handle
-    logger->flush();
-    logger->info("Gestion dynamique de la memoire : liberation de la memoire");
-    CloseHandle(shared_memory_handle);
+		// Version 2
+		//midiin->getMessage(&message, &stamp);
+		// Version 3
+		//midiin.getMessage(&message);
+		//stamp = midiin.getMessageTimeStamp();
+		///////////
 
 
-    // TODO : Ecritude du fichier midi
-  
 
-    //delete midiin;
-    midiin->closePort();
+		if (message.size() > 0) { // le message existe
+			/////////////////////////////////////////////////////////////////////
+			// Formatage du message MIDI
+			// D'abord l'horodatage : temps depuis le début de l'écoute (double)
+			// Puis les Message Midi (qui peuvent contenir 00)
+			// Si on rencontre -1 sur l'horodatage (double), on est arrivé au dernier message
+
+			auto isEOF = static_cast<decltype(absoluteTime)*>(shared_memory_ptr_begin);
+			if (*isEOF == messageEOF) // Le premier horodatage est à -1. ça veut que le programme de lecture a vidé le buffer. Il faut revenir au début du buffer
+				shared_memory_ptr = shared_memory_ptr_begin;
+
+			auto data1 = (unsigned char)(message.size() > 0 ? message[0] : 255);
+			auto data2 = (unsigned char)(message.size() > 1 ? message[1] : -1);
+			auto data3 = (unsigned char)(message.size() > 2 ? message[2] : -1);
+			// Stockage du message MIDI dans la zone de mémoire partagée
+			auto *time_ptr = static_cast<decltype(absoluteTime)*>(shared_memory_ptr);
+			auto *data1_ptr = static_cast<decltype(data1)*>(shared_memory_ptr) + sizeof(absoluteTime);
+			auto *data2_ptr = static_cast<decltype(data2)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1);
+			auto *data3_ptr = static_cast<decltype(data3)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1) + sizeof(data2);
+			auto *EOF_ptr = static_cast<decltype(absoluteTime)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1) + sizeof(data2) + sizeof(data3);
+			// Stockage du message MIDI daté dans la zone de mémoire partagée
+			*time_ptr = absoluteTime;
+			*data1_ptr = data1;
+			*data2_ptr = data2;
+			*data3_ptr = data3;
+			*EOF_ptr = (decltype(absoluteTime))messageEOF;// -1 (double : taille de la datation)
+
+			/*double *shared_memory_ptr = static_cast<double> (absoluteTime);
+			
+			shared_memory_ptr = (char*)shared_memory_ptr + sizeof(absoluteTime);
+			*shared_memory_ptr = static_cast<decltype(data1)*>(data1);
+			shared_memory_ptr = (char*)shared_memory_ptr + sizeof(data1);
+			*shared_memory_ptr = static_cast<decltype(data2)*>(data2);
+			shared_memory_ptr = (char*)shared_memory_ptr + sizeof(data2);
+			*shared_memory_ptr = static_cast<decltype(data3)*>(data3);
+			shared_memory_ptr = (char*)shared_memory_ptr + sizeof(data3);*/
+
+			// Avance du pointeur pour attendre le message suivant
+			shared_memory_ptr = (char*)shared_memory_ptr + sizeof(absoluteTime) + sizeof(data1) + sizeof(data2) + sizeof(data3);
 
 
-    return 0;
+			// Print the MIDI message to the console
+			//std::cout << std::hex << (char*)message.data() << std::endl; // Problème d'affichage
+
+			// Afficher chaque caractère du vecteur en hexadécimal
+			for (const char& c : message) {
+				std::cout << std::hex << static_cast<int>(c) << " ";
+			}
+			// Afficher les tailles des messages
+			std::cout << " taille: " << sizeof(absoluteTime) << " " << sizeof(message[0]) << " " << sizeof(message[1]) << " " << sizeof(message[1]);
+			std::cout << std::endl;
+
+			// Afficher le contenu des pointeurs
+			auto* ptr = (char*)shared_memory_ptr;
+			for (int i = 0; i < 20; i++) {
+				//std::cout << std::hex << (unsigned char) *ptr << "|";
+				printf("%02x|", (char)*ptr);
+				ptr++;
+			}
+			std::cout << std::endl;
+
+			//TODO : ajouter une info log
+
+		}
+
+		int nBytes = (int)message.size();
+		for (int i = 0; i < nBytes; i++) {
+			std::cout << std::dec << "Byte " << i << " = " << (int)message[i] << ", ";
+			//Byte 0 = 144 (0x90) (note on) / 144 (note off ? Normalement ça devrait être 128); Byte 1 = Note (pitch); Byte 2 = Velocity suivi de 0 (off); stamp = (en secondes) => note on = durée depuis le denier off. Note off = durée de la note
+			// left pedal  : Byte 0 = 176 (0xb0); Byte 1 = 67; Byte 2 = velocity (127)
+			// middle pedal  : Byte 0 = 176 (0xb0); Byte 1 = 66; Byte 2 = velocity (127)
+			// right pedal  : Byte 0 = 176 (0xb0); Byte 1 = 64; Byte 2 = velocity (0 to 127)
+
+			if (MIDI) {
+				// TODO : Écrire le message MIDI dans le fichier de sortie
+				// Format complexe. 
+			}
+			if (LOG_CONSOLE) {
+				// Write to console log
+			}
+			if (LOG_FILE) {
+				// Write to console log
+			}
+		}
+
+		if (nBytes > 0) {
+			std::cout << "deltaTime = " << deltaTime << " absoluteTime = " << absoluteTime << std::endl;
+			logger->info("Entree Midi: {0:2d} Piano: 0x{1:x} Pitch: {2:03d} Velocity: {3:03d} DeltaTime: {4:09.3f} AbsoluteTime: {5:10.3f}", port, message[0], message[1], message[2], deltaTime, absoluteTime);
+			logger->flush();
+		}
+
+		// Sleep for 10 milliseconds.
+		SLEEP(10);
+
+		// Test touche entrée pour sortir
+		if (_kbhit())
+			done = true;
+	}
+
+	// Unmap the shared memory segment
+	if (UnmapViewOfFile(shared_memory_ptr) == 0) {
+		logger->error("Error unmapping shared memory segment");
+		std::cerr << "Error unmapping shared memory segment" << std::endl;
+		CloseHandle(shared_memory_handle);
+		return -1;
+	}
+
+	// Close the shared memory handle
+	logger->flush();
+	logger->info("Gestion dynamique de la memoire : liberation de la memoire");
+	CloseHandle(shared_memory_handle);
+
+
+	// TODO : Ecritude du fichier midi
+
+
+	//delete midiin;
+	midiin->closePort();
+
+
+	return 0;
 
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////
 // functions
 void usage(std::shared_ptr<spdlog::logger> logger) {
-    // Erreur s'il y a plus de 1 argument
-    // usage normal : qmidiin 0 ou qmidiin 1
-    logger->error("Lancement du programme. Nombre d'arguments incorrect");
-    std::cout << "\nusage: qmidiin <port>\n";
-    std::cout << "    where port = the device to use (first / default = 0).\n\n";
-    exit(-1);
+	// Erreur s'il y a plus de 1 argument
+	// usage normal : qmidiin 0 ou qmidiin 1
+	logger->error("Lancement du programme. Nombre d'arguments incorrect");
+	std::cout << "\nusage: qmidiin <port>\n";
+	std::cout << "    where port = the device to use (first / default = 0).\n\n";
+	exit(-1);
 }
