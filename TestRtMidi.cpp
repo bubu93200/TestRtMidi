@@ -240,7 +240,7 @@ int main(int argc, char* argv[])
 			if (*isEOF == messageEOF) // Le premier horodatage est à -1. ça veut que le programme de lecture a vidé le buffer. Il faut revenir au début du buffer
 				shared_memory_ptr = shared_memory_ptr_begin;
 
-			auto data1 = (unsigned char)(message.size() > 0 ? message[0] : 255);
+			auto data1 = (unsigned char)(message.size() > 0 ? message[0] : -1);
 			auto data2 = (unsigned char)(message.size() > 1 ? message[1] : -1);
 			auto data3 = (unsigned char)(message.size() > 2 ? message[2] : -1);
 			// Stockage du message MIDI dans la zone de mémoire partagée
