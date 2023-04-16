@@ -64,7 +64,7 @@
 
 
 // Variables définies par le programme appelant
-constexpr double messageEOF = -1;
+constexpr double messageEOF = (double) -1.0;
 bool LOG_CONSOLE = true; // visualisation du fichier de log sur la console
 bool LOG_FILE = false; // enregistrement d'un fichier de log
 bool MIDI = true; // enregistrement d'un fichier midi
@@ -198,6 +198,7 @@ int main(int argc, char* argv[])
 	std::cout << "Reading MIDI from port " << midiin->getPortName() << " ... quit with Ctrl-C.\n";
 	logger->flush();
 
+
 	while (!done) {
 
 
@@ -247,27 +248,17 @@ int main(int argc, char* argv[])
 			auto *data1_ptr = static_cast<decltype(data1)*>(shared_memory_ptr) + sizeof(absoluteTime);
 			auto *data2_ptr = static_cast<decltype(data2)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1);
 			auto *data3_ptr = static_cast<decltype(data3)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1) + sizeof(data2);
-			auto *EOF_ptr = static_cast<decltype(absoluteTime)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1) + sizeof(data2) + sizeof(data3);
+			auto *EOF_ptr = data3_ptr  + sizeof(data3);
+			auto *EOF_ptr_double =  reinterpret_cast<decltype(absoluteTime)*>(EOF_ptr);
 			// Stockage du message MIDI daté dans la zone de mémoire partagée
 			*time_ptr = absoluteTime;
 			*data1_ptr = data1;
 			*data2_ptr = data2;
 			*data3_ptr = data3;
-			*EOF_ptr = (decltype(absoluteTime))messageEOF;// -1 (double : taille de la datation)
-
-			/*double *shared_memory_ptr = static_cast<double> (absoluteTime);
-			
-			shared_memory_ptr = (char*)shared_memory_ptr + sizeof(absoluteTime);
-			*shared_memory_ptr = static_cast<decltype(data1)*>(data1);
-			shared_memory_ptr = (char*)shared_memory_ptr + sizeof(data1);
-			*shared_memory_ptr = static_cast<decltype(data2)*>(data2);
-			shared_memory_ptr = (char*)shared_memory_ptr + sizeof(data2);
-			*shared_memory_ptr = static_cast<decltype(data3)*>(data3);
-			shared_memory_ptr = (char*)shared_memory_ptr + sizeof(data3);*/
+			*EOF_ptr_double = messageEOF;// -1 (double : taille de la datation)
 
 			// Avance du pointeur pour attendre le message suivant
 			shared_memory_ptr = (char*)shared_memory_ptr + sizeof(absoluteTime) + sizeof(data1) + sizeof(data2) + sizeof(data3);
-
 
 			// Print the MIDI message to the console
 			//std::cout << std::hex << (char*)message.data() << std::endl; // Problème d'affichage
