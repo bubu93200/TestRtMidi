@@ -220,15 +220,6 @@ int main(int argc, char* argv[])
 		// Datation absolue depuis le début
 		absoluteTime += deltaTime;
 
-		// Version 2
-		//midiin->getMessage(&message, &stamp);
-		// Version 3
-		//midiin.getMessage(&message);
-		//stamp = midiin.getMessageTimeStamp();
-		///////////
-
-
-
 		if (message.size() > 0) { // le message existe
 			/////////////////////////////////////////////////////////////////////
 			// Formatage du message MIDI
