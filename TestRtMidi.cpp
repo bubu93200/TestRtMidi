@@ -130,15 +130,15 @@ int main(int argc, char* argv[])
 	message.reserve(SIZE_BUFFER); // Reservation de la totalité de la mémoire allouée
 
 
-	// Open the shared memory segment
-	HANDLE shared_memory_handle = CreateFileMappingA(INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE, 0, SIZE_BUFFER, midisharedmemory);
+	// Open the shared memory segment // => crée la mémoire partagée
+	HANDLE shared_memory_handle = CreateFileMappingA(INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE, 0, SIZE_BUFFER, midisharedmemory); 
 	if (shared_memory_handle == NULL) {
 		std::cerr << "Error opening shared memory segment" << std::endl;
 		logger->error("Error opening shared memory segment");
 		return -1;
 	}
 
-	// Map the shared memory segment to the process's address space
+	// Map the shared memory segment to the process's address space // => donne le pointeur vers l'adresse de la mémoire partagée
 	void* shared_memory_ptr_begin = (void*)MapViewOfFile(shared_memory_handle, FILE_MAP_ALL_ACCESS, 0, 0, SIZE_BUFFER);
 	void* shared_memory_ptr = shared_memory_ptr_begin; // Pointeur variable
 	if (shared_memory_ptr_begin == NULL) {
