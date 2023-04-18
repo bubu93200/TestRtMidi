@@ -42,7 +42,7 @@
 #include <cstdlib>
 #include <signal.h>
 
-#define __WINDOWS_MM__ // Ne fonctionne Pas. Il faut mettre cette définition dans RtMidi.h
+
 
 // Platform-dependent sleep  routines.
 #ifdef _WIN32 // OS Windows
@@ -52,7 +52,13 @@
 
 
 #include <conio.h> // for _kbhit()
+
+// Utilisation de la librairie RtMidi
+#define __RTMIDI_DEBUG__ // Messages de debug de RtMidi
+#define __WINDOWS_MM__ // Ne fonctionne Pas. Il faut mettre cette définition dans RtMidi.h
 #include "RtMidi.h"
+
+
 #define SLEEP( milliseconds ) Sleep( (DWORD) milliseconds ) 
 
 #include "include/spdlog/spdlog.h" // Journalisation. logging
