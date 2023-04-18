@@ -45,7 +45,7 @@
 #define RTMIDI_H
 
 
-#define __WINDOWS_MM__ 
+#define __WINDOWS_MM__ // Compilation pour windows. Si à l'exterieur de RtMidi.h cela ne fonctionne pas
 
 
 #if defined _WIN32 || defined __CYGWIN__
