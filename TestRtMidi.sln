@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestRtMidi", "TestRtMidi.vc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AffichageMidi", "..\AffichageMidi\AffichageMidi.vcxproj", "{C6430308-5E3C-4283-B5CF-D8FD78FFD038}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtQuickApplicationTest", "..\QtQuickApplicationTest\QtQuickApplicationTest.vcxproj", "{DE308EFE-5553-44E2-BA5D-BEC92479BDDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{C6430308-5E3C-4283-B5CF-D8FD78FFD038}.Release|x64.Build.0 = Release|x64
 		{C6430308-5E3C-4283-B5CF-D8FD78FFD038}.Release|x86.ActiveCfg = Release|Win32
 		{C6430308-5E3C-4283-B5CF-D8FD78FFD038}.Release|x86.Build.0 = Release|Win32
+		{DE308EFE-5553-44E2-BA5D-BEC92479BDDA}.Debug|x64.ActiveCfg = Debug|x64
+		{DE308EFE-5553-44E2-BA5D-BEC92479BDDA}.Debug|x64.Build.0 = Debug|x64
+		{DE308EFE-5553-44E2-BA5D-BEC92479BDDA}.Debug|x86.ActiveCfg = Debug|x64
+		{DE308EFE-5553-44E2-BA5D-BEC92479BDDA}.Debug|x86.Build.0 = Debug|x64
+		{DE308EFE-5553-44E2-BA5D-BEC92479BDDA}.Release|x64.ActiveCfg = Debug|x64
+		{DE308EFE-5553-44E2-BA5D-BEC92479BDDA}.Release|x64.Build.0 = Debug|x64
+		{DE308EFE-5553-44E2-BA5D-BEC92479BDDA}.Release|x86.ActiveCfg = Debug|x64
+		{DE308EFE-5553-44E2-BA5D-BEC92479BDDA}.Release|x86.Build.0 = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
