@@ -70,7 +70,7 @@
 
 
 // Variables définies par le programme appelant
-constexpr double messageEOF = (double) -1.0;
+constexpr double messageEOF = (double) -1.0; // Codé en hexadécimale sur 64 bits : -1 = 0xFFFFFFFFFFFFFFFF
 bool LOG_CONSOLE = true; // visualisation du fichier de log sur la console
 bool LOG_FILE = false; // enregistrement d'un fichier de log
 bool MIDI = true; // enregistrement d'un fichier midi
