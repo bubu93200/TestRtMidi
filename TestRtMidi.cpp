@@ -121,6 +121,9 @@ int main(int argc, char* argv[])
 	/////////////////////////////////////////////////////////////////////////////////
 
 
+	////////////////////////////////////////////////////////////////////////
+	// PROGRAM USAGE - Command lines
+	// Analyser les arguments de la ligne de commande
 	// Minimal command-line check.
 	if (argc > 2) usage(logger);
 
@@ -237,24 +240,25 @@ int main(int argc, char* argv[])
 			if (*isEOF == messageEOF) // Le premier horodatage est à -1. ça veut que le programme de lecture a vidé le buffer. Il faut revenir au début du buffer
 				shared_memory_ptr = shared_memory_ptr_begin;
 
+			// Lecture des données du canal MIDI
 			auto data1 = (unsigned char)(message.size() > 0 ? message[0] : -1);
 			auto data2 = (unsigned char)(message.size() > 1 ? message[1] : -1);
 			auto data3 = (unsigned char)(message.size() > 2 ? message[2] : -1);
-			// Stockage du message MIDI dans la zone de mémoire partagée
+			// Stockage du message MIDI dans la zone de mémoire partagée : Positionnement des pointeurs
 			auto *time_ptr = static_cast<decltype(absoluteTime)*>(shared_memory_ptr);
 			auto *data1_ptr = static_cast<decltype(data1)*>(shared_memory_ptr) + sizeof(absoluteTime);
 			auto *data2_ptr = static_cast<decltype(data2)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1);
 			auto *data3_ptr = static_cast<decltype(data3)*>(shared_memory_ptr) + sizeof(absoluteTime) + sizeof(data1) + sizeof(data2);
 			auto *EOF_ptr = data3_ptr  + sizeof(data3);
 			auto *EOF_ptr_double =  reinterpret_cast<decltype(absoluteTime)*>(EOF_ptr);
-			// Stockage du message MIDI daté dans la zone de mémoire partagée
+			// Stockage du message MIDI daté dans la zone de mémoire partagée : Enregistrement des données
 			*time_ptr = absoluteTime;
 			*data1_ptr = data1;
 			*data2_ptr = data2;
 			*data3_ptr = data3;
 			*EOF_ptr_double = messageEOF;// -1 (double : taille de la datation)
 
-			// Avance du pointeur pour attendre le message suivant
+			// Avance du pointeur pour attendre le message suivant : ON ECRASE LE messageEOF POUR LE PROCHAIN MESSAGE
 			shared_memory_ptr = (char*)shared_memory_ptr + sizeof(absoluteTime) + sizeof(data1) + sizeof(data2) + sizeof(data3);
 
 			// Print the MIDI message to the console
