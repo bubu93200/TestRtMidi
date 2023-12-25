@@ -1,0 +1,96 @@
+[2023-12-25 21:57:15.228] [daily_logger] [info] **********************************************************
+[2023-12-25 21:57:15.228] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-12-25 21:57:15.228] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-12-25 21:57:15.228] [daily_logger] [info] Gestion dynamique de la memoire : debut initialisation
+[2023-12-25 21:57:15.228] [daily_logger] [info] Gestion dynamique de la memoire : fin initialisation
+[2023-12-25 21:57:22.513] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 040 Velocity: 004 DeltaTime: 00000.000 AbsoluteTime:      0.000
+[2023-12-25 21:57:22.815] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 040 Velocity: 000 DeltaTime: 00000.301 AbsoluteTime:      0.301
+[2023-12-25 21:57:23.408] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 041 Velocity: 011 DeltaTime: 00000.601 AbsoluteTime:      0.902
+[2023-12-25 21:57:23.626] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 041 Velocity: 000 DeltaTime: 00000.214 AbsoluteTime:      1.116
+[2023-12-25 21:57:24.041] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 043 Velocity: 015 DeltaTime: 00000.390 AbsoluteTime:      1.506
+[2023-12-25 21:57:24.286] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 043 Velocity: 000 DeltaTime: 00000.263 AbsoluteTime:      1.769
+[2023-12-25 21:57:24.677] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 047 Velocity: 017 DeltaTime: 00000.400 AbsoluteTime:      2.169
+[2023-12-25 21:57:24.690] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 014 DeltaTime: 00000.008 AbsoluteTime:      2.177
+[2023-12-25 21:57:25.351] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 000 DeltaTime: 00000.665 AbsoluteTime:      2.842
+[2023-12-25 21:57:25.365] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 047 Velocity: 000 DeltaTime: 00000.004 AbsoluteTime:      2.846
+[2023-12-25 21:57:26.358] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 052 Velocity: 007 DeltaTime: 00000.997 AbsoluteTime:      3.843
+[2023-12-25 21:57:26.537] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 052 Velocity: 000 DeltaTime: 00000.178 AbsoluteTime:      4.021
+[2023-12-25 21:57:26.970] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 053 Velocity: 010 DeltaTime: 00000.429 AbsoluteTime:      4.450
+[2023-12-25 21:57:27.520] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 053 Velocity: 000 DeltaTime: 00000.546 AbsoluteTime:      4.996
+[2023-12-25 21:57:28.321] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 059 Velocity: 027 DeltaTime: 00000.799 AbsoluteTime:      5.795
+[2023-12-25 21:57:28.337] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 057 Velocity: 027 DeltaTime: 00000.009 AbsoluteTime:      5.804
+[2023-12-25 21:57:28.354] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 048 Velocity: 018 DeltaTime: 00000.024 AbsoluteTime:      5.828
+[2023-12-25 21:57:28.602] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 057 Velocity: 000 DeltaTime: 00000.256 AbsoluteTime:      6.084
+[2023-12-25 21:57:28.628] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 059 Velocity: 000 DeltaTime: 00000.033 AbsoluteTime:      6.117
+[2023-12-25 21:57:28.642] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 048 Velocity: 000 DeltaTime: 00000.005 AbsoluteTime:      6.122
+[2023-12-25 21:57:29.468] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 064 Velocity: 007 DeltaTime: 00000.832 AbsoluteTime:      6.954
+[2023-12-25 21:57:29.512] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 053 Velocity: 002 DeltaTime: 00000.042 AbsoluteTime:      6.996
+[2023-12-25 21:57:29.765] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 053 Velocity: 000 DeltaTime: 00000.249 AbsoluteTime:      7.245
+[2023-12-25 21:57:29.781] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 064 Velocity: 000 DeltaTime: 00000.012 AbsoluteTime:      7.257
+[2023-12-25 21:57:30.792] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 043 Velocity: 033 DeltaTime: 00001.010 AbsoluteTime:      8.267
+[2023-12-25 21:57:30.822] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 035 DeltaTime: 00000.003 AbsoluteTime:      8.270
+[2023-12-25 21:57:31.074] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 043 Velocity: 000 DeltaTime: 00000.279 AbsoluteTime:      8.549
+[2023-12-25 21:57:31.102] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 000 DeltaTime: 00000.002 AbsoluteTime:      8.551
+[2023-12-25 21:57:31.279] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 053 Velocity: 009 DeltaTime: 00000.210 AbsoluteTime:      8.761
+[2023-12-25 21:57:31.529] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 053 Velocity: 000 DeltaTime: 00000.248 AbsoluteTime:      9.009
+[2023-12-25 21:57:31.995] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 053 Velocity: 002 DeltaTime: 00000.471 AbsoluteTime:      9.480
+[2023-12-25 21:57:32.011] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 043 Velocity: 021 DeltaTime: 00000.005 AbsoluteTime:      9.485
+[2023-12-25 21:57:32.025] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 024 DeltaTime: 00000.007 AbsoluteTime:      9.492
+[2023-12-25 21:57:32.284] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 000 DeltaTime: 00000.273 AbsoluteTime:      9.765
+[2023-12-25 21:57:32.306] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 043 Velocity: 000 DeltaTime: 00000.003 AbsoluteTime:      9.768
+[2023-12-25 21:57:32.329] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 053 Velocity: 000 DeltaTime: 00000.012 AbsoluteTime:      9.780
+[2023-12-25 21:57:32.891] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 047 Velocity: 007 DeltaTime: 00000.595 AbsoluteTime:     10.375
+[2023-12-25 21:57:33.111] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 055 Velocity: 018 DeltaTime: 00000.197 AbsoluteTime:     10.572
+[2023-12-25 21:57:33.131] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 057 Velocity: 014 DeltaTime: 00000.010 AbsoluteTime:     10.582
+[2023-12-25 21:57:34.193] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 047 Velocity: 000 DeltaTime: 00001.088 AbsoluteTime:     11.670
+[2023-12-25 21:57:34.649] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 047 Velocity: 011 DeltaTime: 00000.465 AbsoluteTime:     12.135
+[2023-12-25 21:57:35.845] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 057 Velocity: 000 DeltaTime: 00001.193 AbsoluteTime:     13.328
+[2023-12-25 21:57:35.866] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 055 Velocity: 000 DeltaTime: 00000.006 AbsoluteTime:     13.334
+[2023-12-25 21:57:35.883] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 047 Velocity: 000 DeltaTime: 00000.016 AbsoluteTime:     13.350
+[2023-12-25 21:57:36.711] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 057 Velocity: 025 DeltaTime: 00000.839 AbsoluteTime:     14.189
+[2023-12-25 21:57:36.736] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 048 Velocity: 009 DeltaTime: 00000.003 AbsoluteTime:     14.192
+[2023-12-25 21:57:36.754] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 059 Velocity: 023 DeltaTime: 00000.007 AbsoluteTime:     14.199
+[2023-12-25 21:57:37.531] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 059 Velocity: 000 DeltaTime: 00000.808 AbsoluteTime:     15.007
+[2023-12-25 21:57:37.553] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 057 Velocity: 000 DeltaTime: 00000.009 AbsoluteTime:     15.016
+[2023-12-25 21:57:37.991] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 057 Velocity: 002 DeltaTime: 00000.452 AbsoluteTime:     15.468
+[2023-12-25 21:57:39.519] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 048 Velocity: 000 DeltaTime: 00001.531 AbsoluteTime:     16.999
+[2023-12-25 21:57:39.972] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 048 Velocity: 015 DeltaTime: 00000.445 AbsoluteTime:     17.444
+[2023-12-25 21:57:40.438] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 057 Velocity: 000 DeltaTime: 00000.486 AbsoluteTime:     17.930
+[2023-12-25 21:57:40.455] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 048 Velocity: 000 DeltaTime: 00000.005 AbsoluteTime:     17.935
+[2023-12-25 21:59:52.569] [daily_logger] [info] **********************************************************
+[2023-12-25 21:59:52.569] [daily_logger] [info] ******************** Welcome to spdlog! ******************
+[2023-12-25 21:59:52.569] [daily_logger] [info] ************ Demarrage du programme TestRtMidi ***********
+[2023-12-25 21:59:52.569] [daily_logger] [info] Gestion dynamique de la memoire : debut initialisation
+[2023-12-25 21:59:52.569] [daily_logger] [info] Gestion dynamique de la memoire : fin initialisation
+[2023-12-25 21:59:56.240] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 040 Velocity: 010 DeltaTime: 00000.000 AbsoluteTime:      0.000
+[2023-12-25 21:59:56.634] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 040 Velocity: 000 DeltaTime: 00000.409 AbsoluteTime:      0.409
+[2023-12-25 21:59:57.360] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 048 Velocity: 012 DeltaTime: 00000.723 AbsoluteTime:      1.132
+[2023-12-25 21:59:57.400] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 040 Velocity: 011 DeltaTime: 00000.034 AbsoluteTime:      1.166
+[2023-12-25 21:59:57.729] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 040 Velocity: 000 DeltaTime: 00000.325 AbsoluteTime:      1.491
+[2023-12-25 21:59:57.810] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 048 Velocity: 000 DeltaTime: 00000.088 AbsoluteTime:      1.579
+[2023-12-25 21:59:58.096] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 050 Velocity: 002 DeltaTime: 00000.285 AbsoluteTime:      1.864
+[2023-12-25 21:59:58.507] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 050 Velocity: 000 DeltaTime: 00000.404 AbsoluteTime:      2.268
+[2023-12-25 21:59:58.781] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 043 Velocity: 018 DeltaTime: 00000.281 AbsoluteTime:      2.549
+[2023-12-25 21:59:58.809] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 018 DeltaTime: 00000.005 AbsoluteTime:      2.554
+[2023-12-25 21:59:59.125] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 043 Velocity: 000 DeltaTime: 00000.335 AbsoluteTime:      2.889
+[2023-12-25 21:59:59.147] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 000 DeltaTime: 00000.002 AbsoluteTime:      2.891
+[2023-12-25 21:59:59.366] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 052 Velocity: 012 DeltaTime: 00000.241 AbsoluteTime:      3.132
+[2023-12-25 21:59:59.752] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 052 Velocity: 000 DeltaTime: 00000.382 AbsoluteTime:      3.514
+[2023-12-25 22:00:00.175] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 052 Velocity: 011 DeltaTime: 00000.417 AbsoluteTime:      3.931
+[2023-12-25 22:00:00.192] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 050 Velocity: 008 DeltaTime: 00000.005 AbsoluteTime:      3.936
+[2023-12-25 22:00:00.210] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 014 DeltaTime: 00000.032 AbsoluteTime:      3.968
+[2023-12-25 22:00:00.526] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 000 DeltaTime: 00000.318 AbsoluteTime:      4.286
+[2023-12-25 22:00:00.542] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 050 Velocity: 000 DeltaTime: 00000.010 AbsoluteTime:      4.296
+[2023-12-25 22:00:00.557] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 052 Velocity: 000 DeltaTime: 00000.004 AbsoluteTime:      4.300
+[2023-12-25 22:00:01.421] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 053 Velocity: 011 DeltaTime: 00000.890 AbsoluteTime:      5.190
+[2023-12-25 22:00:01.497] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 002 DeltaTime: 00000.070 AbsoluteTime:      5.260
+[2023-12-25 22:00:01.750] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 053 Velocity: 000 DeltaTime: 00000.256 AbsoluteTime:      5.516
+[2023-12-25 22:00:01.820] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 000 DeltaTime: 00000.070 AbsoluteTime:      5.586
+[2023-12-25 22:00:02.110] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 007 DeltaTime: 00000.286 AbsoluteTime:      5.872
+[2023-12-25 22:00:02.406] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 000 DeltaTime: 00000.302 AbsoluteTime:      6.174
+[2023-12-25 22:00:02.662] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 053 Velocity: 002 DeltaTime: 00000.247 AbsoluteTime:      6.421
+[2023-12-25 22:00:03.148] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 053 Velocity: 000 DeltaTime: 00000.488 AbsoluteTime:      6.909
+[2023-12-25 22:00:03.580] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 012 DeltaTime: 00000.428 AbsoluteTime:      7.337
+[2023-12-25 22:00:03.656] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 052 Velocity: 001 DeltaTime: 00000.074 AbsoluteTime:      7.411
+[2023-12-25 22:00:03.891] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 052 Velocity: 000 DeltaTime: 00000.247 AbsoluteTime:      7.658
+[2023-12-25 22:00:03.928] [daily_logger] [info] Entree Midi:  1 Piano: 0x90 Pitch: 045 Velocity: 000 DeltaTime: 00000.038 AbsoluteTime:      7.696
